@@ -6,10 +6,14 @@ damascus steel, a sand card produces sand, etc. The card stays in the machine, s
 it is emitted as a `fixture` (1 card per generator).
 
 Card -> product pairs come from `SetupSimpleCard.setup` / `SetupAdvancedCard.setup`,
-which call `TechGenerator.preSetup(supreme, [tier,] CARD_X, matA, matB)`. BOTH materials
-are passed through to the machine registration, so a card produces BOTH (e.g. CARD_STONE
--> STONE + COBBLESTONE, CARD_DIORITE -> POLISHED_DIORITE + DIORITE) — we emit one recipe
-per material. (Taking only the last material dropped STONE, which has no other producer.)
+which call `TechGenerator.preSetup(supreme, [tier,] CARD_X, <ingredient(s)>, product)`.
+The leading material(s) only build the card's *crafting grid* (e.g. CARD_REDSTONE is
+crafted from 8x REDSTONE_BLOCK); the resource the card actually GENERATES is the LAST
+material — the single ItemStack handed to `addRecipesToProcess(card, product)` deep in
+the preSetup chain. So we emit exactly one recipe, for that last material:
+CARD_REDSTONE -> REDSTONE (not REDSTONE_BLOCK), CARD_IRON -> IRON_INGOT (not IRON_BLOCK),
+CARD_STONE -> COBBLESTONE, CARD_DIORITE -> DIORITE. (CARD_NETHERITE has two preSetup
+calls, so it legitimately yields both NETHERITE_SCRAP and NETHERITE_INGOT.)
 
 Production rate depends on what fills the 4 boost slots (cloning / acceleration /
 efficiency cards), which is a per-query choice — so these recipes are flagged
@@ -71,15 +75,14 @@ def extract(zf: zipfile.ZipFile):
             elif op == 0xb8:  # invokestatic
                 owner, name, _ = cp.method_ref(x.u16())
                 if name == "preSetup" and owner.endswith("TechGenerator"):
-                    # the call's getstatics are card, then the material(s) it produces. BOTH
-                    # are real outputs, so emit a recipe per distinct material (one card can
-                    # make two, e.g. CARD_STONE -> STONE + COBBLESTONE).
+                    # getstatics for this call, in order: card, then the material(s). The
+                    # LAST material is the generated product (-> addRecipesToProcess); any
+                    # earlier materials are only the card's crafting ingredients.
                     card = next((r for r in recent if r[0] == "card"), None)
-                    if card:
-                        prods = [(k, ref) for (k, ref) in recent if k in ("vanilla", "slimefun")]
-                        for prod_kind, prod_ref in dict.fromkeys(prods):   # dedup, keep order
-                            if (card[1], prod_ref) in seen:
-                                continue
+                    mats = [(k, ref) for (k, ref) in recent if k in ("vanilla", "slimefun")]
+                    if card and mats:
+                        prod_kind, prod_ref = mats[-1]
+                        if (card[1], prod_ref) not in seen:
                             seen.add((card[1], prod_ref))
                             recipes.append(Recipe(
                                 kind="machine",

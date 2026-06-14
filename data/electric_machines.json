@@ -1,9 +1,173 @@
 {
- "FORGE_INGOT_MACHINE_III": {
+ "MOB_TECH_COLLECTOR_MACHINE_II": {
   "category": "electric",
   "addon": "Supreme"
  },
- "FORGE_INGOT_MACHINE": {
+ "MOB_TECH_COLLECTOR_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "MOB_TECH_COLLECTOR_MACHINE_I": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "FLUID_PUMP": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "COAL_GENERATOR_2": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "COAL_GENERATOR": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "AUTO_ANCIENT_ALTAR": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "ADVANCED_ENCHANTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "GPS_TRANSMITTER_4": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "EXTERNAL_HEATER": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "GROWTH_CHAMBER_MK2_OCEAN": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "BOOK_BINDER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "AUTO_ARMOR_FORGE": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "AUTO_BREEDER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WIND_MILL_2": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "WIND_MILL": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "ELECTRIC_ORE_GRINDER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_ORE_GRINDER_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_ORE_GRINDER_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_GOLD_PAN_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_GOLD_PAN": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_GOLD_PAN_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "INFINITY_QUARRY": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ADVANCED_QUARRY": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "VOID_QUARRY": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "BASIC_QUARRY": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "TECH_ROBOTIC_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "TECH_ROBOTIC": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "TECH_ROBOTIC_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "KITCHEN_AUTO_CRAFTER": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "AUTO_ENHANCED_CRAFTING_TABLE": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "EGG_MILL": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "EGG_MILL_2": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "GOLD_TRANSMUTER": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "MATERIAL_HIVE": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "TECH_GENERATOR": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "SOLAR_GENERATOR": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "SOLAR_GENERATOR_3": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "SOLAR_GENERATOR_2": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "SOLAR_GENERATOR_4": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_GEAR_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_GEAR_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_GEAR_MACHINE": {
   "category": "electric",
   "addon": "Supreme"
  },
@@ -11,189 +175,77 @@
   "category": "electric",
   "addon": "Supreme"
  },
- "INFINITY_ENCHANTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "TECH_GENERATOR": {
+ "FORGE_INGOT_MACHINE": {
   "category": "electric",
   "addon": "Supreme"
  },
- "ADVANCED_AUTO_DISENCHANTER": {
+ "FORGE_INGOT_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "HEATED_PRESSURE_CHAMBER_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "HEATED_PRESSURE_CHAMBER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "RESOURCE_SYNTHESIZER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "WIRELESS_ITEM_OUTPUT": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "TREE_GROWTH_ACCELERATOR": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "CARBON_PRESS_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "CARBON_PRESS_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "CARBON_PRESS": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ADVANCED_CHARGER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "CHARGING_BENCH": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "INFINITY_CHARGER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "INFINITY_FORGE": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ELECTRIC_MAGICAL_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_MAGICAL_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_MAGICAL_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "BACKPACK_LOADER": {
   "category": "electric",
   "addon": "FluffyMachines"
- },
- "BACKPACK_UNLOADER": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "PRIVATE_COOP": {
-  "category": "electric",
-  "addon": "GeneticChickengineering-Reborn"
- },
- "VOID_HARVESTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITE_VOID_HARVESTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "BIO_REACTOR": {
-  "category": "generator",
-  "addon": "Slimefun4"
- },
- "OIL_PUMP": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "GPS_TRANSMITTER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "BASIC_VENTUS_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "VENTUS_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "BASIC_LUMIUM_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "BASIC_AQUA_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "IGNIS_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "BASIC_IGNIS_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "THORNIUM_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "BASIC_LUX_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "LUX_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "SUPREME_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "AQUA_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "LUMIUM_GENERATOR": {
-  "category": "generator",
-  "addon": "Supreme"
- },
- "WATER_MILL_2": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "WATER_MILL": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "AUTO_ENCHANTER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "AUTO_ENCHANTER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "INFINITY_DISENCHANTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_DUST_EXTRACTOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "EXTREME_FREEZER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "COBBLE_PRESS": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INGOT_FORMER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "DUST_EXTRACTOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "DECOMPRESSOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_INGOT_FORMER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "URANIUM_EXTRACTOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ELECTRIC_SMELTERY": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ADVANCED_SMELTERY": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_SMELTERY_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "GROWTH_CHAMBER_MK2_END": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "KITCHEN_AUTO_CRAFTER": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "ADVANCED_NETHER_STAR_REACTOR": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_ENCHANTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "WITHER_ASSEMBLER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_FURNACE": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_FURNACE_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_FURNACE_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
  },
  "ELECTRIC_INGOT_FACTORY_2": {
   "category": "electric",
@@ -207,147 +259,23 @@
   "category": "electric",
   "addon": "Slimefun4"
  },
- "LAVA_GENERATOR": {
-  "category": "generator",
-  "addon": "Slimefun4"
- },
- "LAVA_GENERATOR_2": {
-  "category": "generator",
-  "addon": "Slimefun4"
- },
- "GEAR_TRANSFORMER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "GROWTH_CHAMBER": {
-  "category": "electric",
-  "addon": "GeneticChickengineering-Reborn"
- },
- "ELECTRIC_MAGICAL_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_MAGICAL_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_MAGICAL_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "AUTO_CRAFTING_TABLE": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "MAGIC_ALTAR_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MAGIC_ALTAR_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MAGIC_ALTAR_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "WIRELESS_ITEM_OUTPUT": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "ARMOR_AUTO_CRAFTER": {
+ "VANILLA_AUTO_CRAFTER": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "FOUNDRY_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "FOUNDRY_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "FOUNDRY_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "INFINITY_QUARRY": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "BASIC_QUARRY": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_QUARRY": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "VOID_QUARRY": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "GPS_TRANSMITTER_2": {
+ "AUTO_ENCHANTER_2": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "TESSERACT": {
+ "AUTO_ENCHANTER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "INFINITY_REACTOR": {
   "category": "generator",
-  "addon": "DynaTech"
- },
- "GROWTH_CHAMBER_NETHER": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "COBBLESTONE_GENERATOR": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "EXTERNAL_HEATER": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "ELECTRIC_DUST_FABRICATOR": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "FOOD_GENERATOR": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "DIAMOND_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "COAL_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "IRON_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "SUPREME_NUGGETS_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "THORNIUM_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "GOLD_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "STONE_QUARRY": {
-  "category": "electric",
-  "addon": "Supreme"
+  "addon": "InfinityExpansion"
  },
  "ELECTRIFIED_CRUCIBLE_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIFIED_CRUCIBLE_3": {
   "category": "electric",
   "addon": "Slimefun4"
  },
@@ -355,36 +283,252 @@
   "category": "electric",
   "addon": "Slimefun4"
  },
+ "ELECTRIFIED_CRUCIBLE_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WIRELESS_CHARGER": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "VAPORIZER": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "ENHANCED_AUTO_CRAFTER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "AUTO_DRIER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "TECH_MUTATION_I": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "TECH_MUTATION_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "TECH_MUTATION_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "GROWTH_CHAMBER_MK2_NETHER": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "AUTO_TABLE_SAW": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "GPS_TRANSMITTER_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "CROP_GROWTH_ACCELERATOR": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_COMPOSTER": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "ELECTRIC_COMPOSTER_2": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "GROWTH_CHAMBER_MK2": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "GPS_TRANSMITTER_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "AUTO_ANVIL": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "AUTO_ANVIL_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ADVANCED_GEO_MINER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "GEO_MINER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "FOOD_GENERATOR": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "ELECTRIC_INGOT_PULVERIZER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "PRIVATE_COOP": {
+  "category": "electric",
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ "AUTO_BREWER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WIRELESS_ITEM_INPUT": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "NUCLEAR_REACTOR": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "ADVANCED_NETHER_STAR_REACTOR": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "ELECTRIC_FURNACE_3": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_FURNACE_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_FURNACE": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "GEOTHERMAL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "BASIC_PANEL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "HYDRO": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "ADVANCED_PANEL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "REINFORCED_HYDRO": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "VOID_PANEL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "CELESTIAL_PANEL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITE_PANEL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "REINFORCED_GEOTHERMAL": {
+  "category": "generator",
+  "addon": "InfinityExpansion"
+ },
+ "PRODUCE_COLLECTOR": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "COBBLESTONE_GENERATOR": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "INFINITY_CONSTRUCTOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "SINGULARITY_CONSTRUCTOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_DISENCHANTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "FOUNDRY_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "FOUNDRY_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "FOUNDRY_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ORECHID": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "WIRELESS_ENERGY_POINT": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "BARBED_WIRE": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
  "GROWTH_CHAMBER_END": {
   "category": "electric",
   "addon": "DynaTech"
  },
- "TREE_GROWTH_ACCELERATOR": {
+ "WATER_SPRINKER": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "BIO_REACTOR": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "PULVERIZER": {
+  "category": "electric",
+  "addon": "ExtraTools"
+ },
+ "STONEWORKS_FACTORY": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ADVANCED_DISENCHANTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ANIMAL_GROWTH_ACCELERATOR": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "SOLAR_GENERATOR": {
-  "category": "generator",
+ "ELECTRIC_DUST_WASHER": {
+  "category": "electric",
   "addon": "Slimefun4"
  },
- "SOLAR_GENERATOR_4": {
-  "category": "generator",
+ "ELECTRIC_DUST_WASHER_3": {
+  "category": "electric",
   "addon": "Slimefun4"
  },
- "SOLAR_GENERATOR_2": {
-  "category": "generator",
+ "ELECTRIC_DUST_WASHER_2": {
+  "category": "electric",
   "addon": "Slimefun4"
  },
- "SOLAR_GENERATOR_3": {
-  "category": "generator",
-  "addon": "Slimefun4"
+ "POWERED_BEDROCK": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
  },
- "WIND_MILL_2": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "WIND_MILL": {
-  "category": "generator",
+ "GROWTH_CHAMBER_OCEAN": {
+  "category": "electric",
   "addon": "DynaTech"
  },
  "FORGE_MAGICAL_MACHINE_III": {
@@ -399,99 +543,47 @@
   "category": "electric",
   "addon": "Supreme"
  },
- "AUTO_MAGIC_WORKBENCH": {
+ "POTION_SPRINKLER": {
   "category": "electric",
-  "addon": "FluffyMachines"
+  "addon": "DynaTech"
  },
- "MAGNESIUM_GENERATOR": {
+ "DIAMOND_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "STONE_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "THORNIUM_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "IRON_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "SUPREME_NUGGETS_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "COAL_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "GOLD_QUARRY": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "STARDUST_GENERATOR": {
   "category": "generator",
-  "addon": "Slimefun4"
- },
- "EXCITATION_CHAMBER": {
-  "category": "electric",
-  "addon": "GeneticChickengineering-Reborn"
- },
- "EXCITATION_CHAMBER_2": {
-  "category": "electric",
-  "addon": "GeneticChickengineering-Reborn"
- },
- "EXCITATION_CHAMBER_3": {
-  "category": "electric",
-  "addon": "GeneticChickengineering-Reborn"
- },
- "ADVANCED_DISENCHANTER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "HEATED_PRESSURE_CHAMBER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "HEATED_PRESSURE_CHAMBER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "EXP_COLLECTOR": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_COMPOSTER_2": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "ELECTRIC_COMPOSTER": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "ELECTRIC_GOLD_PAN_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_GOLD_PAN": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_GOLD_PAN_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "IRON_GOLEM_ASSEMBLER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CARBON_PRESS_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CARBON_PRESS_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CARBON_PRESS": {
-  "category": "electric",
-  "addon": "Slimefun4"
+  "addon": "DynaTech"
  },
  "BANDAID_MANAGER": {
   "category": "electric",
   "addon": "DynaTech"
  },
- "MOB_COLLECTOR_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MOB_COLLECTOR_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MOB_COLLECTOR_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
  "ELECTRIC_CORE_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_CORE_MACHINE_III": {
   "category": "electric",
   "addon": "Supreme"
  },
@@ -499,119 +591,139 @@
   "category": "electric",
   "addon": "Supreme"
  },
- "COMBUSTION_REACTOR": {
-  "category": "generator",
+ "ELECTRIC_CORE_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "IRON_GOLEM_ASSEMBLER": {
+  "category": "electric",
   "addon": "Slimefun4"
+ },
+ "EXCITATION_CHAMBER": {
+  "category": "electric",
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ "EXCITATION_CHAMBER_3": {
+  "category": "electric",
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ "EXCITATION_CHAMBER_2": {
+  "category": "electric",
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ "EXTREME_FREEZER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "DUST_EXTRACTOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_INGOT_FORMER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "URANIUM_EXTRACTOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_DUST_EXTRACTOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "COBBLE_PRESS": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INGOT_FORMER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "DECOMPRESSOR": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_ENCHANTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "GROWTH_CHAMBER_NETHER": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "LUX_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "BASIC_VENTUS_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "LUMIUM_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "BASIC_LUX_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "BASIC_AQUA_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "IGNIS_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "BASIC_LUMIUM_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "VENTUS_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "THORNIUM_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "BASIC_IGNIS_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "SUPREME_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
+ },
+ "AQUA_GENERATOR": {
+  "category": "generator",
+  "addon": "Supreme"
  },
  "INFUSER": {
   "category": "electric",
   "addon": "InfinityExpansion"
  },
- "GEO_MINER": {
+ "BACKPACK_UNLOADER": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "AUTO_DISENCHANTER_2": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "ADVANCED_GEO_MINER": {
+ "AUTO_DISENCHANTER": {
   "category": "electric",
   "addon": "Slimefun4"
- },
- "BARBED_WIRE": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "SINGULARITY_CONSTRUCTOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_CONSTRUCTOR": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
  },
  "NETHER_STAR_REACTOR": {
   "category": "generator",
   "addon": "Slimefun4"
  },
- "AUTO_ANVIL": {
+ "ELECTRIC_PRESS_2": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "AUTO_ANVIL_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "VIRTUAL_AQUARIUM_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "VIRTUAL_AQUARIUM_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "VIRTUAL_AQUARIUM_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "WIRELESS_ITEM_INPUT": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "BASIC_OBSIDIAN": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "BASIC_COBBLE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_COBBLE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_COBBLE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_CHARGING_BENCH": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "AUTO_ANCIENT_ALTAR": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "PRODUCE_COLLECTOR": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "WEATHER_CONTROLLER": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "AUTO_BREEDER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ANIMAL_GROWTH_ACCELERATOR": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "FOOD_COMPOSTER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "FOOD_COMPOSTER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "AUTO_BREWER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CROP_GROWTH_ACCELERATOR": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "REFINERY": {
+ "ELECTRIC_PRESS": {
   "category": "electric",
   "addon": "Slimefun4"
  },
@@ -619,257 +731,37 @@
   "category": "electric",
   "addon": "InfinityExpansion"
  },
- "NUCLEAR_REACTOR": {
+ "COMBUSTION_REACTOR": {
   "category": "generator",
   "addon": "Slimefun4"
  },
- "CROP_GROWTH_ACCELERATOR_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "FREEZER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "FREEZER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "FREEZER_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "AUTO_ENHANCED_CRAFTING_TABLE": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "GROWTH_CHAMBER_OCEAN": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "VIRTUAL_GARDEN_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "VIRTUAL_GARDEN_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "VIRTUAL_GARDEN_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_DUST_RECYCLER": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "GROWTH_CHAMBER_MK2_OCEAN": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "STONEWORKS_FACTORY": {
+ "ADVANCED_COBBLE": {
   "category": "electric",
   "addon": "InfinityExpansion"
  },
- "ENHANCED_AUTO_CRAFTER": {
+ "INFINITY_COBBLE": {
   "category": "electric",
-  "addon": "Slimefun4"
- },
- "INFINITY_REACTOR": {
-  "category": "generator",
   "addon": "InfinityExpansion"
  },
- "GENETIC_SEQUENCER": {
+ "BASIC_COBBLE": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "BASIC_OBSIDIAN": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "GROWTH_CHAMBER": {
   "category": "electric",
   "addon": "GeneticChickengineering-Reborn"
- },
- "GENERATOR_CORE": {
-  "category": "generator",
-  "addon": "FluffyMachines"
- },
- "ELECTRIC_CRAFTER_MACHINE": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_CRAFTER_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_CRAFTER_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ANTIGRAVITY_BUBBLE": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "INFINITY_FORGE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "EGG_MILL": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "EGG_MILL_2": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "PULVERIZER": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "AUTO_TABLE_SAW": {
-  "category": "electric",
-  "addon": "FluffyMachines"
  },
  "SMART_FACTORY": {
   "category": "electric",
   "addon": "FluffyMachines"
  },
- "GOLD_TRANSMUTER": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "ELECTRIC_INGOT_PULVERIZER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "STARDUST_GENERATOR": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "SEED_PLUCKER": {
+ "ANTIGRAVITY_BUBBLE": {
   "category": "electric",
   "addon": "DynaTech"
- },
- "REINFORCED_HYDRO": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "GEOTHERMAL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "HYDRO": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "VOID_PANEL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "REINFORCED_GEOTHERMAL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "BASIC_PANEL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "INFINITE_PANEL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_PANEL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "CELESTIAL_PANEL": {
-  "category": "generator",
-  "addon": "InfinityExpansion"
- },
- "AUTO_DISENCHANTER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "AUTO_DISENCHANTER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "BOOK_BINDER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "GROWTH_CHAMBER_MK2": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "ORECHID": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "WIRELESS_ENERGY_POINT": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "ELECTRIC_PRESS": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_PRESS_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CONCRETE_FACTORY": {
-  "category": "electric",
-  "addon": "ExtraTools"
- },
- "DURABILITY_GENERATOR": {
-  "category": "generator",
-  "addon": "DynaTech"
- },
- "BASIC_TREE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_TREE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "BASIC_GROWER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "ADVANCED_GROWER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_GROWER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "INFINITY_TREE": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "GPS_TRANSMITTER_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "MOB_TECH_COLLECTOR_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MOB_TECH_COLLECTOR_MACHINE_I": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "MOB_TECH_COLLECTOR_MACHINE_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "FLUID_PUMP": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "POWERED_BEDROCK": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "CHAMBER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
  },
  "FOOD_FABRICATOR": {
   "category": "electric",
@@ -877,6 +769,78 @@
  },
  "FOOD_FABRICATOR_2": {
   "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "EXP_COLLECTOR": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WATER_MILL_2": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "WATER_MILL": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "INFINITE_VOID_HARVESTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "VOID_HARVESTER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "MOB_COLLECTOR_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "MOB_COLLECTOR_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "MOB_COLLECTOR_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "VIRTUAL_AQUARIUM_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "VIRTUAL_AQUARIUM_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "VIRTUAL_AQUARIUM_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "CHAMBER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "DURABILITY_GENERATOR": {
+  "category": "generator",
+  "addon": "DynaTech"
+ },
+ "RESTORATION_CHAMBER": {
+  "category": "electric",
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ "GROWTH_CHAMBER_MK2_END": {
+  "category": "electric",
+  "addon": "DynaTech"
+ },
+ "ELECTRIC_DUST_RECYCLER": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "GPS_TRANSMITTER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "MAGNESIUM_GENERATOR": {
+  "category": "generator",
   "addon": "Slimefun4"
  },
  "GENERATOR_MOB_MEDIUM": {
@@ -891,141 +855,177 @@
   "category": "generator",
   "addon": "Supreme"
  },
- "MATERIAL_HIVE": {
+ "VIRTUAL_GARDEN_MACHINE_III": {
   "category": "electric",
+  "addon": "Supreme"
+ },
+ "VIRTUAL_GARDEN_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "VIRTUAL_GARDEN_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "TESSERACT": {
+  "category": "generator",
   "addon": "DynaTech"
  },
- "VAPORIZER": {
+ "CONCRETE_FACTORY": {
   "category": "electric",
   "addon": "ExtraTools"
  },
- "POTION_SPRINKLER": {
-  "category": "electric",
-  "addon": "DynaTech"
- },
- "BACKPACK_LOADER": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "RESOURCE_SYNTHESIZER": {
-  "category": "electric",
-  "addon": "InfinityExpansion"
- },
- "AUTO_ARMOR_FORGE": {
-  "category": "electric",
-  "addon": "FluffyMachines"
- },
- "AUTO_DRIER": {
+ "OIL_PUMP": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "RESTORATION_CHAMBER": {
+ "GENETIC_SEQUENCER": {
   "category": "electric",
   "addon": "GeneticChickengineering-Reborn"
  },
- "GROWTH_CHAMBER_MK2_NETHER": {
+ "ADVANCED_CHARGING_BENCH": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "BASIC_TREE": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_TREE": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ADVANCED_TREE": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "INFINITY_GROWER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "ADVANCED_GROWER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "BASIC_GROWER": {
+  "category": "electric",
+  "addon": "InfinityExpansion"
+ },
+ "FOOD_COMPOSTER_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "FOOD_COMPOSTER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WEATHER_CONTROLLER": {
   "category": "electric",
   "addon": "DynaTech"
+ },
+ "AUTO_CRAFTING_TABLE": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "AUTO_MAGIC_WORKBENCH": {
+  "category": "electric",
+  "addon": "FluffyMachines"
+ },
+ "GENERATOR_CORE": {
+  "category": "generator",
+  "addon": "FluffyMachines"
+ },
+ "REFINERY": {
+  "category": "electric",
+  "addon": "Slimefun4"
  },
  "GEO_QUARRY": {
   "category": "electric",
   "addon": "InfinityExpansion"
  },
- "TECH_ROBOTIC": {
+ "CROP_GROWTH_ACCELERATOR_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ARMOR_AUTO_CRAFTER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "WITHER_ASSEMBLER": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "MAGIC_ALTAR_MACHINE": {
   "category": "electric",
   "addon": "Supreme"
  },
- "TECH_ROBOTIC_II": {
+ "MAGIC_ALTAR_MACHINE_II": {
   "category": "electric",
   "addon": "Supreme"
  },
- "TECH_ROBOTIC_III": {
+ "MAGIC_ALTAR_MACHINE_III": {
   "category": "electric",
   "addon": "Supreme"
  },
- "TECH_MUTATION_II": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "TECH_MUTATION_I": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "TECH_MUTATION_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "WATER_SPRINKER": {
+ "ELECTRIC_DUST_FABRICATOR": {
   "category": "electric",
   "addon": "FluffyMachines"
  },
- "COAL_GENERATOR": {
-  "category": "generator",
-  "addon": "Slimefun4"
- },
- "COAL_GENERATOR_2": {
-  "category": "generator",
-  "addon": "Slimefun4"
- },
- "GPS_TRANSMITTER_4": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_ORE_GRINDER_3": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_ORE_GRINDER_2": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ELECTRIC_ORE_GRINDER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "ADVANCED_CHARGER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "INFINITY_CHARGER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "CHARGING_BENCH": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "VANILLA_AUTO_CRAFTER": {
-  "category": "electric",
-  "addon": "Slimefun4"
- },
- "WIRELESS_CHARGER": {
+ "SEED_PLUCKER": {
   "category": "electric",
   "addon": "DynaTech"
  },
- "ELECTRIC_GEAR_MACHINE_II": {
+ "ADVANCED_AUTO_DISENCHANTER": {
   "category": "electric",
-  "addon": "Supreme"
+  "addon": "FluffyMachines"
  },
- "ELECTRIC_GEAR_MACHINE": {
+ "GEAR_TRANSFORMER": {
   "category": "electric",
-  "addon": "Supreme"
+  "addon": "InfinityExpansion"
  },
- "ELECTRIC_GEAR_MACHINE_III": {
-  "category": "electric",
-  "addon": "Supreme"
- },
- "ELECTRIC_DUST_WASHER_3": {
+ "FREEZER_3": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "ELECTRIC_DUST_WASHER_2": {
+ "FREEZER": {
   "category": "electric",
   "addon": "Slimefun4"
  },
- "ELECTRIC_DUST_WASHER": {
+ "FREEZER_2": {
   "category": "electric",
   "addon": "Slimefun4"
+ },
+ "LAVA_GENERATOR": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "LAVA_GENERATOR_2": {
+  "category": "generator",
+  "addon": "Slimefun4"
+ },
+ "ADVANCED_SMELTERY": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_SMELTERY_2": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_SMELTERY": {
+  "category": "electric",
+  "addon": "Slimefun4"
+ },
+ "ELECTRIC_CRAFTER_MACHINE_II": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_CRAFTER_MACHINE_III": {
+  "category": "electric",
+  "addon": "Supreme"
+ },
+ "ELECTRIC_CRAFTER_MACHINE": {
+  "category": "electric",
+  "addon": "Supreme"
  },
  "MINERALIZED_APIARY": {
   "category": "electric",
