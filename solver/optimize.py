@@ -131,6 +131,11 @@ def solve(graph: Graph, target: str, rate_per_min: float,
     usable, items = _reachable(graph, target, banned)
     usable = [r for r in usable if r.output_id not in extra_leaves
               and not any(o.ref in extra_leaves for o in r.outputs)]
+    # Iterate items in a STABLE order everywhere a decision depends on it. `items` is a set,
+    # so raw iteration order is hash-seed-randomized across processes — which made the greedy
+    # cycle-breaking below pick different forced-raw items on ties, giving a different machine
+    # count run-to-run. Sorting makes the whole solve reproducible.
+    items_order = sorted(items)
 
     net = {r.rid: r.net() for r in usable}
     req = {r.rid: {ref for ref, n in net[r.rid].items() if n < 0} for r in usable}
@@ -168,7 +173,7 @@ def solve(graph: Graph, target: str, rate_per_min: float,
         ch = True
         while ch:
             ch = False
-            for it in items:
+            for it in items_order:
                 if it in prod or it in avail:
                     continue
                 for r in producers.get(it, []):
@@ -183,7 +188,7 @@ def solve(graph: Graph, target: str, rate_per_min: float,
     for _ in range(1000):
         if target in producible or target in no_producer:
             break
-        stuck = [it for it in items
+        stuck = [it for it in items_order
                  if it not in producible and it not in no_producer and it not in forced_raw]
         if not stuck:
             break
@@ -241,7 +246,7 @@ def solve(graph: Graph, target: str, rate_per_min: float,
         prob += mach[r.rid] >= ops[r.rid] / max(eff_ops(r), 1e-9)
 
     leaves = set()
-    for item in items:
+    for item in items_order:
         if item not in produced:
             leaves.add(item)
             continue
