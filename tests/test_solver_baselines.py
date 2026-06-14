@@ -44,10 +44,18 @@ def _graph():
     return _GRAPH
 
 
+# Default tech-generator boost = 4x Cloning Card (T1), matching the UI/CLI/API default
+# (server/app.py). A baseline can override via its query's "tech_gen" (None = unboosted).
+DEFAULT_TECH_GEN = [{"category": "cloning", "tier": 1}] * 4
+
+
 def _run(query: dict) -> dict:
     """Solve a baseline query and return the same normalized shape we snapshot."""
+    tg = query["tech_gen"] if "tech_gen" in query else DEFAULT_TECH_GEN
     res = solve(_graph(), query["target"], query["rate_per_min"],
-                banned=set(query.get("banned", [])))
+                banned=set(query.get("banned", [])),
+                tech_gen_config=tg,
+                stackable_cards=query.get("stackable_cards", False))
     machine_totals = {m["machine_id"]: m["count"] for m in res["machine_totals"]}
     chosen = {s["output_id"]: s.get("machine_id") for s in res["steps"]}
     raw = {(r.get("id") or r.get("ref")): r.get("per_min") for r in res["raw_inputs"]}

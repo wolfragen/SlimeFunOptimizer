@@ -17,7 +17,7 @@ from dataclasses import asdict
 from pathlib import Path
 
 from . import (classfile, model, supreme_mobtech, supreme_cards, supreme_gear,
-               supreme_techgen, supreme_virtual, infinity_machines,
+               supreme_techgen, supreme_virtual, infinity_machines, mobsim,
                passive_generators, quarries, multiblock_recipes, vanilla_recipes,
                gce, gce_chickens, machine_tiers, electric_machines, networks_items)
 
@@ -89,6 +89,10 @@ def process_jar(jar_path: Path):
             recipes.extend(gen_recipes)
             _, quarry_recipes = quarries.extract(zf)
             recipes.extend(quarry_recipes)
+            # Mob Simulation Chamber: data card -> weighted mob drops (energy-only)
+            mob_items, mob_recipes = mobsim.extract(zf)
+            item_defs.extend(mob_items)
+            recipes.extend(mob_recipes)
             owners = infinity_machines.machineblock_owners(zf)
         # The generic-"Machines" recipes are really several MachineBlock machines. Re-attribute
         # each to its real owner (Decompressor, Cobble Press, Ingot Former, Uranium Extractor,

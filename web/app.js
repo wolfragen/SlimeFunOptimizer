@@ -7,6 +7,7 @@ const BANNED = new Set();
 // 4 boost slots; default to 4x cloner T1 (the standard fill)
 const TECHGEN = [{category: "cloning", tier: 1}, {category: "cloning", tier: 1},
                  {category: "cloning", tier: 1}, {category: "cloning", tier: 1}];
+let STACKABLE = false;          // Mob Simulation Chamber: up to 64 data cards per chamber
 
 const $ = (id) => document.getElementById(id);
 
@@ -20,6 +21,7 @@ function saveSettings() {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify({
       banned: [...BANNED],
       techgen: TECHGEN,
+      stackable: STACKABLE,
       query: SELECTED_ITEM ? {
         id: SELECTED_ITEM.id, name: SELECTED_ITEM.name, addon: SELECTED_ITEM.addon || "",
         quantity: $("quantity").value, minutes: $("minutes").value,
@@ -33,6 +35,7 @@ function loadSettings() {
     if (!s) return null;
     if (Array.isArray(s.banned)) { BANNED.clear(); s.banned.forEach((id) => BANNED.add(id)); }
     if (Array.isArray(s.techgen)) { for (let i = 0; i < 4; i++) TECHGEN[i] = s.techgen[i] || null; }
+    if (typeof s.stackable === "boolean") STACKABLE = s.stackable;
     return s;
   } catch (e) { return null; }
 }
@@ -247,6 +250,19 @@ function buildTechgenSlots() {
 }
 buildTechgenSlots();
 
+// ---- stackable data cards (Mob Simulation Chamber) ------------------------
+// A toggle button next to Banned machines / Tech generator slots.
+const stackBtn = $("toggle-stackable");
+function renderStackState() {
+  const s = $("stackable-state");
+  if (s) s.textContent = STACKABLE ? "On" : "Off";
+  if (stackBtn) stackBtn.classList.toggle("on", STACKABLE);
+}
+if (stackBtn) {
+  stackBtn.onclick = () => { STACKABLE = !STACKABLE; renderStackState(); saveSettings(); };
+}
+renderStackState();
+
 // ---- solve ----------------------------------------------------------------
 $("solve").onclick = solve;
 ["quantity", "minutes"].forEach((id) => $(id).addEventListener("input", saveSettings));
@@ -262,6 +278,7 @@ async function solve() {
     banned: [...BANNED],
     leaves: [],
     tech_gen: TECHGEN,
+    stackable_cards: STACKABLE,
   };
   try {
     const r = await fetch("/api/solve", {
@@ -352,6 +369,12 @@ function renderResult(res) {
     if (s.fixtures && s.fixtures.length) {
       mn.insertAdjacentHTML("beforeend",
         s.fixtures.map((f) => ` <span class="fixture">+ ${f.count}× ${esc(f.name)}</span>`).join(""));
+    }
+    // Mob Simulation Chamber: show data cards (× chamber) + energy draw
+    if (s.cards != null) {
+      const stacked = s.cards_per_machine > 1 ? ` across ${s.machines} chamber(s)` : "";
+      mn.insertAdjacentHTML("beforeend",
+        ` <span class="note">${s.cards} card(s)${stacked} · ${s.energy_per_tick} J/t</span>`);
     }
     el.appendChild(mn);
     el.appendChild(out);

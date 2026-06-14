@@ -22,6 +22,7 @@ What counts as a free "raw" input is decided here, not pre-marked:
 
 from __future__ import annotations
 
+import math
 from collections import defaultdict
 
 import pulp
@@ -29,6 +30,13 @@ import pulp
 from .graph import Graph
 
 MAX_ITEMS = 8000
+
+# Mob Simulation Chamber: a data card placed in the chamber produces that mob's drops.
+# The card is a fixture; one chamber holds one card, OR up to CARDS_PER_CHAMBER when the
+# user enables "stackable cards" (then chambers = ceil(total cards / CARDS_PER_CHAMBER),
+# but the CARD count is unchanged — 70 cards stay 70 cards = 2 chambers).
+MOB_CHAMBER = "MOB_SIMULATION_CHAMBER"
+CARDS_PER_CHAMBER = 64
 
 
 def _reachable(graph: Graph, target: str, banned: set[str]):
@@ -107,9 +115,17 @@ def _boost_name(fid: str) -> str:
 
 def solve(graph: Graph, target: str, rate_per_min: float,
           banned: set[str] | None = None, extra_leaves: set[str] | None = None,
-          tech_gen_config=None):
+          tech_gen_config=None, stackable_cards: bool = False):
     banned = set(banned or ())
     extra_leaves = set(extra_leaves or ())
+
+    def is_mob(r):
+        return r.machine_id == MOB_CHAMBER
+
+    # how many of a recipe's integer unit fit per actual machine: a Mob Simulation Chamber
+    # holds CARDS_PER_CHAMBER data cards when stackable (else 1). Everything else is 1:1.
+    def per_machine(r):
+        return CARDS_PER_CHAMBER if (is_mob(r) and stackable_cards) else 1
 
     tg_D, tg_stacks, tg_energy, tg_boost = tech_gen_params(tech_gen_config)
     tg_ops_per_min = tg_D / TG_BASE_CYCLE_MIN          # cycles/min per generator
@@ -273,8 +289,14 @@ def solve(graph: Graph, target: str, rate_per_min: float,
             s += 0.05                       # prefer NTW_AUTO_CRAFTER among equal-speed crafters
         return s
 
-    prob += (pulp.lpSum(mach[r.rid] for r in run)
-             + 1e-4 * pulp.lpSum(mach[r.rid] * slowness(r) for r in run)
+    # mach[r] counts the recipe's integer unit (machines, or data CARDS for a stackable mob
+    # chamber). The objective minimizes real MACHINES, so weight each unit by 1/per_machine:
+    # a stacked card costs 1/64 of a chamber, so 64 cards collapse to one machine.
+    def mweight(r):
+        return 1.0 / per_machine(r)
+
+    prob += (pulp.lpSum(mweight(r) * mach[r.rid] for r in run)
+             + 1e-4 * pulp.lpSum(mweight(r) * mach[r.rid] * slowness(r) for r in run)
              + 1e-7 * pulp.lpSum(ops.values()))
 
     def _solve():
@@ -373,24 +395,28 @@ def solve(graph: Graph, target: str, rate_per_min: float,
         n = val[r.rid]
         if n < 1e-6:
             continue
-        m = int(round(mach[r.rid].value() or 0))
+        # `unit` = the recipe's integer count from the LP: data CARDS for a stackable mob
+        # chamber, otherwise machines. Actual machines = ceil(cards / cards-per-chamber).
+        unit = int(round(mach[r.rid].value() or 0))
+        pm = per_machine(r)
+        m = math.ceil(unit / pm) if pm > 1 else unit
         machine_totals[r.machine_id] += m
 
         def fx_name(fid, fallback):
             # prefer a real item's display name (cards are items); else the label
             return graph.display_name(fid) if fid in graph.items else fallback
 
-        # a fixture (chicken / resource card) is needed 1:1 with the machine, but it
-        # is NOT itself a machine: a chamber + coal chicken is ONE machine, a tech gen
-        # + 4 cloners + a damascus card is ONE machine. So fixtures are listed, never
-        # counted toward total_machines.
+        # a fixture (chicken / resource / data card) is needed 1:1 with the machine's
+        # capacity, but it is NOT itself a machine: a chamber + coal chicken is ONE machine,
+        # a tech gen + 4 cloners + a damascus card is ONE machine. Data cards count by CARD
+        # (`unit`), not by chamber, so stacking shows e.g. 70 cards across 2 chambers.
         step_fixtures = []
         for fx in r.fixtures:
             nm = fx_name(fx["id"], fx.get("name", fx["id"]))
-            machine_totals[fx["id"]] += m
+            machine_totals[fx["id"]] += unit
             fixture_names[fx["id"]] = nm
             fixture_ids.add(fx["id"])
-            step_fixtures.append({"id": fx["id"], "name": nm, "count": m})
+            step_fixtures.append({"id": fx["id"], "name": nm, "count": unit})
         # tech generators also hold the chosen boost cards (global config)
         if is_tg(r):
             for fid, per_gen in tg_boost.items():
@@ -424,6 +450,13 @@ def solve(graph: Graph, target: str, rate_per_min: float,
         }
         if is_tg(r):
             step["energy_per_tick"] = int(tg_energy)
+        if is_mob(r) and r.fixtures:
+            # energy/tick = base per chamber + tier energy per card (card draws its own)
+            fx = r.fixtures[0]
+            step["cards"] = unit
+            step["cards_per_machine"] = pm
+            step["energy_per_tick"] = int(m * fx.get("base_energy", 0)
+                                          + unit * fx.get("tier_energy", 0))
         steps.append(step)
         for i in r.ingredients:
             if i.ref in leaves:

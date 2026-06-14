@@ -74,6 +74,9 @@ button.ghost.sm{padding:6px 10px;font-size:12px;white-space:nowrap}
 .techgen-slot label{min-width:48px;color:var(--muted);font-size:12px}
 .techgen-slot select{flex:1;min-width:0}
 .techgen-slot select:last-child{flex:0 0 60px}
+button.ghost.on{color:var(--txt);border-color:var(--accent,#5fd35a);
+  background:color-mix(in srgb, var(--accent,#5fd35a) 14%, transparent)}
+.step .mname .note{display:block;color:var(--muted);font-weight:500;font-size:11px}
 .techgen-summary{margin-top:12px;padding:10px 14px;border-radius:8px;font-size:13px;
   background:var(--panel2);border:1px solid var(--line);color:var(--txt)}
 

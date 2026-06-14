@@ -39,6 +39,7 @@ class SolveRequest(BaseModel):
     banned: list[str] = []
     leaves: list[str] = []
     tech_gen: list[TechGenSlot | None] = []
+    stackable_cards: bool = False    # Mob Simulation Chamber: stack up to 64 data cards/machine
 
 
 @app.get("/api/items")
@@ -80,7 +81,8 @@ def api_solve(req: SolveRequest):
     else:
         tg = [{"category": "cloning", "tier": 1}] * 4
     res = solve(GRAPH, item_id, rate, banned=set(req.banned),
-                extra_leaves=set(req.leaves), tech_gen_config=tg)
+                extra_leaves=set(req.leaves), tech_gen_config=tg,
+                stackable_cards=req.stackable_cards)
     return JSONResponse(res)
 
 

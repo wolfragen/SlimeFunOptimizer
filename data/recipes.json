@@ -30704,6 +30704,927 @@
   "addon": "InfinityExpansion"
  },
  {
+  "kind": "machine",
+  "output_id": "ROTTEN_FLESH",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ROTTEN_FLESH",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "ZOMBIE_DATA_CARD",
+    "name": "Zombie Data Card",
+    "category": "card",
+    "tier": "HOSTILE",
+    "tier_energy": 300,
+    "base_energy": 150,
+    "energy": 450,
+    "drops": [
+     {
+      "ref": "ROTTEN_FLESH",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SLIME_BALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SLIME_BALL",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "SLIME_DATA_CARD",
+    "name": "Slime Data Card",
+    "category": "card",
+    "tier": "NEUTRAL",
+    "tier_energy": 150,
+    "base_energy": 150,
+    "energy": 300,
+    "drops": [
+     {
+      "ref": "SLIME_BALL",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGMA_CREAM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGMA_CREAM",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "MAGMA_CUBE_DATA_CARD",
+    "name": "Magma Cube Data Card",
+    "category": "card",
+    "tier": "NEUTRAL",
+    "tier_energy": 150,
+    "base_energy": 150,
+    "energy": 300,
+    "drops": [
+     {
+      "ref": "MAGMA_CREAM",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LEATHER",
+    "amount": 0.5
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BEEF",
+    "amount": 0.5
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "COW_DATA_CARD",
+    "name": "Cow Data Card",
+    "category": "card",
+    "tier": "PASSIVE",
+    "tier_energy": 75,
+    "base_energy": 150,
+    "energy": 225,
+    "drops": [
+     {
+      "ref": "LEATHER",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 50.0
+     },
+     {
+      "ref": "BEEF",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 50.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHITE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHITE_WOOL",
+    "amount": 0.499975
+   },
+   {
+    "kind": "vanilla",
+    "ref": "MUTTON",
+    "amount": 0.499975
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "SHEEP_DATA_CARD",
+    "name": "Sheep Data Card",
+    "category": "card",
+    "tier": "PASSIVE",
+    "tier_energy": 75,
+    "base_energy": 150,
+    "energy": 225,
+    "drops": [
+     {
+      "ref": "WHITE_WOOL",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 50.0
+     },
+     {
+      "ref": "MUTTON",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 50.0
+     },
+     {
+      "ref": "PINK_WOOL",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 0.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STRING",
+    "amount": 0.66666667
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SPIDER_EYE",
+    "amount": 0.33333333
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "SPIDER_DATA_CARD",
+    "name": "Spider Data Card",
+    "category": "card",
+    "tier": "HOSTILE",
+    "tier_energy": 300,
+    "base_energy": 150,
+    "energy": 450,
+    "drops": [
+     {
+      "ref": "STRING",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 66.7
+     },
+     {
+      "ref": "SPIDER_EYE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 33.3
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BONE",
+    "amount": 0.75
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ARROW",
+    "amount": 0.25
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "SKELETON_DATA_CARD",
+    "name": "Skeleton Data Card",
+    "category": "card",
+    "tier": "HOSTILE",
+    "tier_energy": 300,
+    "base_energy": 150,
+    "energy": 450,
+    "drops": [
+     {
+      "ref": "BONE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 75.0
+     },
+     {
+      "ref": "ARROW",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 25.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL",
+    "amount": 1.42857143
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BONE",
+    "amount": 0.23809524
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WITHER_SKELETON_SKULL",
+    "amount": 0.04761905
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "WITHER_SKELETON_DATA_CARD",
+    "name": "Wither Skeleton Data Card",
+    "category": "card",
+    "tier": "ADVANCED",
+    "tier_energy": 600,
+    "base_energy": 150,
+    "energy": 750,
+    "drops": [
+     {
+      "ref": "COAL",
+      "kind": "vanilla",
+      "amount": 2,
+      "pct": 71.4
+     },
+     {
+      "ref": "BONE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 23.8
+     },
+     {
+      "ref": "WITHER_SKELETON_SKULL",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 4.8
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENDER_PEARL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENDER_PEARL",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "ENDERMEN_DATA_CARD",
+    "name": "Endermen Data Card",
+    "category": "card",
+    "tier": "ADVANCED",
+    "tier_energy": 600,
+    "base_energy": 150,
+    "energy": 750,
+    "drops": [
+     {
+      "ref": "ENDER_PEARL",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GUNPOWDER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GUNPOWDER",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "CREEPER_DATA_CARD",
+    "name": "Creeper Data Card",
+    "category": "card",
+    "tier": "HOSTILE",
+    "tier_energy": 300,
+    "base_energy": 150,
+    "energy": 450,
+    "drops": [
+     {
+      "ref": "GUNPOWDER",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_SHARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_SHARD",
+    "amount": 0.53811659
+   },
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_CRYSTALS",
+    "amount": 0.2690583
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COD",
+    "amount": 0.1793722
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SPONGE",
+    "amount": 0.01345291
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "GUARDIAN_DATA_CARD",
+    "name": "Guardian Data Card",
+    "category": "card",
+    "tier": "HOSTILE",
+    "tier_energy": 300,
+    "base_energy": 150,
+    "energy": 450,
+    "drops": [
+     {
+      "ref": "PRISMARINE_SHARD",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 53.8
+     },
+     {
+      "ref": "PRISMARINE_CRYSTALS",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 26.9
+     },
+     {
+      "ref": "COD",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 17.9
+     },
+     {
+      "ref": "SPONGE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 1.3
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHICKEN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHICKEN",
+    "amount": 0.66666667
+   },
+   {
+    "kind": "vanilla",
+    "ref": "FEATHER",
+    "amount": 0.33333333
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "CHICKEN_DATA_CARD",
+    "name": "Chicken Data Card",
+    "category": "card",
+    "tier": "PASSIVE",
+    "tier_energy": 75,
+    "base_energy": 150,
+    "energy": 225,
+    "drops": [
+     {
+      "ref": "CHICKEN",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 66.7
+     },
+     {
+      "ref": "FEATHER",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 33.3
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 1.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "POPPY",
+    "amount": 0.2
+   },
+   {
+    "kind": "slimefun",
+    "ref": "BASIC_CIRCUIT_BOARD",
+    "amount": 0.2
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "IRON_GOLEM_DATA_CARD",
+    "name": "Iron Golem Data Card",
+    "category": "card",
+    "tier": "ADVANCED",
+    "tier_energy": 600,
+    "base_energy": 150,
+    "energy": 750,
+    "drops": [
+     {
+      "ref": "IRON_INGOT",
+      "kind": "vanilla",
+      "amount": 2,
+      "pct": 60.0
+     },
+     {
+      "ref": "POPPY",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 20.0
+     },
+     {
+      "ref": "BASIC_CIRCUIT_BOARD",
+      "kind": "slimefun",
+      "amount": 1,
+      "pct": 20.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLAZE_ROD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLAZE_ROD",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "BLAZE_DATA_CARD",
+    "name": "Blaze Data Card",
+    "category": "card",
+    "tier": "ADVANCED",
+    "tier_energy": 600,
+    "base_energy": 150,
+    "energy": 750,
+    "drops": [
+     {
+      "ref": "BLAZE_ROD",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COMPRESSED_CARBON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_STAR",
+    "amount": 0.66666667
+   },
+   {
+    "kind": "slimefun",
+    "ref": "COMPRESSED_CARBON",
+    "amount": 2.66666667
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "WITHER_DATA_CARD",
+    "name": "Wither Data Card",
+    "category": "card",
+    "tier": "MINI_BOSS",
+    "tier_energy": 4500,
+    "base_energy": 150,
+    "energy": 4650,
+    "drops": [
+     {
+      "ref": "NETHER_STAR",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 66.7
+     },
+     {
+      "ref": "COMPRESSED_CARBON",
+      "kind": "slimefun",
+      "amount": 8,
+      "pct": 33.3
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "VOID_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "VOID_DUST",
+    "amount": 0.79999936
+   },
+   {
+    "kind": "slimefun",
+    "ref": "ENDER_ESSENCE",
+    "amount": 0.19999984
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "ENDER_DRAGON_DATA_CARD",
+    "name": "Ender Dragon Data Card",
+    "category": "card",
+    "tier": "BOSS",
+    "tier_energy": 9000,
+    "base_energy": 150,
+    "energy": 9150,
+    "drops": [
+     {
+      "ref": "VOID_DUST",
+      "kind": "slimefun",
+      "amount": 1,
+      "pct": 80.0
+     },
+     {
+      "ref": "ENDER_ESSENCE",
+      "kind": "slimefun",
+      "amount": 1,
+      "pct": 20.0
+     },
+     {
+      "ref": "DRAGON_EGG",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 0.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "HONEYCOMB",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "HONEYCOMB",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "BEE_DATA_CARD",
+    "name": "Bee Data Card",
+    "category": "card",
+    "tier": "NEUTRAL",
+    "tier_energy": 150,
+    "base_energy": 150,
+    "energy": 300,
+    "drops": [
+     {
+      "ref": "HONEYCOMB",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD",
+    "amount": 1.0
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "VILLAGER_DATA_CARD",
+    "name": "Villager Data Card",
+    "category": "card",
+    "tier": "NEUTRAL",
+    "tier_energy": 150,
+    "base_energy": 150,
+    "energy": 300,
+    "drops": [
+     {
+      "ref": "EMERALD",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 100.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_SIMULATION_CHAMBER",
+  "time_seconds": 10.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR",
+    "amount": 0.25
+   },
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE",
+    "amount": 0.25
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
+    "amount": 0.25
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GLOWSTONE_DUST",
+    "amount": 0.25
+   }
+  ],
+  "ctor_class": "MobSimulationChamber",
+  "source_class": "MobData",
+  "fixtures": [
+   {
+    "id": "WITCH_DATA_CARD",
+    "name": "Witch Data Card",
+    "category": "card",
+    "tier": "ADVANCED",
+    "tier_energy": 600,
+    "base_energy": 150,
+    "energy": 750,
+    "drops": [
+     {
+      "ref": "SUGAR",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 25.0
+     },
+     {
+      "ref": "REDSTONE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 25.0
+     },
+     {
+      "ref": "GLASS_BOTTLE",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 25.0
+     },
+     {
+      "ref": "GLOWSTONE_DUST",
+      "kind": "vanilla",
+      "amount": 1,
+      "pct": 25.0
+     }
+    ]
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
   "kind": "crafting",
   "output_id": "SYNTHETIC_EMERALD_SHARD",
   "output_amount": 1,

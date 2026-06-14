@@ -1,0 +1,36 @@
+{
+  "query": {
+    "target": "ROTTEN_FLESH",
+    "rate_per_min": 600,
+    "banned": [],
+    "tech_gen": [
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      }
+    ],
+    "stackable_cards": true
+  },
+  "note": "Snapshot of solver output at the default UI config (tech_gen = 4x Cloning T1). NOT asserted optimal. On divergence, manually check why and whether better or worse.",
+  "total_machines": 2,
+  "machine_totals": {
+    "MOB_SIMULATION_CHAMBER": 2,
+    "ZOMBIE_DATA_CARD": 100
+  },
+  "chosen_machine_per_output": {
+    "ROTTEN_FLESH": "MOB_SIMULATION_CHAMBER"
+  },
+  "raw_inputs": {}
+}
