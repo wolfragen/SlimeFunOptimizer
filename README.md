@@ -22,8 +22,3 @@ Search an item, set quantity + minutes, optionally open **Banned machines** to e
 you lack, then hit **Calculate**.
 
 CLI: `python solve.py "Cloner Robotic Golem" 64 1`
-
-## Your own addons
-
-Drop your Slimefun + addon `.jar`s into `plugins/` and run `python build_data.py` to rebuild
-the data for your exact versions.
