@@ -20932,7 +20932,7 @@
   "output_id": "NETHER_ICE_COOLANT_CELL",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "EXTREME_FREEZER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -20958,7 +20958,7 @@
   "output_id": "REACTOR_COOLANT_CELL",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "EXTREME_FREEZER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21035,136 +21035,6 @@
   ],
   "outputs": [],
   "ctor_class": "io/github/mooy1/infinityexpansion/infinitylib/machines/MachineBlock",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "MACHINE_CIRCUIT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "COBBLESTONE",
-    "amount": 4
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "MACHINE_CIRCUIT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "COBBLESTONE",
-  "output_amount": 4,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 4
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "COBBLESTONE",
-    "amount": 4
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "ANDESITE",
-  "output_amount": 4,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "STONE",
-    "amount": 4
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 4
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "STONE",
-  "output_amount": 4,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 4
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "STONE",
-    "amount": 4
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "DIORITE",
-  "output_amount": 4,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "GRANITE",
-    "amount": 4
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 4
-   }
-  ],
-  "ctor_class": "",
   "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
   "fixtures": [],
   "addon": "InfinityExpansion"
@@ -21365,136 +21235,6 @@
   "addon": "InfinityExpansion"
  },
  {
-  "kind": "machine",
-  "output_id": "VOID_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "COBBLESTONE",
-    "amount": 64
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "VOID_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "COBBLESTONE",
-  "output_amount": 64,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 64
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "COBBLESTONE",
-    "amount": 64
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "ANDESITE",
-  "output_amount": 64,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "STONE",
-    "amount": 64
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 64
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "STONE",
-  "output_amount": 64,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 64
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "STONE",
-    "amount": 64
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
-  "kind": "machine",
-  "output_id": "DIORITE",
-  "output_amount": 64,
-  "recipe_type": null,
-  "machine": "Machines",
-  "time_seconds": null,
-  "ingredients": [
-   {
-    "kind": "vanilla",
-    "ref": "GRANITE",
-    "amount": 64
-   }
-  ],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 64
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "io/github/mooy1/infinityexpansion/items/machines/Machines",
-  "fixtures": [],
-  "addon": "InfinityExpansion"
- },
- {
   "kind": "crafting",
   "output_id": "COBBLE_PRESS",
   "output_amount": 1,
@@ -21559,7 +21299,7 @@
   "output_id": "COBBLE_1",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "COBBLE_PRESS",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21585,7 +21325,7 @@
   "output_id": "COBBLE_2",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "COBBLE_PRESS",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21611,7 +21351,7 @@
   "output_id": "COBBLE_3",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "COBBLE_PRESS",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21637,7 +21377,7 @@
   "output_id": "COBBLE_4",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "COBBLE_PRESS",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21663,7 +21403,7 @@
   "output_id": "COBBLE_5",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "COBBLE_PRESS",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21749,7 +21489,7 @@
   "output_id": "COPPER_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21775,7 +21515,7 @@
   "output_id": "ZINC_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21801,7 +21541,7 @@
   "output_id": "TIN_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21827,7 +21567,7 @@
   "output_id": "ALUMINUM_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21853,7 +21593,7 @@
   "output_id": "LEAD_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21879,7 +21619,7 @@
   "output_id": "SILVER_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21905,7 +21645,7 @@
   "output_id": "GOLD_24K",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21931,7 +21671,7 @@
   "output_id": "IRON_INGOT",
   "output_amount": 4,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -21957,7 +21697,7 @@
   "output_id": "MAGNESIUM_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22178,7 +21918,7 @@
   "output_id": "COPPER_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22204,7 +21944,7 @@
   "output_id": "ZINC_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22230,7 +21970,7 @@
   "output_id": "TIN_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22256,7 +21996,7 @@
   "output_id": "ALUMINUM_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22282,7 +22022,7 @@
   "output_id": "LEAD_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22308,7 +22048,7 @@
   "output_id": "SILVER_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22334,7 +22074,7 @@
   "output_id": "GOLD_24K",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22360,7 +22100,7 @@
   "output_id": "IRON_INGOT",
   "output_amount": 32,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22386,7 +22126,7 @@
   "output_id": "MAGNESIUM_INGOT",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "INFINITY_INGOT_FORMER",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22472,7 +22212,7 @@
   "output_id": "SMALL_URANIUM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "URANIUM_EXTRACTOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22498,7 +22238,7 @@
   "output_id": "SMALL_URANIUM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "URANIUM_EXTRACTOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22524,7 +22264,7 @@
   "output_id": "SMALL_URANIUM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "URANIUM_EXTRACTOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22550,7 +22290,7 @@
   "output_id": "SMALL_URANIUM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "URANIUM_EXTRACTOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22576,7 +22316,7 @@
   "output_id": "SMALL_URANIUM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "URANIUM_EXTRACTOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22662,7 +22402,7 @@
   "output_id": "EMERALD",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22688,7 +22428,7 @@
   "output_id": "DIAMOND",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22714,7 +22454,7 @@
   "output_id": "GOLD_INGOT",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22740,7 +22480,7 @@
   "output_id": "IRON_INGOT",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22766,7 +22506,7 @@
   "output_id": "NETHERITE_INGOT",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22792,7 +22532,7 @@
   "output_id": "REDSTONE",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22818,7 +22558,7 @@
   "output_id": "QUARTZ",
   "output_amount": 4,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22844,7 +22584,7 @@
   "output_id": "LAPIS_LAZULI",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22870,7 +22610,7 @@
   "output_id": "COAL",
   "output_amount": 9,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22896,7 +22636,7 @@
   "output_id": "COBBLE_4",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22922,7 +22662,7 @@
   "output_id": "COBBLE_3",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22948,7 +22688,7 @@
   "output_id": "COBBLE_2",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -22974,7 +22714,7 @@
   "output_id": "COBBLE_1",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {
@@ -23000,7 +22740,7 @@
   "output_id": "COBBLESTONE",
   "output_amount": 8,
   "recipe_type": null,
-  "machine": "Machines",
+  "machine": "DECOMPRESSOR",
   "time_seconds": null,
   "ingredients": [
    {

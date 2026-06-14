@@ -89,6 +89,25 @@ def process_jar(jar_path: Path):
             recipes.extend(gen_recipes)
             _, quarry_recipes = quarries.extract(zf)
             recipes.extend(quarry_recipes)
+            owners = infinity_machines.machineblock_owners(zf)
+        # The generic-"Machines" recipes are really several MachineBlock machines. Re-attribute
+        # each to its real owner (Decompressor, Cobble Press, Ingot Former, Uranium Extractor,
+        # Extreme Freezer, ...). DROP the Dust Extractor ones: its in-game recipe is just
+        # cobblestone -> a random dust, so the extracted cobble<->andesite<->stone<->diorite<->
+        # granite "cycle" (its internal progression) and the mis-parsed cobble->circuit/void are
+        # bogus. Unmapped ones are dropped too (parse failures, not real recipes).
+        DUST = {"DUST_EXTRACTOR", "INFINITY_DUST_EXTRACTOR"}
+        fixed = []
+        for r in recipes:
+            if r.kind == "machine" and r.machine == "Machines":
+                inp = r.ingredients[0].ref if r.ingredients else None
+                amt = r.ingredients[0].amount if r.ingredients else 1
+                own = owners.get((r.output_id, inp, amt))
+                if own is None or own in DUST:
+                    continue
+                r.machine = own
+            fixed.append(r)
+        recipes = fixed
     if "networks" in jar_path.name.lower():
         # Networks has its own power system + a themed item builder, so the generic pass and
         # the energy-net enumerator both miss it. Recover its items (incl. the Auto Crafter).
