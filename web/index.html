@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slimefun Automation Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>⚙️ Slimefun Automation Calculator</h1>
+    <p class="sub">Fewest machines to mass-produce any item at a target rate.</p>
+  </header>
+
+  <main>
+    <section class="panel query">
+      <div class="row">
+        <div class="field grow">
+          <label>Item</label>
+          <div class="search-wrap">
+            <input id="search" type="text" autocomplete="off"
+                   placeholder="Search e.g. Cloner Robotic Golem…" />
+            <div id="suggestions" class="suggestions hidden"></div>
+          </div>
+          <div id="selected" class="selected hidden"></div>
+        </div>
+        <div class="field">
+          <label>Quantity</label>
+          <input id="quantity" type="number" value="64" min="1" />
+        </div>
+        <div class="field">
+          <label>Per (minutes)</label>
+          <input id="minutes" type="number" value="1" min="0.1" step="0.1" />
+        </div>
+        <button id="solve" class="primary">Calculate</button>
+      </div>
+      <div class="row">
+        <button id="toggle-ban" class="ghost">🚫 Banned machines (<span id="ban-count">0</span>)</button>
+        <button id="toggle-techgen" class="ghost">🧬 Tech generator slots (<span id="techgen-count">0</span>)</button>
+      </div>
+      <div id="ban-panel" class="ban-panel hidden">
+        <p class="muted">Tick a machine to forbid it (e.g. ban Virtual Garden III but keep II).
+          Tiers are listed separately.</p>
+        <div class="ban-tools">
+          <input id="ban-search" class="ban-search" type="text" placeholder="Filter machines…" />
+          <button id="ban-clear" class="ghost sm" type="button">Clear all</button>
+        </div>
+        <div id="ban-list" class="ban-list"></div>
+      </div>
+      <div id="techgen-panel" class="techgen-panel hidden">
+        <p class="muted">Fill the 4 slots of every Tech Generator (each slot = one full stack).
+          Mob &amp; robotic/mutated don't matter — only the bonus &amp; tier.
+          <strong>Cloning</strong> = more output, <strong>Acceleration</strong> = faster (+energy),
+          <strong>Efficiency</strong> = less energy.</p>
+        <div id="techgen-slots" class="techgen-slots"></div>
+      </div>
+    </section>
+
+    <section id="status" class="status hidden"></section>
+
+    <section id="results" class="results hidden">
+      <div class="summary">
+        <div class="big-stat">
+          <span id="total-machines" class="num">0</span>
+          <span class="lbl">total machines</span>
+        </div>
+        <div id="machine-totals" class="machine-totals"></div>
+      </div>
+      <div id="techgen-summary" class="techgen-summary hidden"></div>
+
+      <h2>Production steps</h2>
+      <div id="steps" class="steps"></div>
+
+      <h2>Raw inputs needed <span class="muted">(per minute)</span></h2>
+      <div id="raw" class="raw"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

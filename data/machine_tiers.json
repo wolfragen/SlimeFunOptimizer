@@ -1,0 +1,586 @@
+{
+ "GrowthChamber": [
+  [
+   "GROWTH_CHAMBER",
+   1
+  ]
+ ],
+ "GrowthChamberMK2": [
+  [
+   "GROWTH_CHAMBER_MK2",
+   3
+  ]
+ ],
+ "GrowthChamberEnd": [
+  [
+   "GROWTH_CHAMBER_END",
+   1
+  ]
+ ],
+ "GrowthChamberEndMK2": [
+  [
+   "GROWTH_CHAMBER_MK2_END",
+   3
+  ]
+ ],
+ "GrowthChamberNether": [
+  [
+   "GROWTH_CHAMBER_NETHER",
+   1
+  ]
+ ],
+ "GrowthChamberNetherMK2": [
+  [
+   "GROWTH_CHAMBER_MK2_NETHER",
+   3
+  ]
+ ],
+ "GrowthChamberOcean": [
+  [
+   "GROWTH_CHAMBER_OCEAN",
+   1
+  ]
+ ],
+ "GrowthChamberOceanMK2": [
+  [
+   "GROWTH_CHAMBER_MK2_OCEAN",
+   3
+  ]
+ ],
+ "AntigravityBubble": [
+  [
+   "ANTIGRAVITY_BUBBLE",
+   1
+  ]
+ ],
+ "WeatherController": [
+  [
+   "WEATHER_CONTROLLER",
+   1
+  ]
+ ],
+ "PotionSprinkler": [
+  [
+   "POTION_SPRINKLER",
+   1
+  ]
+ ],
+ "BarbedWire": [
+  [
+   "BARBED_WIRE",
+   1
+  ]
+ ],
+ "MaterialHive": [
+  [
+   "MATERIAL_HIVE",
+   1
+  ]
+ ],
+ "WirelessCharger": [
+  [
+   "WIRELESS_CHARGER",
+   1
+  ]
+ ],
+ "SeedPlucker": [
+  [
+   "SEED_PLUCKER",
+   1
+  ]
+ ],
+ "BandaidManager": [
+  [
+   "BANDAID_MANAGER",
+   1
+  ]
+ ],
+ "Orechid": [
+  [
+   "ORECHID",
+   1
+  ]
+ ],
+ "FurnaceController": [
+  [
+   "EXTERNAL_HEATER",
+   1
+  ]
+ ],
+ "ChippingGenerator": [
+  [
+   "DURABILITY_GENERATOR",
+   1
+  ]
+ ],
+ "GeneticSequencer": [
+  [
+   "GENETIC_SEQUENCER",
+   1
+  ]
+ ],
+ "ExcitationChamber": [
+  [
+   "EXCITATION_CHAMBER",
+   1
+  ],
+  [
+   "EXCITATION_CHAMBER_2",
+   2
+  ],
+  [
+   "EXCITATION_CHAMBER_3",
+   10
+  ]
+ ],
+ "PrivateCoop": [
+  [
+   "PRIVATE_COOP",
+   1
+  ]
+ ],
+ "RestorationChamber": [
+  [
+   "RESTORATION_CHAMBER",
+   1
+  ]
+ ],
+ "SlimefunExtension$1": [
+  [
+   "ADVANCED_ENCHANTER",
+   5
+  ]
+ ],
+ "SlimefunExtension$2": [
+  [
+   "ADVANCED_DISENCHANTER",
+   5
+  ]
+ ],
+ "ChargingBench": [
+  [
+   "CHARGING_BENCH",
+   1
+  ],
+  [
+   "ADVANCED_CHARGER",
+   30
+  ]
+ ],
+ "GEOMiner": [
+  [
+   "GEO_MINER",
+   1
+  ],
+  [
+   "ADVANCED_GEO_MINER",
+   4
+  ]
+ ],
+ "ElectricSmeltery": [
+  [
+   "ELECTRIC_SMELTERY",
+   1
+  ],
+  [
+   "ELECTRIC_SMELTERY_2",
+   3
+  ],
+  [
+   "ADVANCED_SMELTERY",
+   24
+  ]
+ ],
+ "ElectricFurnace": [
+  [
+   "ELECTRIC_FURNACE",
+   1
+  ],
+  [
+   "ELECTRIC_FURNACE_2",
+   2
+  ],
+  [
+   "ELECTRIC_FURNACE_3",
+   4
+  ]
+ ],
+ "ElectricGoldPan": [
+  [
+   "ELECTRIC_GOLD_PAN",
+   1
+  ],
+  [
+   "ELECTRIC_GOLD_PAN_2",
+   3
+  ],
+  [
+   "ELECTRIC_GOLD_PAN_3",
+   10
+  ]
+ ],
+ "ElectricDustWasher": [
+  [
+   "ELECTRIC_DUST_WASHER",
+   1
+  ],
+  [
+   "ELECTRIC_DUST_WASHER_2",
+   2
+  ],
+  [
+   "ELECTRIC_DUST_WASHER_3",
+   10
+  ]
+ ],
+ "ElectricIngotFactory": [
+  [
+   "ELECTRIC_INGOT_FACTORY",
+   1
+  ],
+  [
+   "ELECTRIC_INGOT_FACTORY_2",
+   2
+  ],
+  [
+   "ELECTRIC_INGOT_FACTORY_3",
+   8
+  ]
+ ],
+ "ElectrifiedCrucible": [
+  [
+   "ELECTRIFIED_CRUCIBLE",
+   1
+  ],
+  [
+   "ELECTRIFIED_CRUCIBLE_2",
+   2
+  ],
+  [
+   "ELECTRIFIED_CRUCIBLE_3",
+   4
+  ]
+ ],
+ "ElectricOreGrinder": [
+  [
+   "ELECTRIC_ORE_GRINDER",
+   1
+  ],
+  [
+   "ELECTRIC_ORE_GRINDER_2",
+   4
+  ],
+  [
+   "ELECTRIC_ORE_GRINDER_3",
+   10
+  ]
+ ],
+ "HeatedPressureChamber": [
+  [
+   "HEATED_PRESSURE_CHAMBER",
+   1
+  ],
+  [
+   "HEATED_PRESSURE_CHAMBER_2",
+   5
+  ]
+ ],
+ "ElectricIngotPulverizer": [
+  [
+   "ELECTRIC_INGOT_PULVERIZER",
+   1
+  ]
+ ],
+ "AutoDrier": [
+  [
+   "AUTO_DRIER",
+   1
+  ]
+ ],
+ "AutoBrewer": [
+  [
+   "AUTO_BREWER",
+   1
+  ]
+ ],
+ "ElectricPress": [
+  [
+   "ELECTRIC_PRESS",
+   1
+  ],
+  [
+   "ELECTRIC_PRESS_2",
+   3
+  ]
+ ],
+ "AutoEnchanter": [
+  [
+   "AUTO_ENCHANTER",
+   1
+  ],
+  [
+   "AUTO_ENCHANTER_2",
+   3
+  ]
+ ],
+ "AutoDisenchanter": [
+  [
+   "AUTO_DISENCHANTER",
+   1
+  ],
+  [
+   "AUTO_DISENCHANTER_2",
+   3
+  ]
+ ],
+ "AutoAnvil": [
+  [
+   "AUTO_ANVIL",
+   1
+  ],
+  [
+   "AUTO_ANVIL_2",
+   1
+  ]
+ ],
+ "BookBinder": [
+  [
+   "BOOK_BINDER",
+   1
+  ]
+ ],
+ "OilPump": [
+  [
+   "OIL_PUMP",
+   1
+  ]
+ ],
+ "Refinery": [
+  [
+   "REFINERY",
+   1
+  ]
+ ],
+ "FoodFabricator": [
+  [
+   "FOOD_FABRICATOR",
+   1
+  ],
+  [
+   "FOOD_FABRICATOR_2",
+   6
+  ]
+ ],
+ "FoodComposter": [
+  [
+   "FOOD_COMPOSTER",
+   1
+  ],
+  [
+   "FOOD_COMPOSTER_2",
+   10
+  ]
+ ],
+ "Freezer": [
+  [
+   "FREEZER",
+   1
+  ],
+  [
+   "FREEZER_2",
+   2
+  ],
+  [
+   "FREEZER_3",
+   3
+  ]
+ ],
+ "CarbonPress": [
+  [
+   "CARBON_PRESS",
+   1
+  ],
+  [
+   "CARBON_PRESS_2",
+   3
+  ],
+  [
+   "CARBON_PRESS_3",
+   15
+  ]
+ ],
+ "ProduceCollector": [
+  [
+   "PRODUCE_COLLECTOR",
+   1
+  ]
+ ],
+ "ElectricCoreFabricator": [
+  [
+   "ELECTRIC_CORE_MACHINE",
+   1
+  ],
+  [
+   "ELECTRIC_CORE_MACHINE_II",
+   5
+  ],
+  [
+   "ELECTRIC_CORE_MACHINE_III",
+   15
+  ]
+ ],
+ "ElectricMagicalFabricator": [
+  [
+   "ELECTRIC_MAGICAL_MACHINE",
+   1
+  ],
+  [
+   "ELECTRIC_MAGICAL_MACHINE_II",
+   5
+  ],
+  [
+   "ELECTRIC_MAGICAL_MACHINE_III",
+   15
+  ]
+ ],
+ "ElectricGearFabricator": [
+  [
+   "ELECTRIC_GEAR_MACHINE",
+   1
+  ],
+  [
+   "ELECTRIC_GEAR_MACHINE_II",
+   5
+  ],
+  [
+   "ELECTRIC_GEAR_MACHINE_III",
+   15
+  ]
+ ],
+ "MobCollector": [
+  [
+   "MOB_COLLECTOR_MACHINE",
+   1
+  ],
+  [
+   "MOB_COLLECTOR_MACHINE_II",
+   5
+  ],
+  [
+   "MOB_COLLECTOR_MACHINE_III",
+   15
+  ]
+ ],
+ "VirtualGarden": [
+  [
+   "VIRTUAL_GARDEN_MACHINE",
+   1
+  ],
+  [
+   "VIRTUAL_GARDEN_MACHINE_II",
+   5
+  ],
+  [
+   "VIRTUAL_GARDEN_MACHINE_III",
+   15
+  ]
+ ],
+ "ForgeIngot": [
+  [
+   "FORGE_INGOT_MACHINE",
+   1
+  ],
+  [
+   "FORGE_INGOT_MACHINE_II",
+   5
+  ],
+  [
+   "FORGE_INGOT_MACHINE_III",
+   15
+  ]
+ ],
+ "ForgeMagical": [
+  [
+   "FORGE_MAGICAL_MACHINE",
+   1
+  ],
+  [
+   "FORGE_MAGICAL_MACHINE_II",
+   5
+  ],
+  [
+   "FORGE_MAGICAL_MACHINE_III",
+   15
+  ]
+ ],
+ "MagicAltar": [
+  [
+   "MAGIC_ALTAR_MACHINE",
+   1
+  ],
+  [
+   "MAGIC_ALTAR_MACHINE_II",
+   5
+  ],
+  [
+   "MAGIC_ALTAR_MACHINE_III",
+   15
+  ]
+ ],
+ "Foundry": [
+  [
+   "FOUNDRY_MACHINE",
+   1
+  ],
+  [
+   "FOUNDRY_MACHINE_II",
+   5
+  ],
+  [
+   "FOUNDRY_MACHINE_III",
+   15
+  ]
+ ],
+ "ElectricCrafter": [
+  [
+   "ELECTRIC_CRAFTER_MACHINE",
+   1
+  ],
+  [
+   "ELECTRIC_CRAFTER_MACHINE_II",
+   5
+  ],
+  [
+   "ELECTRIC_CRAFTER_MACHINE_III",
+   15
+  ]
+ ],
+ "VirtualAquarium": [
+  [
+   "VIRTUAL_AQUARIUM_MACHINE",
+   1
+  ],
+  [
+   "VIRTUAL_AQUARIUM_MACHINE_II",
+   5
+  ],
+  [
+   "VIRTUAL_AQUARIUM_MACHINE_III",
+   15
+  ]
+ ],
+ "MobTechCollector": [
+  [
+   "MOB_TECH_COLLECTOR_MACHINE_I",
+   1
+  ],
+  [
+   "MOB_TECH_COLLECTOR_MACHINE_II",
+   1
+  ],
+  [
+   "MOB_TECH_COLLECTOR_MACHINE_III",
+   1
+  ]
+ ]
+}

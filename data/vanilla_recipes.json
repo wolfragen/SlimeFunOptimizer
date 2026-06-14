@@ -1,0 +1,10124 @@
+[
+{
+"output_id": "RED_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_TULIP",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRINDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 2
+},
+{
+"ref": "STONE_SLAB",
+"amount": 1
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ACTIVATOR_RAIL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 2
+},
+{
+"ref": "REDSTONE_TORCH",
+"amount": 1
+}
+]
+},
+{
+"output_id": "END_ROD",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BLAZE_ROD",
+"amount": 1
+},
+{
+"ref": "POPPED_CHORUS_FRUIT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLDEN_PICKAXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "IRON_TRAPDOOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WHITE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STRING",
+"amount": 4
+}
+]
+},
+{
+"output_id": "STRIPPED_SPRUCE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_SPRUCE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "CHERRY_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BOW",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 3
+},
+{
+"ref": "STRING",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BROWN_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "BROWN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_DIORITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_DIORITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BAMBOO_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "HONEYCOMB_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "HONEYCOMB",
+"amount": 4
+}
+]
+},
+{
+"output_id": "SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SAND",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MAGENTA_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_ANDESITE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "ANDESITE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CHERRY_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CHERRY_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "COPPER_INGOT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "WAXED_COPPER_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "JUNGLE_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STRING",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RABBIT_STEW",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAKED_POTATO",
+"amount": 1
+},
+{
+"ref": "COOKED_RABBIT",
+"amount": 1
+},
+{
+"ref": "BOWL",
+"amount": 1
+},
+{
+"ref": "CARROT",
+"amount": 1
+},
+{
+"ref": "RED_MUSHROOM",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PRISMARINE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PRISMARINE_SHARD",
+"amount": 9
+}
+]
+},
+{
+"output_id": "OAK_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ORANGE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "DARK_OAK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "END_STONE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "END_STONE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MANGROVE_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "STONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EXPOSED_CUT_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 9
+}
+]
+},
+{
+"output_id": "QUARTZ_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHISELED_QUARTZ_BLOCK",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "YELLOW_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DIAMOND_HOE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BLACK_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BOOK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 3
+},
+{
+"ref": "LEATHER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "CHERRY_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "STRIPPED_DARK_OAK_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_DARK_OAK_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "HONEY_BOTTLE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "HONEY_BLOCK",
+"amount": 1
+},
+{
+"ref": "GLASS_BOTTLE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "END_STONE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "END_STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRAY_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_DIORITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_DIORITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STRIPPED_WARPED_HYPHAE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_WARPED_STEM",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CYAN_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "CYAN_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PINK_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_TULIP",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SLIME_BALL",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "SLIME_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHISELED_BOOKSHELF",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "OAK_SLAB",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 2
+}
+]
+},
+{
+"output_id": "SOUL_TORCH",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COAL",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+},
+{
+"ref": "SOUL_SAND",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_GRANITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_GRANITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "JUNGLE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "JUNGLE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "RAW_GOLD_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_GOLD",
+"amount": 9
+}
+]
+},
+{
+"output_id": "CHISELED_QUARTZ_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "QUARTZ_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DETECTOR_RAIL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 6
+},
+{
+"ref": "STONE_PRESSURE_PLATE",
+"amount": 1
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "TIDE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "TIDE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "PRISMARINE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DROPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 7
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PAINTING",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 8
+},
+{
+"ref": "WHITE_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_SANDSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "COPPER_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COPPER_INGOT",
+"amount": 9
+}
+]
+},
+{
+"output_id": "BROWN_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "BROWN_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GOLDEN_SHOVEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "STONE_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GRAY_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_PLANKS",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BAMBOO_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_AXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_WARPED_STEM",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LEATHER_BOOTS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LEATHER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "COBBLESTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "END_STONE_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "END_STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_NUGGET",
+"amount": 9
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER_STAIRS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OXIDIZED_CUT_COPPER_STAIRS",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "AZURE_BLUET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DRIPSTONE_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POINTED_DRIPSTONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "COAST_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "COAST_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CAULDRON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 7
+}
+]
+},
+{
+"output_id": "NETHERITE_INGOT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "NETHERITE_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MINECART",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 5
+}
+]
+},
+{
+"output_id": "MOSSY_COBBLESTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 1
+},
+{
+"ref": "MOSS_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "TURTLE_HELMET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "TURTLE_SCUTE",
+"amount": 5
+}
+]
+},
+{
+"output_id": "PISTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+},
+{
+"ref": "COBBLESTONE",
+"amount": 4
+},
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "YELLOW_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "NETHER_WART_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_WART",
+"amount": 9
+}
+]
+},
+{
+"output_id": "JUNGLE_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "COMPOSTER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_SLAB",
+"amount": 7
+}
+]
+},
+{
+"output_id": "FLETCHING_TABLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "FLINT",
+"amount": 2
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CHISELED_STONE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE_BRICK_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WARPED_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WARPED_STEM",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLAST_FURNACE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 5
+},
+{
+"ref": "FURNACE",
+"amount": 1
+},
+{
+"ref": "SMOOTH_STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LAPIS_LAZULI",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "LAPIS_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "FIRE_CHARGE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "GUNPOWDER",
+"amount": 1
+},
+{
+"ref": "BLAZE_POWDER",
+"amount": 1
+},
+{
+"ref": "COAL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SUGAR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SUGAR_CANE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_NETHER_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "RED_NETHER_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "NETHER_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "NETHER_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_NETHER_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "RED_NETHER_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MAGMA_CREAM",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLAZE_POWDER",
+"amount": 1
+},
+{
+"ref": "SLIME_BALL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GLISTERING_MELON_SLICE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_NUGGET",
+"amount": 8
+},
+{
+"ref": "MELON_SLICE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLDEN_HELMET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 5
+}
+]
+},
+{
+"output_id": "BROWN_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "BROWN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SMITHING_TABLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 2
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PRISMARINE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "PRISMARINE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "IRON_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 9
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MANGROVE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CHERRY_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CHERRY_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "YELLOW_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "CYAN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RAW_GOLD",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "RAW_GOLD_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "SPRUCE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BLACK_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "BLACK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "IRON_LEGGINGS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 7
+}
+]
+},
+{
+"output_id": "IRON_SHOVEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "POWERED_RAIL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GRANITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "GRANITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BAMBOO_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO",
+"amount": 9
+}
+]
+},
+{
+"output_id": "CHISELED_POLISHED_BLACKSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BROWN_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "BROWN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_BAMBOO_BLOCK",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DARK_PRISMARINE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DARK_PRISMARINE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "DIORITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SMOOTH_STONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SMOOTH_STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BIRCH_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BIRCH_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "IRON_PICKAXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "COBBLESTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CRIMSON_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BEETROOT_SOUP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BOWL",
+"amount": 1
+},
+{
+"ref": "BEETROOT",
+"amount": 6
+}
+]
+},
+{
+"output_id": "NETHER_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "NETHER_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MOSSY_COBBLESTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "MOSSY_COBBLESTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "JUNGLE_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ACACIA_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "OAK_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLUE_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BLUE_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CYAN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CAMPFIRE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 3
+},
+{
+"ref": "COAL",
+"amount": 1
+},
+{
+"ref": "DARK_OAK_LOG",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RIB_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "RIB_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "NETHERRACK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PUMPKIN_SEEDS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "PUMPKIN",
+"amount": 1
+}
+]
+},
+{
+"output_id": "JUNGLE_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ACACIA_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "TRAPPED_CHEST",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "TRIPWIRE_HOOK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_BIRCH_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "HOST_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "HOST_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "TERRACOTTA",
+"amount": 1
+}
+]
+},
+{
+"output_id": "QUARTZ_PILLAR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "QUARTZ_BLOCK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "COARSE_DIRT",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DIRT",
+"amount": 2
+},
+{
+"ref": "GRAVEL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PRISMARINE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "PRISMARINE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "YELLOW_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "YELLOW_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DARK_OAK_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACK_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BLACK_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CYAN_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CYAN_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PINK_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_GRANITE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "GRANITE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "COBBLED_DEEPSLATE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WAXED_WEATHERED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "GRAY_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CONDUIT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NAUTILUS_SHELL",
+"amount": 8
+},
+{
+"ref": "HEART_OF_THE_SEA",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SEA_LANTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PRISMARINE_SHARD",
+"amount": 4
+},
+{
+"ref": "PRISMARINE_CRYSTALS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "PURPUR_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "PURPUR_BLOCK",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CHERRY_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "CHERRY_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_CHERRY_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DIORITE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GRAY_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "GRAY_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "EMERALD_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EMERALD",
+"amount": 9
+}
+]
+},
+{
+"output_id": "BIRCH_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "NETHERITE_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHERITE_INGOT",
+"amount": 9
+}
+]
+},
+{
+"output_id": "BROWN_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_LEGGINGS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+}
+]
+},
+{
+"output_id": "BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BRICK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "ACACIA_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_ACACIA_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CHERRY_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CRIMSON_HYPHAE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CRIMSON_STEM",
+"amount": 4
+}
+]
+},
+{
+"output_id": "RED_SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MAGENTA_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MAGENTA_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CYAN_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "GREEN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BIRCH_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GREEN_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "GREEN_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "FLOWER_POT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BRICK",
+"amount": 3
+}
+]
+},
+{
+"output_id": "END_STONE_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "END_STONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "ACACIA_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "ACACIA_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "YELLOW_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONECUTTER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "ENCHANTING_TABLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BOOK",
+"amount": 1
+},
+{
+"ref": "DIAMOND",
+"amount": 2
+},
+{
+"ref": "OBSIDIAN",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_COPPER_BLOCK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "SPRUCE_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MAGENTA_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MUD_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "PACKED_MUD",
+"amount": 4
+}
+]
+},
+{
+"output_id": "OAK_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DEEPSLATE_TILE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DEEPSLATE_TILES",
+"amount": 6
+}
+]
+},
+{
+"output_id": "JUNGLE_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "JUNGLE_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACK_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "BLUE_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PURPUR_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "PURPUR_BLOCK",
+"amount": 3
+}
+]
+},
+{
+"output_id": "JUNGLE_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_JUNGLE_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ACACIA_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "IRON_INGOT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "IRON_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SMOOTH_QUARTZ_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SMOOTH_QUARTZ",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MANGROVE_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "COMPASS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 4
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DISPENSER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 7
+},
+{
+"ref": "BOW",
+"amount": 1
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STRIPPED_OAK_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_OAK_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WARPED_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WARPED_FUNGUS_ON_A_STICK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "FISHING_ROD",
+"amount": 1
+},
+{
+"ref": "WARPED_FUNGUS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BONE_MEAL",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "BONE_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SPRUCE_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BEEHIVE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "HONEYCOMB",
+"amount": 3
+}
+]
+},
+{
+"output_id": "PURPLE_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_SPRUCE_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GOLDEN_CARROT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_NUGGET",
+"amount": 8
+},
+{
+"ref": "CARROT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RAW_COPPER_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_COPPER",
+"amount": 9
+}
+]
+},
+{
+"output_id": "FLINT_AND_STEEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "FLINT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RAISER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "RAISER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "TERRACOTTA",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LEATHER_HORSE_ARMOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LEATHER",
+"amount": 7
+}
+]
+},
+{
+"output_id": "AMETHYST_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "AMETHYST_SHARD",
+"amount": 4
+}
+]
+},
+{
+"output_id": "TRIPWIRE_HOOK",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "FLOWER_BANNER_PATTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 1
+},
+{
+"ref": "OXEYE_DAISY",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OBSERVER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 6
+},
+{
+"ref": "REDSTONE",
+"amount": 2
+},
+{
+"ref": "QUARTZ",
+"amount": 1
+}
+]
+},
+{
+"output_id": "VEX_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "VEX_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DAYLIGHT_DETECTOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 3
+},
+{
+"ref": "QUARTZ",
+"amount": 3
+},
+{
+"ref": "OAK_SLAB",
+"amount": 3
+}
+]
+},
+{
+"output_id": "HONEY_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "HONEY_BOTTLE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GREEN_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OAK_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHEST",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 8
+}
+]
+},
+{
+"output_id": "CHISELED_SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SANDSTONE_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CYAN_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "RED_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "RED_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WEATHERED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WEATHERED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "NETHER_BRICK_FENCE",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "NETHER_BRICKS",
+"amount": 4
+},
+{
+"ref": "NETHER_BRICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BREAD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHEAT",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "IRON_CHESTPLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 8
+}
+]
+},
+{
+"output_id": "GREEN_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_SWORD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DEEPSLATE_TILES",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DEEPSLATE_BRICKS",
+"amount": 4
+}
+]
+},
+{
+"output_id": "RED_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SOUL_LANTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_NUGGET",
+"amount": 8
+},
+{
+"ref": "SOUL_TORCH",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_ANDESITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_ANDESITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "HOPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 5
+},
+{
+"ref": "CHEST",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "OXIDIZED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "OXIDIZED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BIRCH_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ANDESITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "ANDESITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ORANGE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LEVER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHISELED_DEEPSLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GREEN_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "GREEN_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STRIPPED_MANGROVE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_MANGROVE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BLACK_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BARREL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "OAK_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_ORCHID",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BAMBOO_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "SANDSTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CALIBRATED_SCULK_SENSOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "AMETHYST_SHARD",
+"amount": 3
+},
+{
+"ref": "SCULK_SENSOR",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIME_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "LIME_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "CRIMSON_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BREWING_STAND",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLAZE_ROD",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WEATHERED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WEATHERED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LIME_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "LIME_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CUT_RED_SANDSTONE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MAGENTA_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "LILAC",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_CHEST_RAFT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "BAMBOO_RAFT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PURPLE_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BROWN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BIRCH_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "POLISHED_DEEPSLATE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_DEEPSLATE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SNOW",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SNOW_BLOCK",
+"amount": 3
+}
+]
+},
+{
+"output_id": "JUNGLE_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ACACIA_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "HAY_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHEAT",
+"amount": 9
+}
+]
+},
+{
+"output_id": "MOSSY_STONE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MOSSY_STONE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "EMERALD",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "EMERALD_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER_STAIRS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EXPOSED_CUT_COPPER_STAIRS",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER_STAIRS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CUT_COPPER_STAIRS",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_BOOTS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BLACK_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "BLUE_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BONE_MEAL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GREEN_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "GREEN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LILY_OF_THE_VALLEY",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MELON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MELON_SLICE",
+"amount": 9
+}
+]
+},
+{
+"output_id": "STONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "JUNGLE_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHISELED_NETHER_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_BRICK_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GRANITE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "GRANITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRANITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "GRANITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MOSS_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MOSS_BLOCK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CYAN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "TINTED_GLASS",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "AMETHYST_SHARD",
+"amount": 4
+},
+{
+"ref": "GLASS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MUD_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MUD_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WARPED_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SHULKER_BOX",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SHULKER_SHELL",
+"amount": 2
+},
+{
+"ref": "CHEST",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ACACIA_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 2
+}
+]
+},
+{
+"output_id": "MANGROVE_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "REDSTONE_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE",
+"amount": 9
+}
+]
+},
+{
+"output_id": "EYE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "EYE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "END_STONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "MANGROVE_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WAXED_COPPER_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COPPER_BLOCK",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ACACIA_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "ACACIA_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "DIAMOND_PICKAXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GREEN_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GREEN_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "QUARTZ_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CHISELED_QUARTZ_BLOCK",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MAP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 8
+},
+{
+"ref": "COMPASS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BEETROOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PACKED_MUD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MUD",
+"amount": 1
+},
+{
+"ref": "WHEAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MOSSY_COBBLESTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 1
+},
+{
+"ref": "VINE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MANGROVE_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "MANGROVE_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "QUARTZ_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "QUARTZ_BLOCK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "ACACIA_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "DIAMOND_HELMET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 5
+}
+]
+},
+{
+"output_id": "DEEPSLATE_BRICKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_DEEPSLATE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "SPYGLASS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "AMETHYST_SHARD",
+"amount": 1
+},
+{
+"ref": "COPPER_INGOT",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "GOLD_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SLIME_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SLIME_BALL",
+"amount": 9
+}
+]
+},
+{
+"output_id": "SUGAR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "HONEY_BOTTLE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "SPRUCE_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SANDSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLUE_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "BLUE_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SMOKER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DARK_OAK_LOG",
+"amount": 4
+},
+{
+"ref": "FURNACE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "OAK_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PURPLE_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "PURPLE_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "MOSSY_COBBLESTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MOSSY_COBBLESTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BUCKET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 3
+}
+]
+},
+{
+"output_id": "PAPER",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "SUGAR_CANE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MUD_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "MUD_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STRIPPED_JUNGLE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_JUNGLE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WOODEN_SWORD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_WEATHERED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WHITE_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "WHITE_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SOUL_CAMPFIRE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 3
+},
+{
+"ref": "SOUL_SAND",
+"amount": 1
+},
+{
+"ref": "DARK_OAK_LOG",
+"amount": 3
+}
+]
+},
+{
+"output_id": "YELLOW_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "DARK_OAK_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_DARK_OAK_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PACKED_ICE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ICE",
+"amount": 9
+}
+]
+},
+{
+"output_id": "MUSHROOM_STEW",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_MUSHROOM",
+"amount": 1
+},
+{
+"ref": "RED_MUSHROOM",
+"amount": 1
+},
+{
+"ref": "BOWL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GRANITE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 1
+},
+{
+"ref": "QUARTZ",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "BROWN_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SMOOTH_RED_SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SMOOTH_RED_SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "GOLDEN_AXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PURPLE_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPECTRAL_ARROW",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "GLOWSTONE_DUST",
+"amount": 4
+},
+{
+"ref": "ARROW",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CARTOGRAPHY_TABLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 2
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GREEN_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "GREEN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WOODEN_HOE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "IRON_NUGGET",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PURPUR_PILLAR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPUR_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "MOJANG_BANNER_PATTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 1
+},
+{
+"ref": "ENCHANTED_GOLDEN_APPLE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "LIME_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "CYAN_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ACACIA_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "POLISHED_GRANITE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_GRANITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BIRCH_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "BIRCH_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RAW_IRON_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_IRON",
+"amount": 9
+}
+]
+},
+{
+"output_id": "MUDDY_MANGROVE_ROOTS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MUD",
+"amount": 1
+},
+{
+"ref": "MANGROVE_ROOTS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLD_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 9
+}
+]
+},
+{
+"output_id": "CRIMSON_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CRIMSON_STEM",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MOSSY_STONE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 1
+},
+{
+"ref": "VINE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "TARGET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE",
+"amount": 4
+},
+{
+"ref": "HAY_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "OAK_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "ENDER_CHEST",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OBSIDIAN",
+"amount": 8
+},
+{
+"ref": "ENDER_EYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DECORATED_POT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BRICK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CRIMSON_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "TNT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GUNPOWDER",
+"amount": 5
+},
+{
+"ref": "SAND",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BLUE_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LEATHER_LEGGINGS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LEATHER",
+"amount": 7
+}
+]
+},
+{
+"output_id": "PINK_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "COBBLED_DEEPSLATE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CHERRY_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "RECOVERY_COMPASS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ECHO_SHARD",
+"amount": 8
+},
+{
+"ref": "COMPASS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "FIREWORK_ROCKET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "GUNPOWDER",
+"amount": 1
+},
+{
+"ref": "PAPER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SKULL_BANNER_PATTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 1
+},
+{
+"ref": "WITHER_SKELETON_SKULL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHERRY_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "GREEN_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "GREEN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WEATHERED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WEATHERED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PURPLE_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_TULIP",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIORITE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 2
+},
+{
+"ref": "QUARTZ",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BAMBOO_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_TULIP",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LAPIS_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LAPIS_LAZULI",
+"amount": 9
+}
+]
+},
+{
+"output_id": "CYAN_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "CYAN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STRIPPED_BIRCH_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_BIRCH_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "JUNGLE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WAXED_EXPOSED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "PURPUR_BLOCK",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POPPED_CHORUS_FRUIT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "ANVIL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_BLOCK",
+"amount": 3
+},
+{
+"ref": "IRON_INGOT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BLACKSTONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MAGENTA_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "MAGENTA_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "YELLOW_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PURPLE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_DIORITE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "ARROW",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "FLINT",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+},
+{
+"ref": "FEATHER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CRIMSON_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WAXED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BONE_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BONE_MEAL",
+"amount": 9
+}
+]
+},
+{
+"output_id": "SMOOTH_SANDSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SMOOTH_SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LOOM",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STRING",
+"amount": 2
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GOLD_NUGGET",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_HYPHAE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "WARPED_STEM",
+"amount": 4
+}
+]
+},
+{
+"output_id": "POLISHED_DEEPSLATE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_DEEPSLATE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLDEN_BOOTS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WEATHERED_CUT_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LEATHER_HELMET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LEATHER",
+"amount": 5
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLDEN_LEGGINGS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 7
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER_SLAB",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OXIDIZED_CUT_COPPER_SLAB",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "JUNGLE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BLACKSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BLACKSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MAGENTA_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "WARPED_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ORANGE_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CRAFTING_TABLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 4
+}
+]
+},
+{
+"output_id": "FURNACE_MINECART",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "FURNACE",
+"amount": 1
+},
+{
+"ref": "MINECART",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONE_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ACACIA_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "ACACIA_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "OAK_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "NETHERITE_UPGRADE_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "NETHERITE_UPGRADE_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "NETHERRACK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GRAY_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STONE_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "COBBLESTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "SNOW_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SNOWBALL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "SMOOTH_SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SMOOTH_SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MELON_SEEDS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MELON_SLICE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OXIDIZED_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "IRON_HOE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DEEPSLATE_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DEEPSLATE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BIRCH_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WOLF_ARMOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ARMADILLO_SCUTE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PUMPKIN_PIE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PUMPKIN",
+"amount": 1
+},
+{
+"ref": "SUGAR",
+"amount": 1
+},
+{
+"ref": "EGG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MOSSY_COBBLESTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MOSSY_COBBLESTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "RABBIT_STEW",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAKED_POTATO",
+"amount": 1
+},
+{
+"ref": "COOKED_RABBIT",
+"amount": 1
+},
+{
+"ref": "BOWL",
+"amount": 1
+},
+{
+"ref": "CARROT",
+"amount": 1
+},
+{
+"ref": "BROWN_MUSHROOM",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DEEPSLATE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DEEPSLATE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "GRAY_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LADDER",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 7
+}
+]
+},
+{
+"output_id": "RED_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GOLDEN_CHESTPLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 8
+}
+]
+},
+{
+"output_id": "JUNGLE_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "POLISHED_BASALT",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BASALT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "RAIL",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "IRON_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PURPLE_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "STRIPPED_CRIMSON_HYPHAE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_CRIMSON_STEM",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PURPLE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BLACK_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "BLACK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WEATHERED_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "LIME_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PURPLE_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STONE_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WHITE_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHEAT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "HAY_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ACACIA_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_EXPOSED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OXEYE_DAISY",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "FISHING_ROD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 3
+},
+{
+"ref": "STRING",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PRISMARINE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "PRISMARINE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "ORANGE_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "ORANGE_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "IRON_SWORD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_DYE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LEAD",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "STRING",
+"amount": 4
+},
+{
+"ref": "SLIME_BALL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SHEARS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DARK_OAK_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "BLACK_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "INK_SAC",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ANDESITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "ANDESITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "CARROT_ON_A_STICK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "FISHING_ROD",
+"amount": 1
+},
+{
+"ref": "CARROT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PRISMARINE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "PRISMARINE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLACK_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PINK_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "PINK_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PRISMARINE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PRISMARINE_SHARD",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WRITABLE_BOOK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BOOK",
+"amount": 1
+},
+{
+"ref": "INK_SAC",
+"amount": 1
+},
+{
+"ref": "FEATHER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONE_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_NETHER_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "RED_NETHER_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER_SLAB",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EXPOSED_CUT_COPPER_SLAB",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "YELLOW_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GOLDEN_HOE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GRAY_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "GRAY_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRAY_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "HOPPER_MINECART",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "HOPPER",
+"amount": 1
+},
+{
+"ref": "MINECART",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DANDELION",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "PEONY",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BROWN_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "GOLDEN_SWORD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "REDSTONE_TORCH",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CROSSBOW",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 3
+},
+{
+"ref": "IRON_INGOT",
+"amount": 1
+},
+{
+"ref": "STRING",
+"amount": 2
+},
+{
+"ref": "TRIPWIRE_HOOK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "PITCHER_PLANT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "TERRACOTTA",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "SUNFLOWER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "TERRACOTTA",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACK_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "BLACK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "GREEN_DYE",
+"amount": 1
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BROWN_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "BROWN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STRIPPED_ACACIA_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_ACACIA_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "STRIPPED_CHERRY_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "STRIPPED_CHERRY_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PURPLE_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHTNING_ROD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COPPER_INGOT",
+"amount": 3
+}
+]
+},
+{
+"output_id": "IRON_BARS",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MOSSY_STONE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "MOSSY_STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DARK_OAK_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "DARK_OAK_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "COMPARATOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE_TORCH",
+"amount": 3
+},
+{
+"ref": "QUARTZ",
+"amount": 1
+},
+{
+"ref": "STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WOODEN_PICKAXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WARPED_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ALLIUM",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CRIMSON_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_CRIMSON_STEM",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SPRUCE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "DEEPSLATE_TILE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DEEPSLATE_TILES",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PINK_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_PETALS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_CHESTPLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 8
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_OXIDIZED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "MANGROVE_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_MANGROVE_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRAY_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_SAND",
+"amount": 4
+}
+]
+},
+{
+"output_id": "PURPLE_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CRIMSON_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STONE_PICKAXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DRIED_KELP",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "DRIED_KELP_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MUD_BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MUD_BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "NETHERITE_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHERITE_SCRAP",
+"amount": 4
+},
+{
+"ref": "GOLD_INGOT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LIME_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_MOSAIC",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO_SLAB",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ORANGE_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "JUNGLE_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "JUNGLE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLACK_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_DYE",
+"amount": 1
+},
+{
+"ref": "BLUE_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "COOKIE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "WHEAT",
+"amount": 2
+},
+{
+"ref": "COCOA_BEANS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "END_CRYSTAL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 7
+},
+{
+"ref": "ENDER_EYE",
+"amount": 1
+},
+{
+"ref": "GHAST_TEAR",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GRAY_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BAMBOO_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARPED_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GLOWSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GLOWSTONE_DUST",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GRAY_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WOODEN_SHOVEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "CREEPER_BANNER_PATTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PAPER",
+"amount": 1
+},
+{
+"ref": "CREEPER_HEAD",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BONE_MEAL",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BRICK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BRICKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BIRCH_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "BIRCH_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "SHIELD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "IRON_INGOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_SIGN",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_PRISMARINE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DARK_PRISMARINE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GREEN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER_STAIRS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WEATHERED_CUT_COPPER_STAIRS",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "ORANGE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PINK_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONE_HOE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "FERMENTED_SPIDER_EYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SPIDER_EYE",
+"amount": 1
+},
+{
+"ref": "BROWN_MUSHROOM",
+"amount": 1
+},
+{
+"ref": "SUGAR",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BAMBOO_MOSAIC_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BAMBOO_MOSAIC",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WHITE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "ITEM_FRAME",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 8
+},
+{
+"ref": "LEATHER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ANDESITE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 1
+},
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "POLISHED_DEEPSLATE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "EXPOSED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "EXPOSED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLUE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LAPIS_LAZULI",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "MANGROVE_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "POLISHED_BLACKSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "OXIDIZED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OXIDIZED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WHITE_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "WHITE_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GREEN_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "POLISHED_DEEPSLATE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_DEEPSLATE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BROWN_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COCOA_BEANS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_OXIDIZED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "NOTE_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 8
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WARD_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "WARD_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "FURNACE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 8
+}
+]
+},
+{
+"output_id": "BAMBOO_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DUNE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "DUNE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "SANDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_DYE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GREEN_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "GREEN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHAIN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_NUGGET",
+"amount": 2
+},
+{
+"ref": "IRON_INGOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CAKE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MILK_BUCKET",
+"amount": 3
+},
+{
+"ref": "SUGAR",
+"amount": 2
+},
+{
+"ref": "EGG",
+"amount": 1
+},
+{
+"ref": "WHEAT",
+"amount": 3
+}
+]
+},
+{
+"output_id": "PURPLE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "LIME_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WARPED_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BEACON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 5
+},
+{
+"ref": "NETHER_STAR",
+"amount": 1
+},
+{
+"ref": "OBSIDIAN",
+"amount": 3
+}
+]
+},
+{
+"output_id": "DARK_OAK_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "DARK_OAK_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "WARPED_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "WARPED_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GOLDEN_APPLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 8
+},
+{
+"ref": "APPLE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ACACIA_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "ACACIA_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "RED_SANDSTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GLOW_ITEM_FRAME",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ITEM_FRAME",
+"amount": 1
+},
+{
+"ref": "GLOW_INK_SAC",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EXPOSED_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "NETHER_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_BRICK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "OAK_FENCE_GATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 4
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "DEEPSLATE_TILE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DEEPSLATE_TILES",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHERRY_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "CHERRY_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "RED_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PINK_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "PINK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER_SLAB",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CUT_COPPER_SLAB",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CRIMSON_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "CLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 4
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "TNT_MINECART",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "TNT",
+"amount": 1
+},
+{
+"ref": "MINECART",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONE_SWORD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 2
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STICKY_PISTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SLIME_BALL",
+"amount": 1
+},
+{
+"ref": "PISTON",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SCAFFOLDING",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BAMBOO",
+"amount": 6
+},
+{
+"ref": "STRING",
+"amount": 1
+}
+]
+},
+{
+"output_id": "EXPOSED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "EXPOSED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "DARK_PRISMARINE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PRISMARINE_SHARD",
+"amount": 8
+},
+{
+"ref": "BLACK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_NETHER_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_BRICK",
+"amount": 2
+},
+{
+"ref": "NETHER_WART",
+"amount": 2
+}
+]
+},
+{
+"output_id": "STONE_AXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "RED_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "ROSE_BUSH",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LECTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_SLAB",
+"amount": 4
+},
+{
+"ref": "BOOKSHELF",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WHITE_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "WHITE_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WOODEN_AXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIME_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "LIME_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "OAK_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "RESPAWN_ANCHOR",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CRYING_OBSIDIAN",
+"amount": 6
+},
+{
+"ref": "GLOWSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BLUE_ICE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PACKED_ICE",
+"amount": 9
+}
+]
+},
+{
+"output_id": "JACK_O_LANTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CARVED_PUMPKIN",
+"amount": 1
+},
+{
+"ref": "TORCH",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SPRUCE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SPRUCE_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DARK_OAK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DARK_OAK_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "DRIED_KELP_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DRIED_KELP",
+"amount": 9
+}
+]
+},
+{
+"output_id": "SMOOTH_RED_SANDSTONE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SMOOTH_RED_SANDSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WHITE_TERRACOTTA",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "TERRACOTTA",
+"amount": 8
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WILD_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "WILD_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "MOSSY_COBBLESTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACK_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WITHER_ROSE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIME_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MOSSY_STONE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 1
+},
+{
+"ref": "MOSS_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STICK",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 2
+}
+]
+},
+{
+"output_id": "POLISHED_ANDESITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "POLISHED_ANDESITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "REDSTONE_LAMP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE",
+"amount": 4
+},
+{
+"ref": "GLOWSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "CYAN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLUE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CORNFLOWER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHEST_MINECART",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "MINECART",
+"amount": 1
+}
+]
+},
+{
+"output_id": "NETHER_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "NETHER_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "REDSTONE",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "REDSTONE_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DEEPSLATE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DEEPSLATE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CLAY",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CLAY_BALL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "COAL",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "COAL_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_EXPOSED_CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_EXPOSED_COPPER",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MAGENTA_CANDLE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CANDLE",
+"amount": 1
+},
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "PINK_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_BED",
+"amount": 1
+}
+]
+},
+{
+"output_id": "QUARTZ_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "QUARTZ",
+"amount": 4
+}
+]
+},
+{
+"output_id": "GREEN_WOOL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_WOOL",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIORITE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "DIORITE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "ARMOR_STAND",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STICK",
+"amount": 6
+},
+{
+"ref": "SMOOTH_STONE_SLAB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MOSSY_STONE_BRICK_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "MOSSY_STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PINK_CARPET",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "PINK_WOOL",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ORANGE_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "TORCHFLOWER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DIAMOND_SHOVEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "WHITE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_INGOT",
+"amount": 2
+}
+]
+},
+{
+"output_id": "LIME_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "LIME_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACKSTONE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BLACKSTONE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "RAW_COPPER",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "RAW_COPPER_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CRIMSON_DOOR",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER_SLAB",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WEATHERED_CUT_COPPER_SLAB",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGMA_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGMA_CREAM",
+"amount": 4
+}
+]
+},
+{
+"output_id": "MANGROVE_WOOD",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MANGROVE_LOG",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CRIMSON_BUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACKSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BLACKSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MUSIC_DISC_5",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DISC_FRAGMENT_5",
+"amount": 9
+}
+]
+},
+{
+"output_id": "COAL_BLOCK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COAL",
+"amount": 9
+}
+]
+},
+{
+"output_id": "IRON_HELMET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 5
+}
+]
+},
+{
+"output_id": "BOWL",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BOOKSHELF",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 6
+},
+{
+"ref": "BOOK",
+"amount": 3
+}
+]
+},
+{
+"output_id": "PINK_CONCRETE_POWDER",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "PINK_DYE",
+"amount": 1
+},
+{
+"ref": "SAND",
+"amount": 4
+},
+{
+"ref": "GRAVEL",
+"amount": 4
+}
+]
+},
+{
+"output_id": "CRIMSON_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "CRIMSON_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BRUSH",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "FEATHER",
+"amount": 1
+},
+{
+"ref": "COPPER_INGOT",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LIGHT_GRAY_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "LIGHT_GRAY_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MAGENTA_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MAGENTA_DYE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "RED_DYE",
+"amount": 2
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "CUT_SANDSTONE",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "SANDSTONE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "JUNGLE_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "JUNGLE_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OAK_HANGING_SIGN",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CHAIN",
+"amount": 2
+},
+{
+"ref": "STRIPPED_OAK_LOG",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STICK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO",
+"amount": 2
+}
+]
+},
+{
+"output_id": "ACACIA_CHEST_BOAT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHEST",
+"amount": 1
+},
+{
+"ref": "ACACIA_BOAT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CUT_RED_SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CUT_RED_SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "PURPUR_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_BANNER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_WOOL",
+"amount": 6
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ANDESITE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "ANDESITE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "BLUE_STAINED_GLASS_PANE",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS_PANE",
+"amount": 8
+},
+{
+"ref": "BLUE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "TORCH",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COAL",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RAW_IRON",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "RAW_IRON_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "YELLOW_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BIRCH_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "SMOOTH_QUARTZ_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "SMOOTH_QUARTZ",
+"amount": 3
+}
+]
+},
+{
+"output_id": "ORANGE_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIGHT_BLUE_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "MANGROVE_FENCE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "MANGROVE_PLANKS",
+"amount": 4
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "BLACK_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "BLACK_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CYAN_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "CYAN_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ENDER_EYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ENDER_PEARL",
+"amount": 1
+},
+{
+"ref": "BLAZE_POWDER",
+"amount": 1
+}
+]
+},
+{
+"output_id": "DARK_OAK_PLANKS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "DARK_OAK_LOG",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OXIDIZED_CUT_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LODESTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHISELED_STONE_BRICKS",
+"amount": 8
+},
+{
+"ref": "NETHERITE_INGOT",
+"amount": 1
+}
+]
+},
+{
+"output_id": "WAXED_WEATHERED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "WAXED_WEATHERED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "STONE_SHOVEL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 1
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "PRISMARINE_WALL",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "PRISMARINE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "WHITE_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "WHITE_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "DIAMOND",
+"amount": 7
+},
+{
+"ref": "SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE",
+"amount": 1
+},
+{
+"ref": "BLACKSTONE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BAMBOO_RAFT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BAMBOO_PLANKS",
+"amount": 5
+}
+]
+},
+{
+"output_id": "BAMBOO_MOSAIC_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "BAMBOO_MOSAIC",
+"amount": 3
+}
+]
+},
+{
+"output_id": "BIRCH_TRAPDOOR",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BIRCH_PLANKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "IRON_BOOTS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 4
+}
+]
+},
+{
+"output_id": "LEATHER_CHESTPLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LEATHER",
+"amount": 8
+}
+]
+},
+{
+"output_id": "GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "PURPLE_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "PURPLE_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GRAY_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "RED_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POPPY",
+"amount": 1
+}
+]
+},
+{
+"output_id": "RED_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "RED_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "GRAY_CARPET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_DYE",
+"amount": 1
+},
+{
+"ref": "BLACK_CARPET",
+"amount": 1
+}
+]
+},
+{
+"output_id": "LEATHER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RABBIT_HIDE",
+"amount": 4
+}
+]
+},
+{
+"output_id": "BLAZE_POWDER",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "BLAZE_ROD",
+"amount": 1
+}
+]
+},
+{
+"output_id": "OXIDIZED_CUT_COPPER_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "OXIDIZED_CUT_COPPER",
+"amount": 6
+}
+]
+},
+{
+"output_id": "GLASS_BOTTLE",
+"output_amount": 3,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "JUKEBOX",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "OAK_PLANKS",
+"amount": 8
+},
+{
+"ref": "DIAMOND",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_DYE",
+"output_amount": 2,
+"ingredients": [
+{
+"ref": "RED_DYE",
+"amount": 1
+},
+{
+"ref": "YELLOW_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "STONE_BRICK_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "LANTERN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_NUGGET",
+"amount": 8
+},
+{
+"ref": "TORCH",
+"amount": 1
+}
+]
+},
+{
+"output_id": "ORANGE_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "ORANGE_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "COPPER_INGOT",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "COPPER_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "BLACK_STAINED_GLASS_PANE",
+"output_amount": 16,
+"ingredients": [
+{
+"ref": "BLACK_STAINED_GLASS",
+"amount": 6
+}
+]
+},
+{
+"output_id": "CUT_COPPER",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COPPER_BLOCK",
+"amount": 4
+}
+]
+},
+{
+"output_id": "IRON_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_NUGGET",
+"amount": 9
+}
+]
+},
+{
+"output_id": "COBBLED_DEEPSLATE_STAIRS",
+"output_amount": 4,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 6
+}
+]
+},
+{
+"output_id": "IRON_AXE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_INGOT",
+"amount": 3
+},
+{
+"ref": "STICK",
+"amount": 2
+}
+]
+},
+{
+"output_id": "REPEATER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE_TORCH",
+"amount": 2
+},
+{
+"ref": "REDSTONE",
+"amount": 1
+},
+{
+"ref": "STONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WAXED_OXIDIZED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "WAXED_OXIDIZED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "LIME_BED",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_WOOL",
+"amount": 3
+},
+{
+"ref": "OAK_PLANKS",
+"amount": 3
+}
+]
+},
+{
+"output_id": "WAXED_CUT_COPPER",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CUT_COPPER",
+"amount": 1
+},
+{
+"ref": "HONEYCOMB",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CUT_SANDSTONE_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "CUT_SANDSTONE",
+"amount": 3
+}
+]
+},
+{
+"output_id": "DIAMOND",
+"output_amount": 9,
+"ingredients": [
+{
+"ref": "DIAMOND_BLOCK",
+"amount": 1
+}
+]
+},
+{
+"output_id": "EXPOSED_CUT_COPPER_SLAB",
+"output_amount": 6,
+"ingredients": [
+{
+"ref": "EXPOSED_CUT_COPPER",
+"amount": 3
+}
+]
+},
+{
+"output_id": "MAGENTA_STAINED_GLASS",
+"output_amount": 8,
+"ingredients": [
+{
+"ref": "GLASS",
+"amount": 8
+},
+{
+"ref": "MAGENTA_DYE",
+"amount": 1
+}
+]
+},
+{
+"output_id": "CHISELED_RED_SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE_SLAB",
+"amount": 2
+}
+]
+}
+]
