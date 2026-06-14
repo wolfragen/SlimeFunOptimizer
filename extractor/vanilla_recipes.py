@@ -131,7 +131,28 @@ def _parse(zf, tags):
     return out
 
 
-def _mk_recipe(output, count, inputs):
+ELECTRIC_FURNACE = "ElectricFurnace"   # vanilla smelting is automated by Slimefun's Electric Furnace
+
+
+def _parse_smelting(zf, tags):
+    """Return (output, input_ref, seconds) for every vanilla minecraft:smelting recipe."""
+    out = []
+    for n in zf.namelist():
+        if not (n.startswith(RECIPE_DIR) and n.endswith(".json")):
+            continue
+        d = json.loads(zf.read(n))
+        if d.get("type", "").replace("minecraft:", "") != "smelting":
+            continue
+        res = d.get("result")
+        output = _mat(res.get("id") or res.get("item")) if isinstance(res, dict) \
+            else _mat(res) if isinstance(res, str) else None
+        inp = _ingredient_ref(d.get("ingredient"), tags)
+        if output and inp:
+            out.append((output, inp, max(1, round(d.get("cookingtime", 200) / 20))))
+    return out
+
+
+def _mk_craft(output, count, inputs):
     return Recipe(
         kind="crafting", output_id=output, output_amount=count,
         recipe_type=MACHINE, machine=None, time_seconds=None,
@@ -139,30 +160,51 @@ def _mk_recipe(output, count, inputs):
         outputs=[], ctor_class="", source_class="minecraft")
 
 
+def _mk_smelt(output, inp, secs):
+    return Recipe(
+        kind="machine", output_id=output, output_amount=1,
+        recipe_type=None, machine=ELECTRIC_FURNACE, time_seconds=secs,
+        ingredients=[Ingredient("vanilla", inp, 1)],
+        outputs=[], ctor_class="", source_class="minecraft")
+
+
+def _from_cache(rows):
+    out = []
+    for r in rows:
+        if r.get("machine") == ELECTRIC_FURNACE:
+            out.append(_mk_smelt(r["output_id"], r["ingredients"][0]["ref"], r.get("time_seconds", 10)))
+        else:
+            out.append(_mk_craft(r["output_id"], r["output_amount"],
+                                 {i["ref"]: i["amount"] for i in r["ingredients"]}))
+    return out
+
+
 def extract(bundler_path: Path | None = None):
     path = Path(bundler_path) if bundler_path else DEFAULT_BUNDLER
     if not path.exists():
         # no Mojang jar (e.g. a fresh clone rebuilding for its own addons): fall back to the
-        # committed cache so vanilla crafts (planks, sticks, blocks, …) aren't lost.
+        # committed cache so vanilla crafts + smelts aren't lost.
         if CACHE.exists():
-            rows = json.loads(CACHE.read_text(encoding="utf-8"))
-            return [_mk_recipe(r["output_id"], r["output_amount"],
-                               {i["ref"]: i["amount"] for i in r["ingredients"]}) for r in rows]
+            return _from_cache(json.loads(CACHE.read_text(encoding="utf-8")))
         return []
     zf = _open_server(path)
     tags = _load_tags(zf)
-    parsed = _parse(zf, tags)
 
-    # Keep ALL crafting recipes (both directions, e.g. diamond_block -> diamond and
-    # 9 diamond -> diamond_block). Nothing is excluded or forced "raw" — the solver
-    # decides what's producible vs. must be supplied.
-    recipes = [_mk_recipe(output, count, inputs) for output, count, inputs in parsed]
-    # refresh the committed cache for rebuilds without the jar
-    try:
-        CACHE.write_text(json.dumps(
-            [{"output_id": r.output_id, "output_amount": r.output_amount,
-              "ingredients": [{"ref": i.ref, "amount": i.amount} for i in r.ingredients]}
-             for r in recipes], indent=0), encoding="utf-8")
+    # Crafting (both directions, e.g. diamond_block <-> diamond) + smelting (mapped to the
+    # Electric Furnace: sand->glass, raw ore->ingot, cobblestone->stone, food, charcoal...).
+    # Nothing is forced "raw"; the solver decides what's producible vs. supplied.
+    recipes = [_mk_craft(o, c, i) for o, c, i in _parse(zf, tags)]
+    recipes += [_mk_smelt(o, inp, s) for o, inp, s in _parse_smelting(zf, tags)]
+    try:                                    # refresh the committed cache for jar-less rebuilds
+        rows = []
+        for r in recipes:
+            row = {"output_id": r.output_id, "output_amount": r.output_amount,
+                   "ingredients": [{"ref": i.ref, "amount": i.amount} for i in r.ingredients]}
+            if r.machine:
+                row["machine"] = r.machine
+                row["time_seconds"] = r.time_seconds
+            rows.append(row)
+        CACHE.write_text(json.dumps(rows, indent=0), encoding="utf-8")
     except OSError:
         pass
     return recipes

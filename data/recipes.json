@@ -83316,6 +83316,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "STONE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_STONE",
+    "name": "Card Stone",
+    "product": "STONE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "COBBLESTONE",
   "output_amount": 64,
   "recipe_type": null,
@@ -83336,6 +83363,33 @@
     "id": "CARD_STONE",
     "name": "Card Stone",
     "product": "COBBLESTONE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POLISHED_GRANITE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_GRANITE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_GRANITE",
+    "name": "Card Granite",
+    "product": "POLISHED_GRANITE",
     "category": "card"
    }
   ],
@@ -83370,6 +83424,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "POLISHED_DIORITE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_DIORITE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_DIORITE",
+    "name": "Card Diorite",
+    "product": "POLISHED_DIORITE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "DIORITE",
   "output_amount": 64,
   "recipe_type": null,
@@ -83390,6 +83471,33 @@
     "id": "CARD_DIORITE",
     "name": "Card Diorite",
     "product": "DIORITE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POLISHED_ANDESITE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_ANDESITE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_ANDESITE",
+    "name": "Card Andesite",
+    "product": "POLISHED_ANDESITE",
     "category": "card"
    }
   ],
@@ -83451,6 +83559,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "SANDSTONE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SANDSTONE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_SAND",
+    "name": "Card Sand",
+    "product": "SANDSTONE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "SAND",
   "output_amount": 64,
   "recipe_type": null,
@@ -83471,6 +83606,33 @@
     "id": "CARD_SAND",
     "name": "Card Sand",
     "product": "SAND",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "END_STONE_BRICKS",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "END_STONE_BRICKS",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_ENDSTONE",
+    "name": "Card Endstone",
+    "product": "END_STONE_BRICKS",
     "category": "card"
    }
   ],
@@ -83748,6 +83910,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "COAL_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_COAL",
+    "name": "Card Coal",
+    "product": "COAL_BLOCK",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "COAL",
   "output_amount": 64,
   "recipe_type": null,
@@ -83768,6 +83957,33 @@
     "id": "CARD_COAL",
     "name": "Card Coal",
     "product": "COAL",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_IRON",
+    "name": "Card Iron",
+    "product": "IRON_BLOCK",
     "category": "card"
    }
   ],
@@ -83802,6 +84018,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "COPPER_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COPPER_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_COPPER",
+    "name": "Card Copper",
+    "product": "COPPER_BLOCK",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "COPPER_INGOT",
   "output_amount": 64,
   "recipe_type": null,
@@ -83822,6 +84065,33 @@
     "id": "CARD_COPPER",
     "name": "Card Copper",
     "product": "COPPER_INGOT",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_GOLD",
+    "name": "Card Gold",
+    "product": "GOLD_BLOCK",
     "category": "card"
    }
   ],
@@ -83937,6 +84207,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "REDSTONE_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_REDSTONE",
+    "name": "Card Redstone",
+    "product": "REDSTONE_BLOCK",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "REDSTONE",
   "output_amount": 64,
   "recipe_type": null,
@@ -83964,6 +84261,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "DIAMOND_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_DIAMOND",
+    "name": "Card Diamond",
+    "product": "DIAMOND_BLOCK",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "DIAMOND",
   "output_amount": 64,
   "recipe_type": null,
@@ -83984,6 +84308,33 @@
     "id": "CARD_DIAMOND",
     "name": "Card Diamond",
     "product": "DIAMOND",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_EMERALD",
+    "name": "Card Emerald",
+    "product": "EMERALD_BLOCK",
     "category": "card"
    }
   ],
@@ -84045,6 +84396,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "NETHERITE_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERITE_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_NETHERITE",
+    "name": "Card Netherite",
+    "product": "NETHERITE_BLOCK",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "NETHERITE_SCRAP",
   "output_amount": 64,
   "recipe_type": null,
@@ -84065,6 +84443,60 @@
     "id": "CARD_NETHERITE",
     "name": "Card Netherite",
     "product": "NETHERITE_SCRAP",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERITE_INGOT",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERITE_INGOT",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_NETHERITE",
+    "name": "Card Netherite",
+    "product": "NETHERITE_INGOT",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "AMETHYST_BLOCK",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "AMETHYST_BLOCK",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupSimpleCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_AMETHYST",
+    "name": "Card Amethyst",
+    "product": "AMETHYST_BLOCK",
     "category": "card"
    }
   ],
@@ -84990,6 +85422,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "TITANIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "TITANIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_HARDENED_METAL_INGOT",
+    "name": "Card Hardened Metal Ingot",
+    "product": "TITANIUM_PLATE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "REDSTONE_ALLOY",
   "output_amount": 64,
   "recipe_type": null,
@@ -85010,6 +85469,33 @@
     "id": "CARD_REDSTONE_ALLOY",
     "name": "Card Redstone Alloy",
     "product": "REDSTONE_ALLOY",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TITANIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "TITANIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_REDSTONE_ALLOY",
+    "name": "Card Redstone Alloy",
+    "product": "TITANIUM_PLATE",
     "category": "card"
    }
   ],
@@ -85044,6 +85530,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "IRIDIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "IRIDIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_ELECTRO_MAGNET",
+    "name": "Card Electro Magnet",
+    "product": "IRIDIUM_PLATE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "ELECTRIC_MOTOR",
   "output_amount": 64,
   "recipe_type": null,
@@ -85064,6 +85577,33 @@
     "id": "CARD_ELECTRIC_MOTOR",
     "name": "Card Electric Motor",
     "product": "ELECTRIC_MOTOR",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "AURUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "AURUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_ELECTRIC_MOTOR",
+    "name": "Card Electric Motor",
+    "product": "AURUM_PLATE",
     "category": "card"
    }
   ],
@@ -85098,6 +85638,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "AURUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "AURUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_HEATING_COIL",
+    "name": "Card Heating Coil",
+    "product": "AURUM_PLATE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "SYNTHETIC_DIAMOND",
   "output_amount": 64,
   "recipe_type": null,
@@ -85118,6 +85685,33 @@
     "id": "CARD_SYNTHETIC_DIAMOND",
     "name": "Card Synthetic Diamond",
     "product": "SYNTHETIC_DIAMOND",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ADAMANTIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ADAMANTIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_SYNTHETIC_DIAMOND",
+    "name": "Card Synthetic Diamond",
+    "product": "ADAMANTIUM_PLATE",
     "category": "card"
    }
   ],
@@ -85152,6 +85746,33 @@
  },
  {
   "kind": "machine",
+  "output_id": "ADAMANTIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ADAMANTIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_CARBONADO",
+    "name": "Card Carbonado",
+    "product": "ADAMANTIUM_PLATE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "REINFORCED_ALLOY_INGOT",
   "output_amount": 64,
   "recipe_type": null,
@@ -85172,6 +85793,33 @@
     "id": "CARD_REINFORCED_ALLOY_INGOT",
     "name": "Card Reinforced Alloy Ingot",
     "product": "REINFORCED_ALLOY_INGOT",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ADAMANTIUM_PLATE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ADAMANTIUM_PLATE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "SetupAdvancedCard.class",
+  "fixtures": [
+   {
+    "id": "CARD_REINFORCED_ALLOY_INGOT",
+    "name": "Card Reinforced Alloy Ingot",
+    "product": "ADAMANTIUM_PLATE",
     "category": "card"
    }
   ],
@@ -108080,6 +108728,1406 @@
     "kind": "vanilla",
     "ref": "RED_SANDSTONE_SLAB",
     "amount": 2
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPONGE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "WET_SPONGE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLACK_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BLACK_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CLAY",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHARCOAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LOG",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_NUGGET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLDEN_PICKAXE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_NUGGET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_PICKAXE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BROWN_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BROWN_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_EMERALD_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_BEEF",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BEEF",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POPPED_CHORUS_FRUIT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FRUIT",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIME_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "LIME_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_DEEPSLATE_TILES",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_TILES",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLESTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_GOLD_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_BRICK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERRACK",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GREEN_DYE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLUE_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BLUE_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAPIS_LAZULI",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_LAPIS_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_CHICKEN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CHICKEN",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RAW_COPPER",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_COD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COD",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COPPER_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BRICK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CLAY_BALL",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_COAL_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_QUARTZ",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ_BLOCK",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RAW_GOLD",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BAKED_POTATO",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "POTATO",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_DEEPSLATE_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_COPPER_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "YELLOW_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "YELLOW_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ORANGE_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "ORANGE_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_MUTTON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "MUTTON",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAPIS_LAZULI",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIME_DYE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SEA_PICKLE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "QUARTZ",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_QUARTZ_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_PORKCHOP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "PORKCHOP",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RAW_IRON",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_DIAMOND_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIGHT_GRAY_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "LIGHT_GRAY_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CYAN_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CYAN_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DRIED_KELP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "KELP",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGENTA_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGENTA_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_POLISHED_BLACKSTONE_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_BLACKSTONE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAY_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAY_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIGHT_BLUE_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "LIGHT_BLUE_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_RED_SANDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RED_SANDSTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DEEPSLATE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLED_DEEPSLATE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_IRON_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PINK_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "PINK_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "RED_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RED_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SAND",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_RABBIT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "RABBIT",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GREEN_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GREEN_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERITE_SCRAP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "ANCIENT_DEBRIS",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_SANDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SANDSTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_REDSTONE_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_STONE_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PURPLE_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "PURPLE_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COOKED_SALMON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SALMON",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_BASALT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BASALT",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DEEPSLATE_GOLD_ORE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHITE_GLAZED_TERRACOTTA",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "WHITE_TERRACOTTA",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "minecraft",
+  "fixtures": [],
+  "addon": "Vanilla"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_NETHER_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ElectricFurnace",
+  "time_seconds": 10,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_BRICKS",
+    "amount": 1
    }
   ],
   "outputs": [],

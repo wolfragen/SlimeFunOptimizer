@@ -10120,5 +10120,845 @@
 "amount": 2
 }
 ]
+},
+{
+"output_id": "SPONGE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WET_SPONGE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "BLACK_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLACK_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CLAY",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CHARCOAL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DARK_OAK_LOG",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GOLD_NUGGET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLDEN_PICKAXE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "IRON_NUGGET",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_PICKAXE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "BROWN_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BROWN_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "EMERALD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "EMERALD_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "EMERALD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_EMERALD_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_BEEF",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BEEF",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "POPPED_CHORUS_FRUIT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHORUS_FRUIT",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LIME_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIME_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CRACKED_DEEPSLATE_TILES",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_TILES",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "STONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLESTONE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_GOLD_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "NETHER_BRICK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHERRACK",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GREEN_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CACTUS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "BLUE_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BLUE_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LAPIS_LAZULI",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_LAPIS_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_CHICKEN",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CHICKEN",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COPPER_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_COPPER",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_COD",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COD",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "IRON_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "IRON_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COPPER_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COPPER_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "BRICK",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CLAY_BALL",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COAL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_COAL_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "SMOOTH_QUARTZ",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "QUARTZ_BLOCK",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COAL",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COAL_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GOLD_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_GOLD",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "BAKED_POTATO",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POTATO",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CRACKED_DEEPSLATE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_BRICKS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COPPER_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_COPPER_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "YELLOW_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "YELLOW_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "ORANGE_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ORANGE_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_MUTTON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MUTTON",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LAPIS_LAZULI",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LAPIS_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LIME_DYE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SEA_PICKLE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "DIAMOND",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DIAMOND_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "QUARTZ",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_QUARTZ_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_PORKCHOP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PORKCHOP",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "IRON_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RAW_IRON",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "DIAMOND",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_DIAMOND_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LIGHT_GRAY_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_GRAY_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CYAN_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "CYAN_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "DRIED_KELP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "KELP",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "MAGENTA_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "MAGENTA_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CRACKED_POLISHED_BLACKSTONE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "POLISHED_BLACKSTONE_BRICKS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "SMOOTH_STONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GRAY_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GRAY_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "LIGHT_BLUE_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "LIGHT_BLUE_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "SMOOTH_RED_SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_SANDSTONE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "DEEPSLATE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "COBBLED_DEEPSLATE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "IRON_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_IRON_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "PINK_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PINK_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "RED_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RED_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GLASS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SAND",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "REDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "REDSTONE_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_RABBIT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "RABBIT",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GREEN_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "GREEN_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "NETHERITE_SCRAP",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "ANCIENT_DEBRIS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "SMOOTH_SANDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SANDSTONE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "REDSTONE",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_REDSTONE_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CRACKED_STONE_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "STONE_BRICKS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "PURPLE_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "PURPLE_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "COOKED_SALMON",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "SALMON",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "SMOOTH_BASALT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "BASALT",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "GOLD_INGOT",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "DEEPSLATE_GOLD_ORE",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "WHITE_GLAZED_TERRACOTTA",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "WHITE_TERRACOTTA",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
+},
+{
+"output_id": "CRACKED_NETHER_BRICKS",
+"output_amount": 1,
+"ingredients": [
+{
+"ref": "NETHER_BRICKS",
+"amount": 1
+}
+],
+"machine": "ElectricFurnace",
+"time_seconds": 10
 }
 ]

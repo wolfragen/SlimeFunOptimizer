@@ -6,9 +6,10 @@ damascus steel, a sand card produces sand, etc. The card stays in the machine, s
 it is emitted as a `fixture` (1 card per generator).
 
 Card -> product pairs come from `SetupSimpleCard.setup` / `SetupAdvancedCard.setup`,
-which call `TechGenerator.preSetup(supreme, [tier,] CARD_X, matA, matB)`; the chain
-ends in `addRecipesToProcess(card, matB)`, so the SECOND material is the product
-(CARD_STONE -> COBBLESTONE, CARD_DAMASCUS -> DAMASCUS_STEEL_INGOT, ...).
+which call `TechGenerator.preSetup(supreme, [tier,] CARD_X, matA, matB)`. BOTH materials
+are passed through to the machine registration, so a card produces BOTH (e.g. CARD_STONE
+-> STONE + COBBLESTONE, CARD_DIORITE -> POLISHED_DIORITE + DIORITE) — we emit one recipe
+per material. (Taking only the last material dropped STONE, which has no other producer.)
 
 Production rate depends on what fills the 4 boost slots (cloning / acceleration /
 efficiency cards), which is a per-query choice — so these recipes are flagged
@@ -70,14 +71,16 @@ def extract(zf: zipfile.ZipFile):
             elif op == 0xb8:  # invokestatic
                 owner, name, _ = cp.method_ref(x.u16())
                 if name == "preSetup" and owner.endswith("TechGenerator"):
-                    # the call's getstatics are card, matA[, matA2], matB(product) — some
-                    # overloads pass an extra material, so find the card and take the
-                    # product as the LAST getstatic (not a fixed -3 window).
+                    # the call's getstatics are card, then the material(s) it produces. BOTH
+                    # are real outputs, so emit a recipe per distinct material (one card can
+                    # make two, e.g. CARD_STONE -> STONE + COBBLESTONE).
                     card = next((r for r in recent if r[0] == "card"), None)
-                    if card and recent:
-                        prod_kind, prod_ref = recent[-1]
-                        if prod_kind in ("vanilla", "slimefun") and card[1] not in seen:
-                            seen.add(card[1])
+                    if card:
+                        prods = [(k, ref) for (k, ref) in recent if k in ("vanilla", "slimefun")]
+                        for prod_kind, prod_ref in dict.fromkeys(prods):   # dedup, keep order
+                            if (card[1], prod_ref) in seen:
+                                continue
+                            seen.add((card[1], prod_ref))
                             recipes.append(Recipe(
                                 kind="machine",
                                 output_id=prod_ref,
