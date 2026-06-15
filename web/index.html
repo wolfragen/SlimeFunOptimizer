@@ -79,7 +79,10 @@
       <div class="summary">
         <div class="big-stat">
           <span id="total-machines" class="num">0</span>
-          <span class="lbl">total machines</span>
+          <span class="lbl">total machines
+            <span class="graph-sep">|</span>
+            <button id="show-graph" type="button">show graph</button>
+          </span>
         </div>
         <div id="machine-totals" class="machine-totals"></div>
       </div>
@@ -143,6 +146,15 @@
     </section>
    </div>
   </main>
+
+  <div id="graph-overlay" class="graph-overlay hidden">
+    <div class="graph-head">
+      <h2>Production graph <span class="muted">— raw inputs on the left, your target on the right</span></h2>
+      <button id="graph-close" class="ghost sm" type="button">✕ Close</button>
+    </div>
+    <div id="graph-canvas" class="graph-canvas"></div>
+  </div>
+  <div id="graph-tooltip" class="graph-tooltip hidden"></div>
 
   <script src="app.js"></script>
 </body>

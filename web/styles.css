@@ -162,4 +162,50 @@ select:focus{outline:none;border-color:var(--accent2)}
 .io-chip.hl .q{color:var(--accent)}
 .rcard-fx{margin-top:8px;font-size:12px}
 
+/* production graph */
+.big-stat .lbl{display:flex;align-items:center;gap:6px;justify-content:center}
+.graph-sep{color:var(--line)}
+#show-graph{background:transparent;border:none;color:var(--accent2);font-weight:600;
+  font-size:12px;padding:0;cursor:pointer;text-decoration:underline}
+#show-graph:hover{color:var(--accent)}
+
+.graph-overlay{position:fixed;inset:0;z-index:100;background:var(--bg);
+  display:flex;flex-direction:column}
+.graph-head{display:flex;justify-content:space-between;align-items:center;gap:14px;
+  padding:12px 20px;border-bottom:1px solid var(--line);flex:0 0 auto}
+.graph-head h2{margin:0;border:none;padding:0}
+.graph-canvas{flex:1;overflow:auto;position:relative;cursor:grab}
+.graph-canvas.panning{cursor:grabbing}
+.graph-canvas.panning *{cursor:grabbing}
+.graph-inner{position:relative}
+.graph-scale{position:relative;transform-origin:0 0}
+.graph-edges{position:absolute;top:0;left:0;pointer-events:none}
+.graph-edge{fill:none;stroke:var(--line);stroke-width:1.5;opacity:.85}
+.graph-edge.back{stroke:var(--accent2);stroke-width:1.6;opacity:.9}
+
+.gnode{position:absolute;display:flex;align-items:center;gap:8px;box-sizing:border-box;
+  background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:0 10px;
+  overflow:hidden;cursor:default}
+.gnode.machine:hover{border-color:var(--accent2)}
+.gnode.target{border-color:var(--accent)}
+.gnode.raw{background:var(--panel2);border-style:dashed}
+.gnode .gcount{font-weight:800;color:var(--accent);font-size:13px;flex:0 0 auto}
+.gnode .gbody{display:flex;flex-direction:column;justify-content:center;gap:3px;
+  flex:1;min-width:0}
+.gnode .gout-row{display:flex;align-items:center;gap:8px;min-width:0}
+.gnode .gout{display:flex;flex-direction:column;min-width:0}
+.gnode .gname{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gnode .grate{color:var(--muted);font-size:10px}
+
+.graph-tooltip{position:fixed;z-index:110;pointer-events:none;max-width:440px;
+  background:var(--panel);border:1px solid var(--accent2);border-radius:9px;padding:10px 12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.gtt-title{color:var(--accent2);font-weight:700;font-size:13px}
+.gtt-speed{color:var(--muted);font-size:11px;margin:2px 0 8px}
+.gtt-io{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.gtt-io .gtt-ings{display:flex;gap:5px;flex-wrap:wrap}
+.gtt-io .arrow{color:var(--muted)}
+.gtt-io .out{display:flex;align-items:center;gap:8px}
+.gtt-io .out .rate{color:var(--muted);font-size:11px}
+
 .hidden{display:none}

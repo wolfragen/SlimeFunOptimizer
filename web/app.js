@@ -385,7 +385,10 @@ function showStatus(msg, cls) {
   s.className = "status " + (cls || "");
 }
 
+let LAST_RESULT = null;          // last solve result, for the production graph
+
 function renderResult(res) {
+  LAST_RESULT = res;
   $("status").classList.add("hidden");
   $("results").classList.remove("hidden");
   $("total-machines").textContent = res.total_machines.toLocaleString();
@@ -482,6 +485,522 @@ function renderResult(res) {
 }
 
 function esc(s) { return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+// ---- production graph -----------------------------------------------------
+// A layered DAG of the production chain: raw inputs on the left flow rightwards
+// through the machines that consume them, ending at the target on the right.
+// Each machine node shows the icon + rate of the item it produces; hovering a
+// node reveals its machine name, speed (item/min) and full input ⟶ output recipe.
+const GRAPH = { COL_W: 240, NODE_W: 176, ROW_H: 26, HEAD_PAD: 9, MIN_H: 44, ROW_GAP: 24, PAD: 40 };
+let GRAPH_VIEW = null;     // { inner, scale, baseW, baseH, zoom } for the current graph
+
+$("show-graph").onclick = openGraph;
+$("graph-close").onclick = closeGraph;
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !$("graph-overlay").classList.contains("hidden")) closeGraph();
+});
+
+// left-click drag to pan around the graph (in addition to wheel / scrollbars)
+(function enableGraphPan() {
+  const canvas = $("graph-canvas");
+  let panning = false, startX = 0, startY = 0, startL = 0, startT = 0;
+  canvas.addEventListener("mousedown", (e) => {
+    if (e.button !== 0) return;        // left button only
+    panning = true;
+    startX = e.clientX; startY = e.clientY;
+    startL = canvas.scrollLeft; startT = canvas.scrollTop;
+    canvas.classList.add("panning");
+    hideGraphTooltip();
+    e.preventDefault();                // don't start a text selection while dragging
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!panning) return;
+    canvas.scrollLeft = startL - (e.clientX - startX);
+    canvas.scrollTop = startT - (e.clientY - startY);
+  });
+  const stop = () => { if (panning) { panning = false; canvas.classList.remove("panning"); } };
+  window.addEventListener("mouseup", stop);
+  window.addEventListener("blur", stop);
+
+  // mouse-wheel zoom, anchored on the cursor so the point under it stays put
+  canvas.addEventListener("wheel", (e) => {
+    const v = GRAPH_VIEW;
+    if (!v) return;
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+    const cx = e.clientX - rect.left, cy = e.clientY - rect.top;
+    const z0 = v.zoom;
+    const z1 = Math.min(2.5, Math.max(0.2, z0 * (e.deltaY < 0 ? 1.1 : 1 / 1.1)));
+    if (z1 === z0) return;
+    const contentX = (canvas.scrollLeft + cx) / z0;
+    const contentY = (canvas.scrollTop + cy) / z0;
+    v.zoom = z1;
+    applyGraphZoom();
+    canvas.scrollLeft = contentX * z1 - cx;
+    canvas.scrollTop = contentY * z1 - cy;
+    hideGraphTooltip();
+  }, { passive: false });
+})();
+
+function openGraph() {
+  if (!LAST_RESULT) return;
+  buildGraph(LAST_RESULT);
+  $("graph-overlay").classList.remove("hidden");
+  document.body.style.overflow = "hidden";   // freeze the page behind the overlay
+}
+function closeGraph() {
+  $("graph-overlay").classList.add("hidden");
+  document.body.style.overflow = "";
+  hideGraphTooltip();
+}
+
+function buildGraph(res) {
+  const canvas = $("graph-canvas");
+  canvas.innerHTML = "";
+  const steps = res.steps || [];
+
+  // node ids: "s<idx>" for a machine step, "raw:<ref>" for a raw/gathered input.
+  // producersOf maps an item id to EVERY step that yields it — its dedicated main
+  // output AND any machine that drops it as a byproduct (main producers first). A
+  // consumer links to all of them, so e.g. string is fed both by its Excitation
+  // Chamber and as a Virtual Aquarium byproduct; neither producer floats unlinked.
+  const producersOf = {};
+  const addProd = (ref, id) => { const a = producersOf[ref] || (producersOf[ref] = []); if (!a.includes(id)) a.push(id); };
+  steps.forEach((s, i) => addProd(s.output_id, "s" + i));
+  steps.forEach((s, i) => (s.byproducts || []).forEach((b) => addProd(b.ref, "s" + i)));
+
+  const nodes = {};
+  steps.forEach((s, i) => { nodes["s" + i] = { id: "s" + i, kind: "machine", step: s }; });
+  (res.raw_inputs || []).forEach((ri) => {
+    const id = "raw:" + ri.ref;
+    if (!nodes[id]) nodes[id] = { id, kind: "raw", raw: ri };
+  });
+
+  // edges: every (producer ⟶ consumer) pair, tagged with the item ref so a node can
+  // show ONLY the outputs it actually feeds to another machine. An output a machine
+  // feeds back into itself (a Nether Growth Chamber's fungus) is a self-loop, skipped.
+  const edges = [];
+  const outRefsOf = {};
+  const addEdge = (from, to, ref) => { edges.push({ from, to, ref }); (outRefsOf[from] || (outRefsOf[from] = [])).push(ref); };
+  steps.forEach((s, i) => {
+    const to = "s" + i;
+    (s.ingredients || []).forEach((g) => {
+      const prods = producersOf[g.ref];
+      if (!prods || !prods.length) {
+        const from = "raw:" + g.ref;
+        if (!nodes[from]) nodes[from] = { id: from, kind: "raw", raw: { ref: g.ref, name: g.name, per_min: g.per_min } };
+        addEdge(from, to, g.ref);
+      } else {
+        prods.forEach((from) => { if (from !== to) addEdge(from, to, g.ref); });
+      }
+    });
+  });
+
+  // Cycle handling: recipes can loop (fishing-rod ⟶ aquarium ⟶ string ⟶ fishing-rod).
+  // A DFS flags the edges that close a cycle as "back" edges; only forward edges drive
+  // the layering, so layers stay a clean left→right DAG. Back edges are later drawn
+  // against the flow with an arrowhead.
+  const ekey = (e) => e.from + "" + e.to + "" + e.ref;
+  const adjAll = {};
+  edges.forEach((e) => (adjAll[e.from] || (adjAll[e.from] = [])).push(e));
+  const colour = {}, isBack = new Set();
+  const dfs = (id) => {
+    colour[id] = 1;
+    (adjAll[id] || []).forEach((e) => {
+      if (colour[e.to] === 1) isBack.add(ekey(e));        // edge to an on-stack ancestor → back
+      else if (!colour[e.to]) dfs(e.to);
+    });
+    colour[id] = 2;
+  };
+  Object.keys(nodes).forEach((id) => { if (!colour[id]) dfs(id); });
+  const childrenOf = {};
+  edges.forEach((e) => { if (!isBack.has(ekey(e))) (childrenOf[e.from] || (childrenOf[e.from] = [])).push(e.to); });
+
+  // The outputs to draw on a node = the distinct items that leave it for another
+  // machine. The target (and any terminal node) feeds nothing, so fall back to its
+  // own main output. Each entry is {ref, name, per_min} for the icon + rate.
+  function outInfo(node, ref) {
+    if (node.kind === "raw") return { ref: node.raw.ref, name: node.raw.name, per_min: node.raw.per_min };
+    const s = node.step;
+    if (ref === s.output_id) return { ref, name: s.output_name, per_min: s.produced_per_min };
+    const b = (s.byproducts || []).find((x) => x.ref === ref);
+    return b ? { ref, name: b.name, per_min: b.per_min } : { ref, name: ref, per_min: 0 };
+  }
+  Object.values(nodes).forEach((n) => {
+    if (n.kind === "raw") { n.outs = [outInfo(n)]; return; }
+    const refs = [];
+    (outRefsOf[n.id] || []).forEach((r) => { if (!refs.includes(r)) refs.push(r); });
+    if (!refs.length) refs.push(n.step.output_id);   // target / terminal node
+    n.outs = refs.map((r) => outInfo(n, r));
+  });
+
+  // ===== Sugiyama-style layered layout with crossing minimisation ===========
+  // 1) LAYER ASSIGNMENT — ALAP: longest path TO a sink, so every node sits as far
+  //    right as it can. Producers land in lower layers than what consumes them, and
+  //    raw inputs hug the chain that uses them. Memoised, cycle-guarded.
+  const sinkRank = {}, visiting = new Set();
+  function rank(id) {
+    if (sinkRank[id] != null) return sinkRank[id];
+    if (visiting.has(id)) return 0;
+    visiting.add(id);
+    let r = 0;
+    (childrenOf[id] || []).forEach((c) => { r = Math.max(r, rank(c) + 1); });
+    visiting.delete(id);
+    return (sinkRank[id] = r);
+  }
+  Object.keys(nodes).forEach(rank);
+  let L = 0;
+  Object.values(sinkRank).forEach((r) => { L = Math.max(L, r); });
+  const layerOf = {};
+  Object.keys(nodes).forEach((id) => { layerOf[id] = L - sinkRank[id]; });
+
+  // 2) DUMMY NODES — split every edge that spans more than one layer into a chain
+  //    of dummies, one per layer it passes through. Afterwards all edges connect
+  //    only ADJACENT layers, which is what the crossing heuristics assume and what
+  //    lets long edges route cleanly through reserved vertical slots.
+  const layers = [];
+  for (let i = 0; i <= L; i++) layers[i] = [];
+  Object.keys(nodes).forEach((id) => layers[layerOf[id]].push(id));
+  const dummies = new Set();
+  const up = {}, down = {};                 // adjacent-layer neighbour lists
+  const addAdj = (a, b) => { (down[a] || (down[a] = [])).push(b); (up[b] || (up[b] = [])).push(a); };
+  const routes = [];                        // {e, chain:[from, ...dummies, to]} for drawing
+  let dseq = 0;
+  edges.forEach((e) => {
+    const lf = layerOf[e.from], lt = layerOf[e.to];
+    const back = isBack.has(ekey(e)) || lt <= lf;          // runs against the left→right flow
+    const lo = Math.min(lf, lt), hi = Math.max(lf, lt);
+    const lowNode = lf <= lt ? e.from : e.to;              // endpoint in the lower (left) layer
+    const highNode = lf <= lt ? e.to : e.from;
+    const mids = [];
+    let prev = lowNode;
+    for (let l = lo + 1; l < hi; l++) {                    // dummies span the layers in between
+      const d = "d" + (dseq++);
+      dummies.add(d); layerOf[d] = l; layers[l].push(d);
+      addAdj(prev, d); mids.push(d); prev = d;
+    }
+    if (hi > lo) addAdj(prev, highNode);                  // (same-layer back edges add no adjacency)
+    const inc = [lowNode, ...mids, highNode];             // left→right node sequence
+    routes.push({ e, back, chain: e.from === lowNode ? inc : inc.slice().reverse() });
+  });
+
+  // 3) ORDERING — minimise crossings. Repeated median sweeps (each node pulled to
+  //    the median row of its neighbours in the adjacent layer) followed by adjacent
+  //    transposition (swap neighbours when it lowers the crossing count). Keep the
+  //    best ordering seen across all iterations.
+  let order = {};
+  layers.forEach((col) => col.forEach((id, i) => { order[id] = i; }));
+
+  function pairCrossings(la, lb) {           // crossings on edges between layers la|lb
+    const es = [];
+    layers[la].forEach((id) => (down[id] || []).forEach((t) => es.push([order[id], order[t]])));
+    es.sort((p, q) => p[0] - q[0] || p[1] - q[1]);
+    let c = 0;
+    for (let i = 0; i < es.length; i++)
+      for (let j = i + 1; j < es.length; j++) if (es[i][1] > es[j][1]) c++;
+    return c;
+  }
+  const totalCrossings = () => { let c = 0; for (let l = 0; l < L; l++) c += pairCrossings(l, l + 1); return c; };
+
+  function median(vals) {
+    if (!vals.length) return -1;
+    vals.sort((a, b) => a - b);
+    const m = Math.floor(vals.length / 2);
+    if (vals.length % 2) return vals[m];
+    if (vals.length === 2) return (vals[0] + vals[1]) / 2;
+    const lft = vals[m - 1] - vals[0], rgt = vals[vals.length - 1] - vals[m];
+    return (lft + rgt) === 0 ? (vals[m - 1] + vals[m]) / 2
+      : (vals[m - 1] * rgt + vals[m] * lft) / (lft + rgt);
+  }
+  function medianSweep(useUp) {              // useUp: order each layer by its left neighbours
+    const idxs = layers.map((_, l) => l);
+    if (!useUp) idxs.reverse();
+    idxs.forEach((l) => {
+      const adj = useUp ? up : down;
+      const med = {};
+      layers[l].forEach((id) => { med[id] = median((adj[id] || []).map((n) => order[n]).filter((x) => x >= 0)); });
+      // nodes with no neighbour in that direction stay put; the rest sort by median
+      const movable = layers[l].filter((id) => med[id] >= 0).sort((a, b) => med[a] - med[b]);
+      let mi = 0;
+      layers[l] = layers[l].map((id) => (med[id] >= 0 ? movable[mi++] : id));
+      layers[l].forEach((id, i) => { order[id] = i; });
+    });
+  }
+  const localCross = (l) => (l > 0 ? pairCrossings(l - 1, l) : 0) + (l < L ? pairCrossings(l, l + 1) : 0);
+  function transpose() {
+    let improved = true, guard = 0;
+    while (improved && guard++ < 4) {
+      improved = false;
+      for (let l = 0; l <= L; l++) {
+        for (let i = 0; i < layers[l].length - 1; i++) {
+          const a = layers[l][i], b = layers[l][i + 1];
+          const before = localCross(l);
+          layers[l][i] = b; layers[l][i + 1] = a; order[a] = i + 1; order[b] = i;
+          if (localCross(l) < before) improved = true;
+          else { layers[l][i] = a; layers[l][i + 1] = b; order[a] = i; order[b] = i + 1; }
+        }
+      }
+    }
+  }
+  // The median/transpose pass is order-sensitive and gets stuck in local minima, so
+  // run it from several shuffled starts and keep the fewest-crossings result. Seeded
+  // RNG → the same graph always lays out the same way across reloads.
+  const baseLayers = layers.map((col) => col.slice());
+  const rngFor = (seed) => () => {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const shuffle = (a, rnd) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } };
+  const setLayers = (src) => {
+    src.forEach((col, l) => { layers[l] = col.slice(); });
+    order = {};
+    layers.forEach((col) => col.forEach((id, i) => { order[id] = i; }));
+  };
+  let bestSnap = null, bestC = Infinity;
+  for (let R = 0; R < 24; R++) {
+    const start = baseLayers.map((col) => col.slice());
+    if (R > 0) { const rnd = rngFor(R * 1009 + 7); start.forEach((col) => shuffle(col, rnd)); }
+    setLayers(start);
+    let localBest = Infinity, localSnap = null;
+    for (let it = 0; it < 16; it++) {
+      medianSweep(it % 2 === 0);
+      transpose();
+      const c = totalCrossings();
+      if (c < localBest) { localBest = c; localSnap = layers.map((col) => col.slice()); }
+      if (c === 0) break;
+    }
+    if (localBest < bestC) { bestC = localBest; bestSnap = localSnap; }
+    if (bestC === 0) break;
+  }
+  setLayers(bestSnap);
+
+  // 4) COORDINATES — x by layer; y by the priority method (Sugiyama). Each node is
+  //    pulled to the median row of its neighbours in the adjacent layer without ever
+  //    displacing an already-placed higher-priority node, so edges straighten out and
+  //    crossings that remain stay clean. Dummy spines have top priority → long edges
+  //    run nearly horizontal. Sweeps alternate up/down a number of times.
+  const { COL_W, NODE_W, ROW_H, HEAD_PAD, MIN_H, ROW_GAP, PAD } = GRAPH;
+  const DUMMY_H = 12;
+  const hOf = (id) => dummies.has(id) ? DUMMY_H : Math.max(MIN_H, nodes[id].outs.length * ROW_H + HEAD_PAD * 2);
+  const sepAt = (col, i) => (hOf(col[i - 1]) + hOf(col[i])) / 2 + ROW_GAP;   // centre-to-centre
+
+  // initial centres: simple sequential packing per layer
+  const center = {};
+  layers.forEach((col) => {
+    let y = 0;
+    col.forEach((id, i) => { if (i) y += sepAt(col, i); center[id] = y; });
+  });
+
+  const degOf = (id) => (up[id] ? up[id].length : 0) + (down[id] ? down[id].length : 0);
+  const prioOf = (id) => dummies.has(id) ? 1e6 : degOf(id);
+  const medianOf = (vals) => {
+    if (!vals.length) return null;
+    vals.sort((a, b) => a - b);
+    const m = vals.length >> 1;
+    return vals.length % 2 ? vals[m] : (vals[m - 1] + vals[m]) / 2;
+  };
+  function alignLayer(col, adj) {
+    const n = col.length;
+    const gap = col.map((_, i) => (i ? sepAt(col, i) : 0));   // gap[i] = sep(col[i-1],col[i])
+    const desired = col.map((id) => medianOf((adj[id] || []).map((x) => center[x])));
+    const cur = col.map((id) => center[id]);
+    const placed = new Array(n).fill(false);
+    col.map((_, i) => i).sort((a, b) => prioOf(col[b]) - prioOf(col[a])).forEach((i) => {
+      const d = desired[i];
+      if (d != null && d > cur[i]) {                 // pull down
+        let limit = Infinity, cum = 0;
+        for (let j = i + 1; j < n; j++) { cum += gap[j]; if (placed[j]) { limit = cur[j] - cum; break; } }
+        cur[i] = Math.min(d, limit);
+        let c = 0;
+        for (let j = i + 1; j < n; j++) { c += gap[j]; const mn = cur[i] + c; if (!placed[j] && cur[j] < mn) cur[j] = mn; else break; }
+      } else if (d != null && d < cur[i]) {          // pull up
+        let limit = -Infinity, cum = 0;
+        for (let j = i - 1; j >= 0; j--) { cum += gap[j + 1]; if (placed[j]) { limit = cur[j] + cum; break; } }
+        cur[i] = Math.max(d, limit);
+        let c = 0;
+        for (let j = i - 1; j >= 0; j--) { c += gap[j + 1]; const mx = cur[i] - c; if (!placed[j] && cur[j] > mx) cur[j] = mx; else break; }
+      }
+      placed[i] = true;
+    });
+    col.forEach((id, i) => { center[id] = cur[i]; });
+  }
+  for (let it = 0; it < 14; it++) {
+    const useUp = it % 2 === 0;
+    const idxs = layers.map((_, l) => l);
+    if (!useUp) idxs.reverse();
+    idxs.forEach((l) => alignLayer(layers[l], useUp ? up : down));
+  }
+
+  // normalise to start at PAD; size the canvas to the actual extent
+  let minC = Infinity, maxC = -Infinity;
+  layers.forEach((col) => col.forEach((id) => {
+    minC = Math.min(minC, center[id] - hOf(id) / 2);
+    maxC = Math.max(maxC, center[id] + hOf(id) / 2);
+  }));
+  const height = PAD * 2 + (maxC - minC);
+  const width = PAD * 2 + L * COL_W + NODE_W;
+
+  const pos = {};
+  layers.forEach((col, l) => col.forEach((id) => {
+    const h = hOf(id);
+    pos[id] = { x: PAD + l * COL_W, y: PAD + (center[id] - h / 2) - minC, h };
+  }));
+
+  const inner = document.createElement("div");
+  inner.className = "graph-inner";
+  // the scaled child holds the edges + nodes; zooming scales it while `inner`
+  // (sized in applyGraphZoom) keeps the scroll area in sync.
+  const scale = document.createElement("div");
+  scale.className = "graph-scale";
+  scale.style.width = width + "px";
+  scale.style.height = height + "px";
+
+  // y of a specific output row on a node's right edge, so multi-output machines
+  // route each edge from the icon it actually corresponds to.
+  const outRowY = (id, ref) => {
+    const node = nodes[id], p = pos[id];
+    const i = Math.max(0, node.outs.findIndex((o) => o.ref === ref));
+    const top = p.y + (p.h - node.outs.length * ROW_H) / 2;
+    return top + i * ROW_H + ROW_H / 2;
+  };
+
+  // 5) DRAW EDGES — each route is a smooth spline through its dummy points, with
+  //    horizontal tangents at every waypoint so it never cuts across a column.
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("class", "graph-edges");
+  svg.setAttribute("width", width);
+  svg.setAttribute("height", height);
+  const edgePath = (pts) => {
+    let d = `M${pts[0].x},${pts[0].y}`;
+    for (let i = 1; i < pts.length; i++) {
+      const a = pts[i - 1], b = pts[i], mx = (a.x + b.x) / 2;
+      d += ` C${mx},${a.y} ${mx},${b.y} ${b.x},${b.y}`;
+    }
+    return d;
+  };
+  // arrowhead for back edges only — forward edges read left→right by default, so they
+  // need no marker; back edges run the other way and get a head to show the direction.
+  const defs = document.createElementNS(NS, "defs");
+  defs.innerHTML = '<marker id="garrow" viewBox="0 0 8 8" refX="6.5" refY="4" '
+    + 'markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3a9bdc"/></marker>';
+  svg.appendChild(defs);
+  routes.forEach((r) => {
+    const from = r.chain[0], to = r.chain[r.chain.length - 1];
+    if (!pos[from] || !pos[to]) return;
+    // forward edges leave the producer's right and enter the consumer's left; back
+    // edges leave the left and enter the consumer's right, so the head points inward.
+    const sx = r.back ? pos[from].x : pos[from].x + NODE_W;
+    const ex = r.back ? pos[to].x + NODE_W : pos[to].x;
+    const pts = [{ x: sx, y: outRowY(from, r.e.ref) }];
+    for (let k = 1; k < r.chain.length - 1; k++) {
+      const d = r.chain[k];
+      pts.push({ x: pos[d].x + NODE_W / 2, y: pos[d].y + pos[d].h / 2 });
+    }
+    pts.push({ x: ex, y: pos[to].y + pos[to].h / 2 });
+    const path = document.createElementNS(NS, "path");
+    path.setAttribute("d", edgePath(pts));
+    path.setAttribute("class", "graph-edge" + (r.back ? " back" : ""));
+    if (r.back) path.setAttribute("marker-end", "url(#garrow)");
+    svg.appendChild(path);
+  });
+  scale.appendChild(svg);
+
+  Object.values(nodes).forEach((node) => {
+    const p = pos[node.id];
+    const el = document.createElement("div");
+    el.className = "gnode " + node.kind;
+    if (node.kind === "machine" && node.step.output_id === res.target) el.classList.add("target");
+    el.style.cssText = `left:${p.x}px;top:${p.y}px;width:${NODE_W}px;height:${p.h}px`;
+    if (node.kind === "machine") {
+      el.innerHTML = `<span class="gcount">${node.step.machines}×</span>`;
+    }
+    const body = document.createElement("div"); body.className = "gbody";
+    const rawTag = node.kind === "raw" ? " · raw" : "";
+    node.outs.forEach((o) => {
+      const row = document.createElement("div"); row.className = "gout-row";
+      row.appendChild(iconEl(o.ref, true));
+      row.insertAdjacentHTML("beforeend",
+        `<span class="gout"><span class="gname">${esc(o.name)}</span>`
+        + `<span class="grate">${o.per_min}/min${rawTag}</span></span>`);
+      body.appendChild(row);
+    });
+    el.appendChild(body);
+    if (node.kind === "machine") {
+      el.addEventListener("mouseenter", (ev) => showGraphTooltip(ev, node.step));
+      el.addEventListener("mousemove", moveGraphTooltip);
+      el.addEventListener("mouseleave", hideGraphTooltip);
+    }
+    scale.appendChild(el);
+  });
+
+  inner.appendChild(scale);
+  canvas.appendChild(inner);
+  GRAPH_VIEW = { inner, scale, baseW: width, baseH: height, zoom: 1 };
+  applyGraphZoom();
+}
+
+function applyGraphZoom() {
+  const v = GRAPH_VIEW;
+  if (!v) return;
+  v.scale.style.transform = `scale(${v.zoom})`;
+  v.inner.style.width = v.baseW * v.zoom + "px";
+  v.inner.style.height = v.baseH * v.zoom + "px";
+}
+
+// Hover tooltip — reuses the production-step visual: ingredients ⟶ output.
+function showGraphTooltip(ev, s) {
+  const tt = $("graph-tooltip");
+  tt.innerHTML = "";
+  const title = document.createElement("div");
+  title.className = "gtt-title";
+  title.textContent = s.machine_name;
+  tt.appendChild(title);
+  const speed = document.createElement("div");
+  speed.className = "gtt-speed";
+  speed.textContent = `${s.produced_per_min}/min · ${s.machines}× machine(s)`;
+  tt.appendChild(speed);
+
+  const io = document.createElement("div");
+  io.className = "gtt-io";
+  if (s.ingredients && s.ingredients.length) {
+    const ings = document.createElement("div"); ings.className = "gtt-ings";
+    s.ingredients.forEach((g) => {
+      const ig = document.createElement("div"); ig.className = "ing";
+      ig.appendChild(iconEl(g.ref, true));
+      ig.insertAdjacentHTML("beforeend", `<span class="q">${g.per_min}</span>`);
+      ig.title = `${g.name} (${g.per_op}/craft)`;
+      ings.appendChild(ig);
+    });
+    io.appendChild(ings);
+  } else {
+    io.insertAdjacentHTML("beforeend", `<span class="muted">⚡ energy only — no item input</span>`);
+  }
+  io.insertAdjacentHTML("beforeend", `<span class="arrow">⟶</span>`);
+  const out = document.createElement("div"); out.className = "out";
+  out.appendChild(iconEl(s.output_id, true));
+  out.insertAdjacentHTML("beforeend",
+    `<div><div>${esc(s.output_name)}</div><div class="rate">${s.produced_per_min}/min</div></div>`);
+  io.appendChild(out);
+  tt.appendChild(io);
+
+  tt.classList.remove("hidden");
+  moveGraphTooltip(ev);
+}
+function moveGraphTooltip(ev) {
+  const tt = $("graph-tooltip");
+  if (tt.classList.contains("hidden")) return;
+  const pad = 14;
+  const r = tt.getBoundingClientRect();
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if (x + r.width > window.innerWidth) x = ev.clientX - r.width - pad;
+  if (y + r.height > window.innerHeight) y = ev.clientY - r.height - pad;
+  tt.style.left = Math.max(8, x) + "px";
+  tt.style.top = Math.max(8, y) + "px";
+}
+function hideGraphTooltip() { $("graph-tooltip").classList.add("hidden"); }
 
 // ---- page tabs ------------------------------------------------------------
 document.querySelectorAll(".tab").forEach((tab) => {
