@@ -47,6 +47,14 @@
           title="Mob Simulation Chamber: stack up to 64 data cards per chamber, so chambers needed = cards ÷ 64 (rounded up). Off = 1 card per chamber.">🃏
           Stackable cards: <span id="stackable-state">Off</span></button>
       </div>
+      <div class="row config-row">
+        <span class="muted sm">💾 Config (bans + tech-gen + stackable), saved on disk for test baselines:</span>
+        <input id="config-name" class="config-name" type="text" placeholder="config name…" />
+        <button id="config-save" class="ghost sm" type="button">Save</button>
+        <select id="config-load"><option value="">— load saved —</option></select>
+        <button id="config-delete" class="ghost sm" type="button" title="Delete the loaded config">Delete</button>
+        <span id="config-status" class="muted sm"></span>
+      </div>
       <div id="ban-panel" class="ban-panel hidden">
         <p class="muted">Tick a machine to forbid it (e.g. ban Virtual Garden III but keep II).
           Tiers are listed separately.</p>

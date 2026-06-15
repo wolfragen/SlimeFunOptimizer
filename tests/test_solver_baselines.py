@@ -31,6 +31,7 @@ sys.path.insert(0, str(ROOT))
 
 BASELINE_DIR = Path(__file__).resolve().parent / "baselines"
 
+from solver import config as cfg        # noqa: E402
 from solver.graph import Graph          # noqa: E402
 from solver.optimize import solve       # noqa: E402
 
@@ -50,12 +51,26 @@ DEFAULT_TECH_GEN = [{"category": "cloning", "tier": 1}] * 4
 
 
 def _run(query: dict) -> dict:
-    """Solve a baseline query and return the same normalized shape we snapshot."""
-    tg = query["tech_gen"] if "tech_gen" in query else DEFAULT_TECH_GEN
+    """Solve a baseline query and return the same normalized shape we snapshot.
+
+    A query may name a saved on-disk config (`"config": "<name>"`) to pull in the
+    user's real in-game bans + tech-gen + stackable settings; explicit query keys
+    (banned / tech_gen / stackable_cards) override the config.
+    """
+    saved = cfg.load(query["config"]) if query.get("config") else {}
+    banned = set(query["banned"] if "banned" in query else saved.get("banned", []))
+    if "tech_gen" in query:
+        tg = query["tech_gen"]
+    elif "config" in query and saved.get("tech_gen") is not None:
+        tg = saved["tech_gen"]
+    else:
+        tg = DEFAULT_TECH_GEN
+    stackable = query["stackable_cards"] if "stackable_cards" in query \
+        else saved.get("stackable_cards", False)
     res = solve(_graph(), query["target"], query["rate_per_min"],
-                banned=set(query.get("banned", [])),
+                banned=banned,
                 tech_gen_config=tg,
-                stackable_cards=query.get("stackable_cards", False))
+                stackable_cards=stackable)
     machine_totals = {m["machine_id"]: m["count"] for m in res["machine_totals"]}
     chosen = {s["output_id"]: s.get("machine_id") for s in res["steps"]}
     raw = {(r.get("id") or r.get("ref")): r.get("per_min") for r in res["raw_inputs"]}

@@ -228,6 +228,7 @@ function renderBanList(filter) {
 $("toggle-techgen").onclick = () => $("techgen-panel").classList.toggle("hidden");
 function buildTechgenSlots() {
   const wrap = $("techgen-slots");
+  wrap.innerHTML = "";                 // idempotent: rebuild when a config is loaded
   const cats = [["", "— empty —"], ["cloning", "Cloning (+output)"],
                 ["acceleration", "Acceleration (+speed, +energy)"],
                 ["efficiency", "Efficiency (−energy)"]];
@@ -268,6 +269,87 @@ if (stackBtn) {
   stackBtn.onclick = () => { STACKABLE = !STACKABLE; renderStackState(); saveSettings(); };
 }
 renderStackState();
+
+// ---- named configs saved on disk (for test baselines) ---------------------
+// The browser localStorage above is per-user and can't be read off-disk, so the
+// Save button ALSO writes the current bans + tech-gen + stackable to the server
+// (configs/<name>.json). That on-disk copy is what the baseline tests/CLI load.
+function configStatus(msg, isErr) {
+  const s = $("config-status");
+  if (!s) return;
+  s.textContent = msg || "";
+  s.classList.toggle("err", !!isErr);
+}
+async function refreshConfigList(selected) {
+  const sel = $("config-load");
+  if (!sel) return;
+  try {
+    const names = (await (await fetch("/api/configs")).json()).configs || [];
+    sel.innerHTML = '<option value="">— load saved —</option>';
+    names.forEach((n) => {
+      const o = document.createElement("option");
+      o.value = n; o.textContent = n;
+      sel.appendChild(o);
+    });
+    if (selected && names.includes(selected)) sel.value = selected;
+  } catch (e) { /* server offline — leave the dropdown empty */ }
+}
+// Apply a loaded config object {banned, tech_gen, stackable_cards} to the whole UI.
+function applyConfig(c) {
+  BANNED.clear();
+  (c.banned || []).forEach((id) => BANNED.add(id));
+  for (let i = 0; i < 4; i++) TECHGEN[i] = (c.tech_gen && c.tech_gen[i]) || null;
+  STACKABLE = !!c.stackable_cards;
+  $("ban-count").textContent = BANNED.size;
+  renderBanList($("ban-search").value);
+  buildTechgenSlots();
+  renderStackState();
+  saveSettings();
+}
+if ($("config-save")) {
+  $("config-save").onclick = async () => {
+    const name = $("config-name").value.trim();
+    if (!name) { configStatus("Enter a name first.", true); return; }
+    configStatus("Saving…");
+    try {
+      const r = await fetch("/api/configs", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name, banned: [...BANNED], tech_gen: TECHGEN, stackable_cards: STACKABLE,
+        }),
+      });
+      const data = await r.json();
+      if (!data.ok) { configStatus(data.error || "Save failed.", true); return; }
+      await refreshConfigList(data.name);
+      configStatus(`Saved as "${data.name}".`);
+    } catch (e) { configStatus("Save failed: " + e, true); }
+  };
+}
+if ($("config-load")) {
+  $("config-load").onchange = async (e) => {
+    const name = e.target.value;
+    if (!name) return;
+    configStatus("Loading…");
+    try {
+      const c = await (await fetch(`/api/configs/${encodeURIComponent(name)}`)).json();
+      if (c.ok === false) { configStatus(c.error || "Load failed.", true); return; }
+      applyConfig(c);
+      $("config-name").value = name;
+      configStatus(`Loaded "${name}".`);
+    } catch (e) { configStatus("Load failed: " + e, true); }
+  };
+}
+if ($("config-delete")) {
+  $("config-delete").onclick = async () => {
+    const name = $("config-load").value || $("config-name").value.trim();
+    if (!name) { configStatus("Pick a saved config to delete.", true); return; }
+    try {
+      await fetch(`/api/configs/${encodeURIComponent(name)}`, { method: "DELETE" });
+      await refreshConfigList();
+      configStatus(`Deleted "${name}".`);
+    } catch (e) { configStatus("Delete failed: " + e, true); }
+  };
+}
 
 // ---- solve ----------------------------------------------------------------
 $("solve").onclick = solve;
@@ -553,6 +635,7 @@ $("machine-select").onchange = async (e) => {
 (async function init() {
   ICON_MAP = await (await fetch("/api/icon_map")).json();
   await loadMachines();
+  refreshConfigList();                              // populate the saved-config dropdown
   $("ban-count").textContent = BANNED.size;        // reflect restored bans
   // restore the last search and re-run it (icons are ready now)
   if (SAVED && SAVED.query && SAVED.query.id) {

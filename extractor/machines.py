@@ -76,7 +76,10 @@ RECIPE_TYPE_MACHINES = {
 # processing speed AND the recipe's registration time, via Slimefun's integer-tick formula
 # (see graph._ops_per_min). Value = (base item id, machine_tiers class, base seconds).
 # Base seconds extracted from Slimefun's PostSetup / the machine's findNextRecipe:
-#   grinder/washer = 4s; smeltery ~8s (dust->ingot; alloys are 12s — approximated).
+#   grinder/washer = 4s. PostSetup.addSmelteryRecipe ROUTES each Smeltery recipe by shape:
+#   a single *_DUST input -> Electric Ingot Factory @ 8s (NOT the smelteries); every other
+#   (alloy / multi-input) recipe -> Electric Smeltery @ 12s. run.py reroutes the dust-only
+#   recipes to the ELECTRIC_INGOT_FACTORY recipe_type so they land on the factory tiers here.
 # NOTE: PostSetup.loadOreGrinderRecipes() merges BOTH GrindStone.getRecipes() AND
 # OreCrusher.getRecipes() into the Electric Ore Grinder, so ORE_CRUSHER recipes
 # (ore doubling, sifted-ore chain, CARBON->COAL, ...) are automatable there too.
@@ -84,7 +87,9 @@ MULTIBLOCK_ELECTRIC = {
     "GRIND_STONE": ("ELECTRIC_ORE_GRINDER", "ElectricOreGrinder", 4),
     "ORE_CRUSHER": ("ELECTRIC_ORE_GRINDER", "ElectricOreGrinder", 4),
     "ORE_WASHER":  ("ELECTRIC_DUST_WASHER", "ElectricDustWasher", 4),
-    "SMELTERY":    ("ELECTRIC_SMELTERY", "ElectricSmeltery", 8),
+    "SMELTERY":    ("ELECTRIC_SMELTERY", "ElectricSmeltery", 12),
+    # dust->ingot: Slimefun routes these to the Ingot Factory, never the smelteries.
+    "ELECTRIC_INGOT_FACTORY": ("ELECTRIC_INGOT_FACTORY", "ElectricIngotFactory", 8),
 }
 # the auto-crafters proper (used only for the 'automation' catalog category). Listed
 # explicitly so electric mirror machines (Electric Ore Grinder) stay categorised as electric.

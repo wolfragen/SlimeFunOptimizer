@@ -225,6 +225,23 @@ def main(argv=None):
             if ing["kind"] == "slimefun" and ing["ref"]:
                 ing["ref"] = resolve_alias(ing["ref"], all_aliases)
 
+    # Route Slimefun Smeltery recipes the way PostSetup.addSmelteryRecipe does: a recipe with
+    # exactly one input that is a *_DUST item is a dust->ingot smelt, which the game registers
+    # on the ELECTRIC_INGOT_FACTORY (and Makeshift Smeltery / Ingot Pulverizer) — NOT on any
+    # Electric Smeltery, which only does alloys (multi-input). Reassigning the recipe_type makes
+    # the solver offer the Ingot Factory tiers for these instead of the smelteries.
+    rerouted = 0
+    for r in all_recipes:
+        if (r.get("kind") == "crafting" and r.get("recipe_type") == "SMELTERY"
+                and r.get("addon") == "Slimefun4"):
+            ings = [i for i in r["ingredients"]
+                    if i.get("kind") == "slimefun" and i.get("ref")]
+            if len(ings) == 1 and ings[0]["ref"].endswith("_DUST"):
+                r["recipe_type"] = "ELECTRIC_INGOT_FACTORY"
+                rerouted += 1
+    if rerouted:
+        print(f"routed {rerouted} dust->ingot Smeltery recipe(s) to the Ingot Factory")
+
     # add vanilla materials to the catalog (searchable). Flagged vanilla so the solver
     # only ever produces them via VANILLA_CRAFTING recipes (else treats them as raw) —
     # this keeps base materials (ores/ingots/logs) as raw inputs while letting crafted

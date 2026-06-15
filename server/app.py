@@ -20,6 +20,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+from solver import config as cfg
 from solver.graph import Graph
 from solver.optimize import (
     solve, tech_gen_params, TECH_GENERATOR, TG_BASE_CYCLE_MIN, TG_STACK,
@@ -188,6 +189,48 @@ def api_recipe_machines():
         })
     rows.sort(key=lambda r: (r["addon"], r["name"]))
     return {"machines": rows}
+
+
+class SaveConfigRequest(BaseModel):
+    name: str
+    banned: list[str] = []
+    tech_gen: list[TechGenSlot | None] = []
+    stackable_cards: bool = False
+
+
+@app.get("/api/configs")
+def api_configs():
+    """List the named configs saved to disk (for the load dropdown)."""
+    return {"configs": cfg.list_names()}
+
+
+@app.get("/api/configs/{name}")
+def api_config_get(name: str):
+    """Load one named config (banned + tech_gen + stackable_cards)."""
+    try:
+        return cfg.load(name)
+    except FileNotFoundError:
+        return JSONResponse({"ok": False, "error": f"No config named '{name}'"},
+                            status_code=404)
+
+
+@app.post("/api/configs")
+def api_config_save(req: SaveConfigRequest):
+    """Persist the current UI settings as a named config under configs/<name>.json."""
+    tg = [None if s is None else {"category": s.category, "tier": s.tier}
+          for s in req.tech_gen]
+    try:
+        path = cfg.save(req.name, banned=req.banned, tech_gen=tg,
+                        stackable_cards=req.stackable_cards)
+    except ValueError as e:
+        return JSONResponse({"ok": False, "error": str(e)}, status_code=400)
+    return {"ok": True, "name": path.stem, "configs": cfg.list_names()}
+
+
+@app.delete("/api/configs/{name}")
+def api_config_delete(name: str):
+    deleted = cfg.delete(name)
+    return {"ok": deleted, "configs": cfg.list_names()}
 
 
 @app.post("/api/solve")

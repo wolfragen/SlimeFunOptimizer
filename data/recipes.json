@@ -44701,7 +44701,7 @@
   "kind": "crafting",
   "output_id": "COPPER_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -44761,7 +44761,7 @@
   "kind": "crafting",
   "output_id": "TIN_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -44821,7 +44821,7 @@
   "kind": "crafting",
   "output_id": "SILVER_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -44881,7 +44881,7 @@
   "kind": "crafting",
   "output_id": "LEAD_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -44941,7 +44941,7 @@
   "kind": "crafting",
   "output_id": "ALUMINUM_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -45001,7 +45001,7 @@
   "kind": "crafting",
   "output_id": "ZINC_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -45061,7 +45061,7 @@
   "kind": "crafting",
   "output_id": "MAGNESIUM_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -47641,7 +47641,7 @@
   "kind": "crafting",
   "output_id": "GOLD_4K",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
@@ -68346,7 +68346,7 @@
   "kind": "crafting",
   "output_id": "IRON_INGOT",
   "output_amount": 1,
-  "recipe_type": "SMELTERY",
+  "recipe_type": "ELECTRIC_INGOT_FACTORY",
   "machine": null,
   "time_seconds": null,
   "ingredients": [
