@@ -77217,6 +77217,240 @@
  },
  {
   "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_BEE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_BEE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_GOLEM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_GOLEM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_ZOMBIE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_ZOMBIE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_BEE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_BEE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_GOLEM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_GOLEM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_ZOMBIE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_ZOMBIE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_BEE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_BEE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_GOLEM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_GOLEM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUPREME_SIMPLE_ZOMBIE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "EMPTY_MOBTECH",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_SIMPLE_ZOMBIE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "source_class": "MobTechCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
   "output_id": "SUPREME_BERSERK_GOLEM",
   "output_amount": 1,
   "recipe_type": null,
@@ -90373,7 +90607,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE",
   "time_seconds": 15.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "FISHING_ROD",
+    "amount": 0.03125
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90423,14 +90663,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "FISHING_ROD",
-    "name": "Fishing Rod",
-    "product": "COD",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90440,7 +90673,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE",
   "time_seconds": 15.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "TRIDENT",
+    "amount": 0.008
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90490,14 +90729,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "TRIDENT",
-    "name": "Trident",
-    "product": "NAUTILUS_SHELL",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90507,7 +90739,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE",
   "time_seconds": 15.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLDEN_HOE",
+    "amount": 0.0625
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90557,14 +90795,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "GOLDEN_HOE",
-    "name": "Golden Hoe",
-    "product": "STICK",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90574,7 +90805,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_II",
   "time_seconds": 3.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "FISHING_ROD",
+    "amount": 0.03125
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90624,14 +90861,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "FISHING_ROD",
-    "name": "Fishing Rod",
-    "product": "COD",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90641,7 +90871,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_II",
   "time_seconds": 3.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "TRIDENT",
+    "amount": 0.008
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90691,14 +90927,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "TRIDENT",
-    "name": "Trident",
-    "product": "NAUTILUS_SHELL",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90708,7 +90937,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_II",
   "time_seconds": 3.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLDEN_HOE",
+    "amount": 0.0625
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90758,14 +90993,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "GOLDEN_HOE",
-    "name": "Golden Hoe",
-    "product": "STICK",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90775,7 +91003,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_III",
   "time_seconds": 1.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "FISHING_ROD",
+    "amount": 0.03125
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90825,14 +91059,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "FISHING_ROD",
-    "name": "Fishing Rod",
-    "product": "COD",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90842,7 +91069,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_III",
   "time_seconds": 1.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "TRIDENT",
+    "amount": 0.008
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90892,14 +91125,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "TRIDENT",
-    "name": "Trident",
-    "product": "NAUTILUS_SHELL",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {
@@ -90909,7 +91135,13 @@
   "recipe_type": null,
   "machine": "VIRTUAL_AQUARIUM_MACHINE_III",
   "time_seconds": 1.0,
-  "ingredients": [],
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLDEN_HOE",
+    "amount": 0.0625
+   }
+  ],
   "outputs": [
    {
     "kind": "vanilla",
@@ -90959,14 +91191,7 @@
   ],
   "ctor_class": "VirtualAquarium",
   "source_class": "VirtualAquariumMachineRecipe",
-  "fixtures": [
-   {
-    "id": "GOLDEN_HOE",
-    "name": "Golden Hoe",
-    "product": "STICK",
-    "category": "tool"
-   }
-  ],
+  "fixtures": [],
   "addon": "Supreme"
  },
  {

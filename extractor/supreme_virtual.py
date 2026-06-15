@@ -9,7 +9,9 @@ and emit its loot from pure energy:
 * Virtual AQUARIUM: weighted. The determining tool (FISHING_ROD / TRIDENT / GOLDEN_HOE)
   selects a LOOT POOL; each output has a % chance (in the GUI lore "&fGive &bSponge &f2%")
   and the pool sums to 100%. We model the EXPECTED yield: one multi-output recipe per pool,
-  each output amount = chance/100 (fractional) per cycle, fixture = the tool.
+  each output amount = chance/100 (fractional) per cycle. The tool is NOT a free fixture —
+  it loses 2 durability per op and breaks, so it's a consumed INPUT (2/maxDurability per
+  cycle) the solver must keep supplied (see _TOOL_DURABILITY).
 
 Rate (shared GenericMachine timing): `cycle_seconds = baseTime / processingSpeed`
 (Slimefun MachineRecipe ticks = seconds*2, 1 tick = 0.5s, 1 item/cycle). baseTime from
@@ -30,6 +32,12 @@ _GARDEN_RECIPE = "com/github/relativobr/supreme/machine/recipe/VirtualGardenMach
 _AQUARIUM_RECIPE = "com/github/relativobr/supreme/machine/recipe/VirtualAquariumMachineRecipe.class"
 _SETUP = "com/github/relativobr/supreme/setup/SetupMachines.class"
 _DEFAULT_BASE_TIME = 15
+
+# The aquarium's determining tool is NOT a free fixture: VirtualAquarium.findNextRecipe does
+# `setDamage(damage + 2)` each operation and `consumeItem` when that would hit maxDurability.
+# So the tool is CONSUMED at DMG_PER_OP / maxDurability per cycle and needs a steady supply.
+_DMG_PER_OP = 2
+_TOOL_DURABILITY = {"FISHING_ROD": 64, "TRIDENT": 250, "GOLDEN_HOE": 32}
 
 
 def _fkind(cp, idx):
@@ -173,11 +181,14 @@ def extract(zf: zipfile.ZipFile):
             if not out_ings:
                 continue
             primary = max(out_ings, key=lambda o: o.amount)
+            # the determining tool wears out: consumed at DMG_PER_OP/maxDurability per cycle,
+            # so it's a real INPUT the solver must keep supplied (not a free fixture).
+            dur = _TOOL_DURABILITY.get(det)
+            tool_per_op = _DMG_PER_OP / dur if dur else 1.0
             recipes.append(Recipe(
                 kind="machine", output_id=primary.ref, output_amount=1, recipe_type=None,
-                machine=item_id, time_seconds=cycle, ingredients=[],
+                machine=item_id, time_seconds=cycle,
+                ingredients=[Ingredient("vanilla", det, tool_per_op)],
                 outputs=out_ings,
-                ctor_class="VirtualAquarium", source_class="VirtualAquariumMachineRecipe",
-                fixtures=[{"id": det, "name": det.replace("_", " ").title(),
-                           "product": primary.ref, "category": "tool"}]))
+                ctor_class="VirtualAquarium", source_class="VirtualAquariumMachineRecipe"))
     return [], recipes

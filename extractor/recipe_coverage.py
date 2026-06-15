@@ -145,21 +145,29 @@ def _extracted_machine_keys():
 
 def custom_producer_gaps(display: set[str]) -> list[dict]:
     """Lane B: energy CONSUMER machines that produce via custom tick logic (getDisplayRecipes)
-    but have ZERO extracted recipes — the producers the registration lane can't see."""
+    but have ZERO extracted recipes — the producers the registration lane can't see.
+
+    Iterates the full energy-class -> items map (incl. multi-TIER classes like the MobTech
+    Collector, which `class_items` omits), so tiered custom producers aren't a blind spot.
+    A machine is covered if any of its tier items, or its class, has extracted recipes.
+    """
     from . import electric_machines as em
-    energy = em.extract()                     # item -> {category, addon}
-    item_to_class = {v: k for k, v in em.class_items().items()}
+    s = em._Scan()
     have = _extracted_machine_keys()
     out = []
-    for item, info in sorted(energy.items()):
-        if info.get("category") != "electric":
-            continue                          # generators produce energy, not items
-        cls = item_to_class.get(item)
-        if not cls or cls not in display:
-            continue                          # not a custom-generation producer
-        if item in have or cls in have or item in KNOWN_OK_CUSTOM:
+    for c in sorted(s.energy_classes()):
+        simple = c.split("/")[-1]
+        if simple not in display:             # only custom-generation (getDisplayRecipes) machines
             continue
-        out.append({"item": item, "class": cls, "addon": info.get("addon", "?")})
+        if s.is_generator(c) or s.type_of(c) == "GENERATOR":
+            continue                          # generators produce energy, not items
+        items = {i for i in s.items_of(c) if "CAPACITOR" not in i}
+        if not items or simple in have or any(it in have for it in items):
+            continue                          # covered (or an abstract base with no item)
+        for it in sorted(items):
+            if it in KNOWN_OK_CUSTOM:
+                continue
+            out.append({"item": it, "class": simple, "addon": s.jar_of.get(c, "?")})
     return out
 
 

@@ -177,6 +177,47 @@ def _stoneworks(zf):
     return out
 
 
+_MOBTECH_TIERS = ["MOB_TECH_COLLECTOR_MACHINE_I", "MOB_TECH_COLLECTOR_MACHINE_II",
+                  "MOB_TECH_COLLECTOR_MACHINE_III"]
+_MOBTECH_SECONDS = 15.0          # MobTechCollectorMachineRecipe time=15, machine speed 1.0
+
+
+def _mobtech_collector(zf):
+    """Supreme MobTech Collector: one EMPTY_MOBTECH + a nearby mob -> that mob's data item.
+
+    Each `new MobTechCollectorMachineRecipe(EMPTY_MOBTECH, <MobDTO>, predicate)` is a SEPARATE
+    recipe (one machine collects ONE mob, decided by the mob nearby — which we ignore but keep
+    the recipes distinct). The input EMPTY_MOBTECH is consumed 1:1 (consumeItem, NOT durability;
+    that's the Virtual Aquarium). Output id = "SUPREME_" + the DTO field (SIMPLE_GOLEM ->
+    SUPREME_SIMPLE_GOLEM, the 'Common' mob that feeds the cloner-golem chain). 3 same-speed tiers.
+    """
+    cf = _find(zf, "MobTechCollector")
+    if not cf:
+        return []
+    cp = cf.constant_pool
+    m = cf.method("registerDefaultRecipes")
+    if not m or not m.code:
+        return []
+    ins = list(bytecode.iter_instructions(m.code))
+    mobs = []
+    for i, x in enumerate(ins):
+        if x.opcode == 0xb7 and cp.method_ref(x.u16())[1] == "<init>" \
+                and "MobTechCollectorMachineRecipe" in cp.method_ref(x.u16())[0]:
+            for y in ins[max(0, i - 9):i]:    # the SIMPLE_* DTO getstatic before this ctor
+                if y.opcode == 0xb2:
+                    o, f, d = cp.field_ref(y.u16())
+                    if f.startswith("SIMPLE_") and o.endswith("Tech"):
+                        mobs.append(f)
+                        break
+    out = []
+    for tier in _MOBTECH_TIERS:
+        for f in dict.fromkeys(mobs):
+            out.append(_mk(tier, [("slimefun", "EMPTY_MOBTECH", 1)],
+                           [("slimefun", "SUPREME_" + f, 1)],
+                           seconds=_MOBTECH_SECONDS, src="MobTechCollector"))
+    return out
+
+
 def _resource_synthesizer(zf):
     """InfinityExpansion Resource Synthesizer: built with a SlimefunItemStack[] of (in1,in2,out)
     triples (process() reads recipes[i], [i+1], [i+2]). The array is passed to `.recipes(...)`
@@ -223,4 +264,6 @@ def extract(zf: zipfile.ZipFile, addon: str):
     if "infinityexpansion" in a.replace(" ", ""):
         out += _stoneworks(zf)
         out += _resource_synthesizer(zf)
+    if "supreme" in a:
+        out += _mobtech_collector(zf)
     return out
