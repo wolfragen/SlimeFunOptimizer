@@ -77,8 +77,12 @@ RECIPE_TYPE_MACHINES = {
 # (see graph._ops_per_min). Value = (base item id, machine_tiers class, base seconds).
 # Base seconds extracted from Slimefun's PostSetup / the machine's findNextRecipe:
 #   grinder/washer = 4s; smeltery ~8s (dust->ingot; alloys are 12s — approximated).
+# NOTE: PostSetup.loadOreGrinderRecipes() merges BOTH GrindStone.getRecipes() AND
+# OreCrusher.getRecipes() into the Electric Ore Grinder, so ORE_CRUSHER recipes
+# (ore doubling, sifted-ore chain, CARBON->COAL, ...) are automatable there too.
 MULTIBLOCK_ELECTRIC = {
     "GRIND_STONE": ("ELECTRIC_ORE_GRINDER", "ElectricOreGrinder", 4),
+    "ORE_CRUSHER": ("ELECTRIC_ORE_GRINDER", "ElectricOreGrinder", 4),
     "ORE_WASHER":  ("ELECTRIC_DUST_WASHER", "ElectricDustWasher", 4),
     "SMELTERY":    ("ELECTRIC_SMELTERY", "ElectricSmeltery", 8),
 }
@@ -96,7 +100,7 @@ _AUTO_CRAFTERS = {
 # Per the rule "if it can't be made by an electric machine it's a raw input", these recipe
 # types are dropped — their items are produced only if some OTHER electric machine makes them.
 MULTIBLOCK_MANUAL = {
-    "ORE_CRUSHER", "COMPRESSOR",
+    "COMPRESSOR",
     "PRESSURE_CHAMBER", "JUICER", "GOLD_PAN", "TABLE_SAW", "MOB_DROP",
 }
 

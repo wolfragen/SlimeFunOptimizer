@@ -918,6 +918,240 @@
   "addon": "InfinityExpansion"
  },
  {
+  "id": "BASIC_GROWER",
+  "display": "Basic Virtual Farm",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "WHEAT_SEEDS",
+  "display": "Wheat Seeds",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "CARROT",
+  "display": "Carrot",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "POTATO",
+  "display": "Potato",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "BEETROOT_SEEDS",
+  "display": "Beetroot Seeds",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "PUMPKIN_SEEDS",
+  "display": "Pumpkin Seeds",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "MELON_SEEDS",
+  "display": "Melon Seeds",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "SUGAR_CANE",
+  "display": "Sugar Cane",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "COCOA_BEANS",
+  "display": "Cocoa Beans",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "CACTUS",
+  "display": "Cactus",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "BAMBOO",
+  "display": "Bamboo",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "CHORUS_FLOWER",
+  "display": "Chorus Flower",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "NETHER_WART",
+  "display": "Nether Wart",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "ADVANCED_GROWER",
+  "display": "Advanced Virtual Farm",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "INFINITY_GROWER",
+  "display": "Infinity Virtual Farm",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "BASIC_TREE",
+  "display": "Basic Tree Grower",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "OAK_SAPLING",
+  "display": "Oak Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "SPRUCE_SAPLING",
+  "display": "Spruce Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "DARK_OAK_SAPLING",
+  "display": "Dark Oak Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "BIRCH_SAPLING",
+  "display": "Birch Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "ACACIA_SAPLING",
+  "display": "Acacia Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "JUNGLE_SAPLING",
+  "display": "Jungle Sapling",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "WARPED_FUNGUS",
+  "display": "Warped Fungus",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "CRIMSON_FUNGUS",
+  "display": "Crimson Fungus",
+  "category": "plant",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Other"
+ },
+ {
+  "id": "ADVANCED_TREE",
+  "display": "Advanced Tree Grower",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "INFINITY_TREE",
+  "display": "Infinity Tree Grower",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
   "id": "VOID_HARVESTER",
   "display": "Void Harvester",
   "category": "electric",
@@ -1485,6 +1719,33 @@
   "addon": "Slimefun4"
  },
  {
+  "id": "ELECTRIC_GOLD_PAN",
+  "display": "Electric Gold Pan",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ELECTRIC_GOLD_PAN_2",
+  "display": "Electric Gold Pan (II)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ELECTRIC_GOLD_PAN_3",
+  "display": "Electric Gold Pan (III)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
   "id": "MOB_TECH_COLLECTOR_MACHINE_I",
   "display": "MobTech Collector I",
   "category": "electric",
@@ -1505,6 +1766,60 @@
  {
   "id": "MOB_TECH_COLLECTOR_MACHINE_III",
   "display": "MobTech Collector III",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "MOB_COLLECTOR_MACHINE",
+  "display": "Mob Collector",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "MOB_COLLECTOR_MACHINE_II",
+  "display": "Mob Collector II",
+  "category": "electric",
+  "speed": 5,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "MOB_COLLECTOR_MACHINE_III",
+  "display": "Mob Collector III",
+  "category": "electric",
+  "speed": 15,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "FOUNDRY_MACHINE",
+  "display": "Foundry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "FOUNDRY_MACHINE_II",
+  "display": "Foundry II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "FOUNDRY_MACHINE_III",
+  "display": "Foundry III",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2259,15 +2574,6 @@
   "addon": "Other"
  },
  {
-  "id": "BAMBOO",
-  "display": "Bamboo",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
   "id": "PINK_TULIP",
   "display": "Pink Tulip",
   "category": "plant",
@@ -2322,24 +2628,6 @@
   "addon": "Other"
  },
  {
-  "id": "COCOA_BEANS",
-  "display": "Cocoa Beans",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "CACTUS",
-  "display": "Cactus",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
   "id": "POPPY",
   "display": "Poppy",
   "category": "plant",
@@ -2358,71 +2646,8 @@
   "addon": "Other"
  },
  {
-  "id": "POTATO",
-  "display": "Potato",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "CARROT",
-  "display": "Carrot",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "BEETROOT_SEEDS",
-  "display": "Beetroot Seeds",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "WHEAT_SEEDS",
-  "display": "Wheat Seeds",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "SUGAR_CANE",
-  "display": "Sugar Cane",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
   "id": "SWEET_BERRIES",
   "display": "Sweet Berries",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "MELON_SEEDS",
-  "display": "Melon Seeds",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "PUMPKIN_SEEDS",
-  "display": "Pumpkin Seeds",
   "category": "plant",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2502,35 +2727,8 @@
   "addon": "Other"
  },
  {
-  "id": "CRIMSON_FUNGUS",
-  "display": "Crimson Fungus",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "WARPED_FUNGUS",
-  "display": "Warped Fungus",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
   "id": "WITHER_ROSE",
   "display": "Wither Rose",
-  "category": "plant",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Other"
- },
- {
-  "id": "NETHER_WART",
-  "display": "Nether Wart",
   "category": "plant",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2691,26 +2889,8 @@
   "addon": "Slimefun4"
  },
  {
-  "id": "ADVANCED_DISENCHANTER",
-  "display": "Advanced Disenchanter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "EXP_COLLECTOR",
-  "display": "EXP Collector",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "FORGE_INGOT_MACHINE_III",
-  "display": "Forge Ingot III",
+  "id": "TECH_MUTATION_III",
+  "display": "Tech Mutation III",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2718,8 +2898,8 @@
   "addon": "Supreme"
  },
  {
-  "id": "FORGE_INGOT_MACHINE_II",
-  "display": "Forge Ingot II",
+  "id": "TECH_MUTATION_I",
+  "display": "Tech Mutation",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2727,8 +2907,8 @@
   "addon": "Supreme"
  },
  {
-  "id": "FORGE_INGOT_MACHINE",
-  "display": "Forge Ingot",
+  "id": "TECH_MUTATION_II",
+  "display": "Tech Mutation II",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2736,107 +2916,17 @@
   "addon": "Supreme"
  },
  {
-  "id": "SUPREME_NUGGETS_QUARRY",
-  "display": "Nuggets of Supreme Quarry",
+  "id": "BACKPACK_UNLOADER",
+  "display": "Backpack Unloader",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Supreme"
+  "addon": "FluffyMachines"
  },
  {
-  "id": "DIAMOND_QUARRY",
-  "display": "Diamond Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "STONE_QUARRY",
-  "display": "Stone Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "COAL_QUARRY",
-  "display": "Coal Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "THORNIUM_QUARRY",
-  "display": "Thornium Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "GOLD_QUARRY",
-  "display": "Gold Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "IRON_QUARRY",
-  "display": "Iron Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "COBBLESTONE_GENERATOR",
-  "display": "Cobblestone Generator",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "ExtraTools"
- },
- {
-  "id": "CROP_GROWTH_ACCELERATOR_2",
-  "display": "Crop Growth Accelerator (II)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "WIRELESS_ITEM_INPUT",
-  "display": "Wireless Item Input",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "ANIMAL_GROWTH_ACCELERATOR",
-  "display": "Animal Growth Accelerator",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "WIRELESS_ITEM_OUTPUT",
-  "display": "Wireless Item Output",
+  "id": "ANTIGRAVITY_BUBBLE",
+  "display": "Antigravity Bubble",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -2853,238 +2943,22 @@
   "addon": "Slimefun4"
  },
  {
-  "id": "WIRELESS_ENERGY_POINT",
-  "display": "Wireless Energy Point",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "ANTIGRAVITY_BUBBLE",
-  "display": "Antigravity Bubble",
+  "id": "GENETIC_SEQUENCER",
+  "display": "Genetic Sequencer",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "DynaTech"
+  "addon": "GeneticChickengineering-Reborn"
  },
  {
-  "id": "BACKPACK_UNLOADER",
-  "display": "Backpack Unloader",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "FluffyMachines"
- },
- {
-  "id": "KITCHEN_AUTO_CRAFTER",
-  "display": "Kitchen Auto Crafter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "FOUNDRY_MACHINE_III",
-  "display": "Foundry III",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "FOUNDRY_MACHINE_II",
-  "display": "Foundry II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "FOUNDRY_MACHINE",
-  "display": "Foundry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "ELECTRIC_COMPOSTER_2",
-  "display": "Electric Composter (II)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "ExtraTools"
- },
- {
-  "id": "ELECTRIC_INGOT_FACTORY",
-  "display": "Electric Ingot Factory",
+  "id": "GPS_TRANSMITTER_3",
+  "display": "Carbonado GPS Transmitter",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "Slimefun4"
- },
- {
-  "id": "ELECTRIC_INGOT_FACTORY_2",
-  "display": "Electric Ingot Factory (II)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ELECTRIC_INGOT_FACTORY_3",
-  "display": "Electric Ingot Factory (III)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "DURABILITY_GENERATOR",
-  "display": "Durability Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "IRON_GOLEM_ASSEMBLER",
-  "display": "Iron Golem Assembler",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "MATERIAL_HIVE",
-  "display": "Material Hive",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "POTION_SPRINKLER",
-  "display": "Potion Sprinkler",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "BIO_REACTOR",
-  "display": "Bio Reactor",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "FOOD_GENERATOR",
-  "display": "Exchanges hunger for power",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "ELECTRIC_MAGICAL_MACHINE_III",
-  "display": "Electric Magical Machine III",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "ELECTRIC_MAGICAL_MACHINE",
-  "display": "Electric Magical Machine",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "ELECTRIC_MAGICAL_MACHINE_II",
-  "display": "Electric Magical Machine II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MAGNESIUM_GENERATOR",
-  "display": "Magnesium-powered Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "SOLAR_GENERATOR_4",
-  "display": "Energized Solar Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "SOLAR_GENERATOR",
-  "display": "Solar Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "SOLAR_GENERATOR_2",
-  "display": "Advanced Solar Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "SOLAR_GENERATOR_3",
-  "display": "Carbonado Solar Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "BACKPACK_LOADER",
-  "display": "Backpack Loader",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "FluffyMachines"
  },
  {
   "id": "INFINITY_FORGE",
@@ -3096,229 +2970,13 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "GPS_TRANSMITTER",
-  "display": "GPS Transmitter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "INFUSER",
-  "display": "Mob Data Infuser",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "AUTO_ANVIL_2",
-  "display": "Auto Anvil Mk.II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "AUTO_ANVIL",
-  "display": "Auto Anvil",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "EXTERNAL_HEATER",
-  "display": "Externally heats Furnaces, Blast Furnaces,",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "CROP_GROWTH_ACCELERATOR",
-  "display": "Crop Growth Accelerator",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ADVANCED_NETHER_STAR_REACTOR",
-  "display": "Advanced Nether Star Reactor",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "POWERED_BEDROCK",
-  "display": "Powered Bedrock",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "INFINITY_REACTOR",
-  "display": "Infinity Reactor",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "ADVANCED_ANVIL",
-  "display": "Advanced Anvil",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "LAVA_GENERATOR_2",
-  "display": "Lava Generator (II)",
+  "id": "COMBUSTION_REACTOR",
+  "display": "Combustion Reactor",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "Slimefun4"
- },
- {
-  "id": "LAVA_GENERATOR",
-  "display": "Lava Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "GPS_TRANSMITTER_2",
-  "display": "Advanced GPS Transmitter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ADVANCED_CHARGING_BENCH",
-  "display": "Advanced Charging Bench",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "FluffyMachines"
- },
- {
-  "id": "ADVANCED_ENCHANTER",
-  "display": "Advanced Enchanter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "GEO_QUARRY",
-  "display": "Geo Quarry",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "GEAR_TRANSFORMER",
-  "display": "Gear Transformer",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "ADVANCED_CHARGER",
-  "display": "Advanced Charger",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "CHARGING_BENCH",
-  "display": "Charging Bench",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "INFINITY_CHARGER",
-  "display": "Infinity Charger",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "AUTO_TABLE_SAW",
-  "display": "Auto Table Saw",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "FluffyMachines"
- },
- {
-  "id": "WIRELESS_CHARGER",
-  "display": "Wireless Charger",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "BARBED_WIRE",
-  "display": "Barbed Wire",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "WATER_MILL",
-  "display": "Water Mill",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "WATER_MILL_2",
-  "display": "Water Mill 2",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
  },
  {
   "id": "ELECTRIC_CRAFTER_MACHINE",
@@ -3348,6 +3006,195 @@
   "addon": "Supreme"
  },
  {
+  "id": "FOOD_GENERATOR",
+  "display": "Exchanges hunger for power",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "WATER_SPRINKER",
+  "display": "Water Sprinkler",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "FluffyMachines"
+ },
+ {
+  "id": "TECH_ROBOTIC_III",
+  "display": "Tech Robotic III",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "TECH_ROBOTIC_II",
+  "display": "Tech Robotic II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "TECH_ROBOTIC",
+  "display": "Tech Robotic",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "PRIVATE_COOP",
+  "display": "Private Coop",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "id": "AUTO_ANVIL_2",
+  "display": "Auto Anvil Mk.II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "AUTO_ANVIL",
+  "display": "Auto Anvil",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "TREE_GROWTH_ACCELERATOR",
+  "display": "Tree Growth Accelerator",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "BIO_REACTOR",
+  "display": "Bio Reactor",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ORECHID",
+  "display": "Orechid",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "AUTO_BREWER",
+  "display": "Auto Brewer",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "GENERATOR_CORE",
+  "display": "Generator Core",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "FluffyMachines"
+ },
+ {
+  "id": "TESSERACT",
+  "display": "Transfers Items and Energy Wirelessly",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "STARDUST_GENERATOR",
+  "display": "Stardust Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "AUTO_ENCHANTER",
+  "display": "Auto Enchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "AUTO_ENCHANTER_2",
+  "display": "Auto Enchanter - II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ELECTRIC_INGOT_FACTORY_3",
+  "display": "Electric Ingot Factory (III)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ELECTRIC_INGOT_FACTORY_2",
+  "display": "Electric Ingot Factory (II)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ELECTRIC_INGOT_FACTORY",
+  "display": "Electric Ingot Factory",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "WIRELESS_CHARGER",
+  "display": "Wireless Charger",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
   "id": "INFINITE_VOID_HARVESTER",
   "display": "Infinite Void Harvester",
   "category": "electric",
@@ -3357,8 +3204,8 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "BOOK_BINDER",
-  "display": "Book Binder",
+  "id": "ANIMAL_GROWTH_ACCELERATOR",
+  "display": "Animal Growth Accelerator",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3366,26 +3213,26 @@
   "addon": "Slimefun4"
  },
  {
-  "id": "COAL_GENERATOR",
-  "display": "Coal Generator",
-  "category": "generator",
+  "id": "EXTERNAL_HEATER",
+  "display": "Externally heats Furnaces, Blast Furnaces,",
+  "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Slimefun4"
+  "addon": "DynaTech"
  },
  {
-  "id": "COAL_GENERATOR_2",
-  "display": "Coal Generator (II)",
-  "category": "generator",
+  "id": "POWERED_BEDROCK",
+  "display": "Powered Bedrock",
+  "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Slimefun4"
+  "addon": "InfinityExpansion"
  },
  {
-  "id": "CELESTIAL_PANEL",
-  "display": "Celestial Panel",
+  "id": "INFINITE_PANEL",
+  "display": "Infinity Panel",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3402,26 +3249,17 @@
   "addon": "InfinityExpansion"
  },
  {
+  "id": "GEOTHERMAL",
+  "display": "Geothermal Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
   "id": "HYDRO",
   "display": "Hydro Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "REINFORCED_HYDRO",
-  "display": "Reinforced Hydro Gen",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "VOID_PANEL",
-  "display": "Void Panel",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3438,8 +3276,26 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "GEOTHERMAL",
-  "display": "Geothermal Generator",
+  "id": "VOID_PANEL",
+  "display": "Void Panel",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "REINFORCED_HYDRO",
+  "display": "Reinforced Hydro Gen",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "CELESTIAL_PANEL",
+  "display": "Celestial Panel",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3456,8 +3312,71 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "INFINITE_PANEL",
-  "display": "Infinity Panel",
+  "id": "WIND_MILL_2",
+  "display": "Wind Mill 2",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "WIND_MILL",
+  "display": "Wind Mill",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "INFINITY_CONSTRUCTOR",
+  "display": "Infinity Constructor",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "GPS_TRANSMITTER_2",
+  "display": "Advanced GPS Transmitter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "EXP_COLLECTOR",
+  "display": "EXP Collector",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "MAGNESIUM_GENERATOR",
+  "display": "Magnesium-powered Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "KITCHEN_AUTO_CRAFTER",
+  "display": "Kitchen Auto Crafter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "ADVANCED_NETHER_STAR_REACTOR",
+  "display": "Advanced Nether Star Reactor",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3465,35 +3384,26 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "TECH_MUTATION_II",
-  "display": "Tech Mutation II",
-  "category": "electric",
+  "id": "WATER_MILL",
+  "display": "Water Mill",
+  "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Supreme"
+  "addon": "DynaTech"
  },
  {
-  "id": "TECH_MUTATION_III",
-  "display": "Tech Mutation III",
-  "category": "electric",
+  "id": "WATER_MILL_2",
+  "display": "Water Mill 2",
+  "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Supreme"
+  "addon": "DynaTech"
  },
  {
-  "id": "TECH_MUTATION_I",
-  "display": "Tech Mutation",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BANDAID_MANAGER",
-  "display": "Manages Item Bands",
+  "id": "WIRELESS_ITEM_OUTPUT",
+  "display": "Wireless Item Output",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3501,8 +3411,17 @@
   "addon": "DynaTech"
  },
  {
-  "id": "WATER_SPRINKER",
-  "display": "Water Sprinkler",
+  "id": "INFINITY_ENCHANTER",
+  "display": "Infinity Enchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "AUTO_TABLE_SAW",
+  "display": "Auto Table Saw",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3510,13 +3429,85 @@
   "addon": "FluffyMachines"
  },
  {
-  "id": "TESSERACT",
-  "display": "Transfers Items and Energy Wirelessly",
+  "id": "ADVANCED_ANVIL",
+  "display": "Advanced Anvil",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "BOOK_BINDER",
+  "display": "Book Binder",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "WIRELESS_ENERGY_POINT",
+  "display": "Wireless Energy Point",
   "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "DynaTech"
+ },
+ {
+  "id": "ADVANCED_AUTO_DISENCHANTER",
+  "display": "Advanced Auto Disenchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "FluffyMachines"
+ },
+ {
+  "id": "ADVANCED_CHARGER",
+  "display": "Advanced Charger",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "CHARGING_BENCH",
+  "display": "Charging Bench",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "INFINITY_CHARGER",
+  "display": "Infinity Charger",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "WITHER_ASSEMBLER",
+  "display": "Wither Assembler",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "GENERATOR_MOB_ADVANCED",
+  "display": "Generator Mob Advanced",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
  },
  {
   "id": "GENERATOR_MOB_MEDIUM",
@@ -3537,17 +3528,170 @@
   "addon": "Supreme"
  },
  {
-  "id": "GENERATOR_MOB_ADVANCED",
-  "display": "Generator Mob Advanced",
+  "id": "FLUID_PUMP",
+  "display": "Fluid Pump",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "WEATHER_CONTROLLER",
+  "display": "Weather Controller",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "DURABILITY_GENERATOR",
+  "display": "Durability Generator",
   "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "COAL_QUARRY",
+  "display": "Coal Quarry",
+  "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "Supreme"
  },
  {
-  "id": "ADVANCED_AUTO_DISENCHANTER",
-  "display": "Advanced Auto Disenchanter",
+  "id": "SUPREME_NUGGETS_QUARRY",
+  "display": "Nuggets of Supreme Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "STONE_QUARRY",
+  "display": "Stone Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "IRON_QUARRY",
+  "display": "Iron Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "GOLD_QUARRY",
+  "display": "Gold Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "THORNIUM_QUARRY",
+  "display": "Thornium Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "DIAMOND_QUARRY",
+  "display": "Diamond Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "ELECTRIC_DUST_FABRICATOR",
+  "display": "Electric Dust Fabricator",
+  "category": "electric",
+  "speed": 10,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "FluffyMachines"
+ },
+ {
+  "id": "CHAMBER",
+  "display": "Mob Simulation Chamber",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "IRON_GOLEM_ASSEMBLER",
+  "display": "Iron Golem Assembler",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "RESTORATION_CHAMBER",
+  "display": "Restoration Chamber",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "id": "INFINITY_DISENCHANTER",
+  "display": "Infinity Disenchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "AUTO_DISENCHANTER",
+  "display": "Auto Disenchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "AUTO_DISENCHANTER_2",
+  "display": "Auto Disenchanter - II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "GEO_QUARRY",
+  "display": "Geo Quarry",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "BACKPACK_LOADER",
+  "display": "Backpack Loader",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3555,13 +3699,193 @@
   "addon": "FluffyMachines"
  },
  {
-  "id": "INFINITY_ENCHANTER",
-  "display": "Infinity Enchanter",
+  "id": "CROP_GROWTH_ACCELERATOR",
+  "display": "Crop Growth Accelerator",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "MAGIC_ALTAR_MACHINE_III",
+  "display": "Magic Altar III",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "MAGIC_ALTAR_MACHINE_II",
+  "display": "Magic Altar II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "MAGIC_ALTAR_MACHINE",
+  "display": "Magic Altar",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "BARBED_WIRE",
+  "display": "Barbed Wire",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "ELECTRIC_MAGICAL_MACHINE",
+  "display": "Electric Magical Machine",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "ELECTRIC_MAGICAL_MACHINE_III",
+  "display": "Electric Magical Machine III",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "ELECTRIC_MAGICAL_MACHINE_II",
+  "display": "Electric Magical Machine II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "ELECTRIC_COMPOSTER_2",
+  "display": "Electric Composter (II)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "ExtraTools"
+ },
+ {
+  "id": "ADVANCED_GEO_MINER",
+  "display": "Advanced GeoMiner",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "InfinityExpansion"
+ },
+ {
+  "id": "GPS_TRANSMITTER_4",
+  "display": "Energized GPS Transmitter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "GPS_TRANSMITTER",
+  "display": "GPS Transmitter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "MATERIAL_HIVE",
+  "display": "Material Hive",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "CROP_GROWTH_ACCELERATOR_2",
+  "display": "Crop Growth Accelerator (II)",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "ADVANCED_DISENCHANTER",
+  "display": "Advanced Disenchanter",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "SOLAR_GENERATOR_3",
+  "display": "Carbonado Solar Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "SOLAR_GENERATOR_4",
+  "display": "Energized Solar Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "SOLAR_GENERATOR_2",
+  "display": "Advanced Solar Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "SOLAR_GENERATOR",
+  "display": "Solar Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "EGG_MILL_2",
+  "display": "Egg Mill 2",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "EGG_MILL",
+  "display": "Egg Mill",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
  },
  {
   "id": "FORGE_MAGICAL_MACHINE_II",
@@ -3591,89 +3915,53 @@
   "addon": "Supreme"
  },
  {
-  "id": "STARDUST_GENERATOR",
-  "display": "Stardust Generator",
+  "id": "FORGE_INGOT_MACHINE_II",
+  "display": "Forge Ingot II",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "FORGE_INGOT_MACHINE_III",
+  "display": "Forge Ingot III",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "FORGE_INGOT_MACHINE",
+  "display": "Forge Ingot",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "COAL_GENERATOR",
+  "display": "Coal Generator",
   "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "GENERATOR_CORE",
-  "display": "Generator Core",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "FluffyMachines"
- },
- {
-  "id": "CHAMBER",
-  "display": "Mob Simulation Chamber",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "INFINITY_DISENCHANTER",
-  "display": "Infinity Disenchanter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "FLUID_PUMP",
-  "display": "Fluid Pump",
-  "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "Slimefun4"
  },
  {
-  "id": "TECH_ROBOTIC",
-  "display": "Tech Robotic",
-  "category": "electric",
+  "id": "COAL_GENERATOR_2",
+  "display": "Coal Generator (II)",
+  "category": "generator",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Supreme"
+  "addon": "Slimefun4"
  },
  {
-  "id": "TECH_ROBOTIC_III",
-  "display": "Tech Robotic III",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "TECH_ROBOTIC_II",
-  "display": "Tech Robotic II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "RESTORATION_CHAMBER",
-  "display": "Restoration Chamber",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "id": "WEATHER_CONTROLLER",
-  "display": "Weather Controller",
+  "id": "BANDAID_MANAGER",
+  "display": "Manages Item Bands",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
@@ -3681,166 +3969,193 @@
   "addon": "DynaTech"
  },
  {
-  "id": "ELECTRIC_DUST_FABRICATOR",
-  "display": "Electric Dust Fabricator",
+  "id": "NETHER_STAR_REACTOR",
+  "display": "Nether Star Reactor",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "BASIC_IGNIS_GENERATOR",
+  "display": "Basic Ignis Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "AQUA_GENERATOR",
+  "display": "Supreme Machine",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "BASIC_AQUA_GENERATOR",
+  "display": "Basic Aqua Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "BASIC_LUMIUM_GENERATOR",
+  "display": "Basic Lumium Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "VENTUS_GENERATOR",
+  "display": "Ventus Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "IGNIS_GENERATOR",
+  "display": "Ignis Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "LUMIUM_GENERATOR",
+  "display": "Lumium Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "BASIC_LUX_GENERATOR",
+  "display": "Basic Lux Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "BASIC_VENTUS_GENERATOR",
+  "display": "Basic Ventus Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "LUX_GENERATOR",
+  "display": "Lux Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "THORNIUM_GENERATOR",
+  "display": "Thornium Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "SUPREME_GENERATOR",
+  "display": "Supreme Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "ADVANCED_ENCHANTER",
+  "display": "Advanced Enchanter",
   "category": "electric",
-  "speed": 10,
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "POTION_SPRINKLER",
+  "display": "Potion Sprinkler",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "WIRELESS_ITEM_INPUT",
+  "display": "Wireless Item Input",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "DynaTech"
+ },
+ {
+  "id": "INFUSER",
+  "display": "Mob Data Infuser",
+  "category": "electric",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "LAVA_GENERATOR",
+  "display": "Lava Generator",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "LAVA_GENERATOR_2",
+  "display": "Lava Generator (II)",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Slimefun4"
+ },
+ {
+  "id": "INFINITY_REACTOR",
+  "display": "Infinity Reactor",
+  "category": "generator",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "InfinityExpansion"
+ },
+ {
+  "id": "ADVANCED_CHARGING_BENCH",
+  "display": "Advanced Charging Bench",
+  "category": "electric",
+  "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "FluffyMachines"
- },
- {
-  "id": "ELECTRIC_GOLD_PAN",
-  "display": "Electric Gold Pan",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ELECTRIC_GOLD_PAN_3",
-  "display": "Electric Gold Pan (III)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ELECTRIC_GOLD_PAN_2",
-  "display": "Electric Gold Pan (II)",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "TREE_GROWTH_ACCELERATOR",
-  "display": "Tree Growth Accelerator",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "AUTO_BREWER",
-  "display": "Auto Brewer",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "INFINITY_TREE",
-  "display": "Infinity Tree Grower",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "BASIC_GROWER",
-  "display": "Basic Virtual Farm",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "ADVANCED_GROWER",
-  "display": "Advanced Virtual Farm",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "ADVANCED_TREE",
-  "display": "Advanced Tree Grower",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "BASIC_TREE",
-  "display": "Basic Tree Grower",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "INFINITY_GROWER",
-  "display": "Infinity Virtual Farm",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "MAGIC_ALTAR_MACHINE_III",
-  "display": "Magic Altar III",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MAGIC_ALTAR_MACHINE",
-  "display": "Magic Altar",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MAGIC_ALTAR_MACHINE_II",
-  "display": "Magic Altar II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MOB_COLLECTOR_MACHINE_III",
-  "display": "Mob Collector III",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MOB_COLLECTOR_MACHINE_II",
-  "display": "Mob Collector II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "MOB_COLLECTOR_MACHINE",
-  "display": "Mob Collector",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
  },
  {
   "id": "DUST_EXTRACTOR",
@@ -3861,274 +4176,22 @@
   "addon": "InfinityExpansion"
  },
  {
-  "id": "COMBUSTION_REACTOR",
-  "display": "Combustion Reactor",
-  "category": "generator",
+  "id": "COBBLESTONE_GENERATOR",
+  "display": "Cobblestone Generator",
+  "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
-  "addon": "Slimefun4"
+  "addon": "ExtraTools"
  },
  {
-  "id": "INFINITY_CONSTRUCTOR",
-  "display": "Infinity Constructor",
+  "id": "GEAR_TRANSFORMER",
+  "display": "Gear Transformer",
   "category": "electric",
   "speed": 1,
   "seconds_per_op": 2.0,
   "banned": false,
   "addon": "InfinityExpansion"
- },
- {
-  "id": "AUTO_ENCHANTER",
-  "display": "Auto Enchanter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "AUTO_ENCHANTER_2",
-  "display": "Auto Enchanter - II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "EGG_MILL_2",
-  "display": "Egg Mill 2",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "EGG_MILL",
-  "display": "Egg Mill",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "PRIVATE_COOP",
-  "display": "Private Coop",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "id": "ADVANCED_GEO_MINER",
-  "display": "Advanced GeoMiner",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "InfinityExpansion"
- },
- {
-  "id": "WITHER_ASSEMBLER",
-  "display": "Wither Assembler",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "GPS_TRANSMITTER_4",
-  "display": "Energized GPS Transmitter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "AUTO_DISENCHANTER_2",
-  "display": "Auto Disenchanter - II",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "AUTO_DISENCHANTER",
-  "display": "Auto Disenchanter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "GPS_TRANSMITTER_3",
-  "display": "Carbonado GPS Transmitter",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
- },
- {
-  "id": "ORECHID",
-  "display": "Orechid",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "GENETIC_SEQUENCER",
-  "display": "Genetic Sequencer",
-  "category": "electric",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "id": "LUX_GENERATOR",
-  "display": "Lux Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "IGNIS_GENERATOR",
-  "display": "Ignis Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "AQUA_GENERATOR",
-  "display": "Supreme Machine",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BASIC_LUMIUM_GENERATOR",
-  "display": "Basic Lumium Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "THORNIUM_GENERATOR",
-  "display": "Thornium Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BASIC_VENTUS_GENERATOR",
-  "display": "Basic Ventus Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "LUMIUM_GENERATOR",
-  "display": "Lumium Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "SUPREME_GENERATOR",
-  "display": "Supreme Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BASIC_IGNIS_GENERATOR",
-  "display": "Basic Ignis Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BASIC_LUX_GENERATOR",
-  "display": "Basic Lux Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "BASIC_AQUA_GENERATOR",
-  "display": "Basic Aqua Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "VENTUS_GENERATOR",
-  "display": "Ventus Generator",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Supreme"
- },
- {
-  "id": "WIND_MILL",
-  "display": "Wind Mill",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "WIND_MILL_2",
-  "display": "Wind Mill 2",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "DynaTech"
- },
- {
-  "id": "NETHER_STAR_REACTOR",
-  "display": "Nether Star Reactor",
-  "category": "generator",
-  "speed": 1,
-  "seconds_per_op": 2.0,
-  "banned": false,
-  "addon": "Slimefun4"
  },
  {
   "id": "MINERALIZED_APIARY",

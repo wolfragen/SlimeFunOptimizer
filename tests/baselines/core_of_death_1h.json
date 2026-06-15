@@ -1,0 +1,74 @@
+{
+  "query": {
+    "target": "CORE_OF_DEATH",
+    "rate_per_min": 0.016666666666666666,
+    "banned": [],
+    "tech_gen": [
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      },
+      {
+        "category": "cloning",
+        "tier": 1
+      }
+    ],
+    "stackable_cards": false
+  },
+  "note": "Locks the waste-primary single-sourcing fix: BEEF must come from ONE machine type (Mob Collector), not Mob Collector + a Mob Sim Chamber placed for wasted leather.",
+  "total_machines": 115,
+  "machine_totals": {
+    "BLAZE_ROD_CHICKEN": 7,
+    "BONE_CHICKEN": 2,
+    "ELECTRIC_CORE_MACHINE_II": 6,
+    "ELECTRIC_CORE_MACHINE_III": 3,
+    "EXCITATION_CHAMBER_3": 19,
+    "GHAST_TEAR_CHICKEN": 4,
+    "GROWTH_CHAMBER_MK2": 1,
+    "MOB_COLLECTOR_MACHINE_III": 47,
+    "NTW_AUTO_CRAFTER": 3,
+    "SLIME_BALL_CHICKEN": 2,
+    "STRING_CHICKEN": 4,
+    "VANILLA_AUTO_CRAFTER": 1,
+    "VIRTUAL_AQUARIUM_MACHINE_III": 35
+  },
+  "chosen_machine_per_output": {
+    "BEEF": "MOB_COLLECTOR_MACHINE_III",
+    "BLAZE_ROD": "EXCITATION_CHAMBER_3",
+    "BONE": "EXCITATION_CHAMBER_3",
+    "CHICKEN": "MOB_COLLECTOR_MACHINE_III",
+    "COD": "VIRTUAL_AQUARIUM_MACHINE_III",
+    "CORE_OF_DEATH": "NTW_AUTO_CRAFTER",
+    "DEAD_BUSH": "GROWTH_CHAMBER_MK2",
+    "FISHING_ROD": "NTW_AUTO_CRAFTER",
+    "GHAST_TEAR": "EXCITATION_CHAMBER_3",
+    "IRON_INGOT": "MOB_COLLECTOR_MACHINE_III",
+    "IRON_SWORD": "VANILLA_AUTO_CRAFTER",
+    "MUTTON": "MOB_COLLECTOR_MACHINE_III",
+    "NETHER_STAR": "MOB_COLLECTOR_MACHINE_III",
+    "PORKCHOP": "MOB_COLLECTOR_MACHINE_III",
+    "RESOURCE_CORE_BEEF": "ELECTRIC_CORE_MACHINE_II",
+    "RESOURCE_CORE_CHICKEN": "ELECTRIC_CORE_MACHINE_II",
+    "RESOURCE_CORE_COD": "ELECTRIC_CORE_MACHINE_III",
+    "RESOURCE_CORE_MUTTON": "ELECTRIC_CORE_MACHINE_III",
+    "RESOURCE_CORE_PORKCHOP": "ELECTRIC_CORE_MACHINE_II",
+    "RESOURCE_CORE_SALMON": "ELECTRIC_CORE_MACHINE_II",
+    "RESOURCE_CORE_SPIDER_EYE": "ELECTRIC_CORE_MACHINE_II",
+    "RESOURCE_CORE_STRING": "ELECTRIC_CORE_MACHINE_III",
+    "RESOURCE_CORE_TEAR": "ELECTRIC_CORE_MACHINE_II",
+    "ROTTEN_FLESH": "MOB_COLLECTOR_MACHINE_III",
+    "SHEARS": "NTW_AUTO_CRAFTER",
+    "SLIME_BALL": "EXCITATION_CHAMBER_3",
+    "SPIDER_EYE": "MOB_COLLECTOR_MACHINE_III",
+    "STRING": "EXCITATION_CHAMBER_3"
+  },
+  "raw_inputs": {}
+}

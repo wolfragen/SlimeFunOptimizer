@@ -71,6 +71,8 @@ KNOWN_OK_CUSTOM = {
     "WEATHER_CONTROLLER": "consumes items to change weather -> not an item producer",
     "MATERIAL_HIVE": "takes 64x an ingot and meters 1 back out (storage/hive) -> net consumer",
     "SMART_FACTORY": "generic auto-crafter -> offered for grid recipes via RECIPE_TYPE_MACHINES",
+    "TECH_ROBOTIC": "TechRobotic.addRecipe is never called statically -- no extractable recipes",
+    "TECH_ROBOTIC_II": "see TECH_ROBOTIC", "TECH_ROBOTIC_III": "see TECH_ROBOTIC",
 }
 
 

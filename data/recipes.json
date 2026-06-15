@@ -31050,6 +31050,1851 @@
  },
  {
   "kind": "machine",
+  "output_id": "WHEAT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHEAT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WHEAT_SEEDS",
+    "name": "Wheat Seeds",
+    "product": "WHEAT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CARROT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CARROT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CARROT",
+    "name": "Carrot",
+    "product": "CARROT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POTATO",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POTATO",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "POTATO",
+    "name": "Potato",
+    "product": "POTATO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BEETROOT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BEETROOT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BEETROOT_SEEDS",
+    "name": "Beetroot Seeds",
+    "product": "BEETROOT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PUMPKIN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PUMPKIN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "PUMPKIN_SEEDS",
+    "name": "Pumpkin Seeds",
+    "product": "PUMPKIN",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MELON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MELON",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "MELON_SEEDS",
+    "name": "Melon Seeds",
+    "product": "MELON",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR_CANE",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR_CANE",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SUGAR_CANE",
+    "name": "Sugar Cane",
+    "product": "SUGAR_CANE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COCOA_BEANS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "COCOA_BEANS",
+    "name": "Cocoa Beans",
+    "product": "COCOA_BEANS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CACTUS",
+    "name": "Cactus",
+    "product": "CACTUS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BAMBOO",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BAMBOO",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BAMBOO",
+    "name": "Bamboo",
+    "product": "BAMBOO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHORUS_FRUIT",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FRUIT",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CHORUS_FLOWER",
+    "name": "Chorus Flower",
+    "product": "CHORUS_FRUIT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "BASIC_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "NETHER_WART",
+    "name": "Nether Wart",
+    "product": "NETHER_WART",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHEAT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHEAT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WHEAT_SEEDS",
+    "name": "Wheat Seeds",
+    "product": "WHEAT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CARROT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CARROT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CARROT",
+    "name": "Carrot",
+    "product": "CARROT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POTATO",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POTATO",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "POTATO",
+    "name": "Potato",
+    "product": "POTATO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BEETROOT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BEETROOT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BEETROOT_SEEDS",
+    "name": "Beetroot Seeds",
+    "product": "BEETROOT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PUMPKIN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PUMPKIN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "PUMPKIN_SEEDS",
+    "name": "Pumpkin Seeds",
+    "product": "PUMPKIN",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MELON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MELON",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "MELON_SEEDS",
+    "name": "Melon Seeds",
+    "product": "MELON",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR_CANE",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR_CANE",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SUGAR_CANE",
+    "name": "Sugar Cane",
+    "product": "SUGAR_CANE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COCOA_BEANS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "COCOA_BEANS",
+    "name": "Cocoa Beans",
+    "product": "COCOA_BEANS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CACTUS",
+    "name": "Cactus",
+    "product": "CACTUS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BAMBOO",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BAMBOO",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BAMBOO",
+    "name": "Bamboo",
+    "product": "BAMBOO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHORUS_FRUIT",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FRUIT",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CHORUS_FLOWER",
+    "name": "Chorus Flower",
+    "product": "CHORUS_FRUIT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "ADVANCED_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "NETHER_WART",
+    "name": "Nether Wart",
+    "product": "NETHER_WART",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHEAT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHEAT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WHEAT_SEEDS",
+    "name": "Wheat Seeds",
+    "product": "WHEAT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CARROT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CARROT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CARROT",
+    "name": "Carrot",
+    "product": "CARROT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POTATO",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POTATO",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "POTATO",
+    "name": "Potato",
+    "product": "POTATO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BEETROOT",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BEETROOT",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BEETROOT_SEEDS",
+    "name": "Beetroot Seeds",
+    "product": "BEETROOT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PUMPKIN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PUMPKIN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "PUMPKIN_SEEDS",
+    "name": "Pumpkin Seeds",
+    "product": "PUMPKIN",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MELON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MELON",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "MELON_SEEDS",
+    "name": "Melon Seeds",
+    "product": "MELON",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR_CANE",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR_CANE",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SUGAR_CANE",
+    "name": "Sugar Cane",
+    "product": "SUGAR_CANE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COCOA_BEANS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "COCOA_BEANS",
+    "name": "Cocoa Beans",
+    "product": "COCOA_BEANS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CACTUS",
+    "name": "Cactus",
+    "product": "CACTUS",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BAMBOO",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BAMBOO",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BAMBOO",
+    "name": "Bamboo",
+    "product": "BAMBOO",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHORUS_FRUIT",
+  "output_amount": 6,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FRUIT",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CHORUS_FLOWER",
+    "name": "Chorus Flower",
+    "product": "CHORUS_FRUIT",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 2,
+  "recipe_type": null,
+  "machine": "INFINITY_GROWER",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "NETHER_WART",
+    "name": "Nether Wart",
+    "product": "NETHER_WART",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "OAK_SAPLING",
+    "name": "Oak Sapling",
+    "product": "OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPRUCE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SPRUCE_SAPLING",
+    "name": "Spruce Sapling",
+    "product": "SPRUCE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DARK_OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "DARK_OAK_SAPLING",
+    "name": "Dark Oak Sapling",
+    "product": "DARK_OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BIRCH_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BIRCH_SAPLING",
+    "name": "Birch Sapling",
+    "product": "BIRCH_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ACACIA_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "ACACIA_SAPLING",
+    "name": "Acacia Sapling",
+    "product": "ACACIA_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "JUNGLE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "JUNGLE_SAPLING",
+    "name": "Jungle Sapling",
+    "product": "JUNGLE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WARPED_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WARPED_FUNGUS",
+    "name": "Warped Fungus",
+    "product": "WARPED_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRIMSON_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "BASIC_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WEEPING_VINES",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CRIMSON_FUNGUS",
+    "name": "Crimson Fungus",
+    "product": "CRIMSON_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "OAK_SAPLING",
+    "name": "Oak Sapling",
+    "product": "OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPRUCE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SPRUCE_SAPLING",
+    "name": "Spruce Sapling",
+    "product": "SPRUCE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DARK_OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "DARK_OAK_SAPLING",
+    "name": "Dark Oak Sapling",
+    "product": "DARK_OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BIRCH_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BIRCH_SAPLING",
+    "name": "Birch Sapling",
+    "product": "BIRCH_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ACACIA_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "ACACIA_SAPLING",
+    "name": "Acacia Sapling",
+    "product": "ACACIA_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "JUNGLE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "JUNGLE_SAPLING",
+    "name": "Jungle Sapling",
+    "product": "JUNGLE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WARPED_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WARPED_FUNGUS",
+    "name": "Warped Fungus",
+    "product": "WARPED_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRIMSON_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "ADVANCED_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WEEPING_VINES",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CRIMSON_FUNGUS",
+    "name": "Crimson Fungus",
+    "product": "CRIMSON_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "OAK_SAPLING",
+    "name": "Oak Sapling",
+    "product": "OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPRUCE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SPRUCE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STICK",
+    "amount": 2
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "SPRUCE_SAPLING",
+    "name": "Spruce Sapling",
+    "product": "SPRUCE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DARK_OAK_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "DARK_OAK_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "DARK_OAK_SAPLING",
+    "name": "Dark Oak Sapling",
+    "product": "DARK_OAK_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BIRCH_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BIRCH_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "BIRCH_SAPLING",
+    "name": "Birch Sapling",
+    "product": "BIRCH_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ACACIA_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ACACIA_LOG",
+    "amount": 6
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "ACACIA_SAPLING",
+    "name": "Acacia Sapling",
+    "product": "ACACIA_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "JUNGLE_LEAVES",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LEAVES",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "JUNGLE_LOG",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COCOA_BEANS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "JUNGLE_SAPLING",
+    "name": "Jungle Sapling",
+    "product": "JUNGLE_LEAVES",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WARPED_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WARPED_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "WARPED_FUNGUS",
+    "name": "Warped Fungus",
+    "product": "WARPED_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRIMSON_HYPHAE",
+  "output_amount": 8,
+  "recipe_type": null,
+  "machine": "INFINITY_TREE",
+  "time_seconds": 5.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_HYPHAE",
+    "amount": 8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CRIMSON_STEM",
+    "amount": 6
+   },
+   {
+    "kind": "vanilla",
+    "ref": "WEEPING_VINES",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "GrowingMachine",
+  "source_class": "GrowingMachine",
+  "fixtures": [
+   {
+    "id": "CRIMSON_FUNGUS",
+    "name": "Crimson Fungus",
+    "product": "CRIMSON_HYPHAE",
+    "category": "plant"
+   }
+  ],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
   "output_id": "VOID_BIT",
   "output_amount": 1,
   "recipe_type": null,
@@ -67376,6 +69221,129 @@
   "addon": "Slimefun4"
  },
  {
+  "kind": "machine",
+  "output_id": "FLINT",
+  "output_amount": 0.4,
+  "recipe_type": null,
+  "machine": "ELECTRIC_GOLD_PAN",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "FLINT",
+    "amount": 0.4
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CLAY_BALL",
+    "amount": 0.2
+   },
+   {
+    "kind": "slimefun",
+    "ref": "SIFTED_ORE",
+    "amount": 0.35
+   },
+   {
+    "kind": "vanilla",
+    "ref": "IRON_NUGGET",
+    "amount": 0.05
+   }
+  ],
+  "ctor_class": "ELECTRIC_GOLD_PAN",
+  "source_class": "ElectricGoldPan",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
+  "kind": "machine",
+  "output_id": "FLINT",
+  "output_amount": 0.4,
+  "recipe_type": null,
+  "machine": "ELECTRIC_GOLD_PAN_2",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "FLINT",
+    "amount": 0.4
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CLAY_BALL",
+    "amount": 0.2
+   },
+   {
+    "kind": "slimefun",
+    "ref": "SIFTED_ORE",
+    "amount": 0.35
+   },
+   {
+    "kind": "vanilla",
+    "ref": "IRON_NUGGET",
+    "amount": 0.05
+   }
+  ],
+  "ctor_class": "ELECTRIC_GOLD_PAN_2",
+  "source_class": "ElectricGoldPan",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
+  "kind": "machine",
+  "output_id": "FLINT",
+  "output_amount": 0.4,
+  "recipe_type": null,
+  "machine": "ELECTRIC_GOLD_PAN_3",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "FLINT",
+    "amount": 0.4
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CLAY_BALL",
+    "amount": 0.2
+   },
+   {
+    "kind": "slimefun",
+    "ref": "SIFTED_ORE",
+    "amount": 0.35
+   },
+   {
+    "kind": "vanilla",
+    "ref": "IRON_NUGGET",
+    "amount": 0.05
+   }
+  ],
+  "ctor_class": "ELECTRIC_GOLD_PAN_3",
+  "source_class": "ElectricGoldPan",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
   "kind": "crafting",
   "output_id": "SUPREME",
   "output_amount": 1,
@@ -77220,7 +79188,7 @@
   "output_id": "SUPREME_SIMPLE_BEE",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "machine": "MobTechCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
@@ -77236,7 +79204,7 @@
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "ctor_class": "MobTechCollector",
   "source_class": "MobTechCollector",
   "fixtures": [],
   "addon": "Supreme"
@@ -77246,7 +79214,7 @@
   "output_id": "SUPREME_SIMPLE_GOLEM",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "machine": "MobTechCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
@@ -77262,7 +79230,7 @@
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "ctor_class": "MobTechCollector",
   "source_class": "MobTechCollector",
   "fixtures": [],
   "addon": "Supreme"
@@ -77272,7 +79240,7 @@
   "output_id": "SUPREME_SIMPLE_ZOMBIE",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "machine": "MobTechCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
@@ -77288,164 +79256,2130 @@
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_I",
+  "ctor_class": "MobTechCollector",
   "source_class": "MobTechCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_BEE",
+  "output_id": "HONEY_BOTTLE",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
-    "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
     "amount": 1
    }
   ],
   "outputs": [
    {
-    "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_BEE",
+    "kind": "vanilla",
+    "ref": "HONEY_BOTTLE",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_GOLEM",
+  "output_id": "INK_SAC",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
-    "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
     "amount": 1
    }
   ],
   "outputs": [
    {
-    "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_GOLEM",
+    "kind": "vanilla",
+    "ref": "INK_SAC",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_ZOMBIE",
+  "output_id": "GLOW_INK_SAC",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_II",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
-    "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
     "amount": 1
    }
   ],
   "outputs": [
    {
-    "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_ZOMBIE",
+    "kind": "vanilla",
+    "ref": "GLOW_INK_SAC",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_II",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_BEE",
+  "output_id": "FILLED_FLASK_OF_KNOWLEDGE",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
-    "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
     "amount": 1
    }
   ],
   "outputs": [
    {
     "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_BEE",
+    "ref": "FILLED_FLASK_OF_KNOWLEDGE",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_GOLEM",
+  "output_id": "DRAGON_BREATH",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
-    "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
     "amount": 1
    }
   ],
   "outputs": [
    {
-    "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_GOLEM",
+    "kind": "vanilla",
+    "ref": "DRAGON_BREATH",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
   "fixtures": [],
   "addon": "Supreme"
  },
  {
   "kind": "machine",
-  "output_id": "SUPREME_SIMPLE_ZOMBIE",
+  "output_id": "HONEYCOMB",
   "output_amount": 1,
   "recipe_type": null,
-  "machine": "MOB_TECH_COLLECTOR_MACHINE_III",
+  "machine": "MobCollector",
   "time_seconds": 15.0,
   "ingredients": [
    {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "HONEYCOMB",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHITE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHITE_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ORANGE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ORANGE_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGENTA_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGENTA_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIGHT_BLUE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LIGHT_BLUE_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "YELLOW_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "YELLOW_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIME_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LIME_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PINK_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PINK_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAY_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAY_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LIGHT_GRAY_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LIGHT_GRAY_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CYAN_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CYAN_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PURPLE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PURPLE_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLUE_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLUE_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BROWN_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BROWN_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GREEN_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GREEN_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "RED_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "RED_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLACK_WOOL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLACK_WOOL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LEATHER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "FEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "FEATHER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPONGE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPONGE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPIDER_EYE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPIDER_EYE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COMPRESSED_CARBON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
     "kind": "slimefun",
-    "ref": "EMPTY_MOBTECH",
+    "ref": "COMPRESSED_CARBON",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BASIC_CIRCUIT_BOARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SHEARS",
+    "amount": 0.00840336
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "BASIC_CIRCUIT_BOARD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PHANTOM_MEMBRANE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PHANTOM_MEMBRANE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ROTTEN_FLESH",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ROTTEN_FLESH",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GUNPOWDER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GUNPOWDER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SLIME_BALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SLIME_BALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STRING",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WITHER_SKELETON_SKULL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WITHER_SKELETON_SKULL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENDER_PEARL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENDER_PEARL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLAZE_ROD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLAZE_ROD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGMA_CREAM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGMA_CREAM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_STAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_STAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GHAST_TEAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GHAST_TEAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TOTEM_OF_UNDYING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "TOTEM_OF_UNDYING",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BEEF",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BEEF",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PORKCHOP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PORKCHOP",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CHICKEN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHICKEN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MUTTON",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MUTTON",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SNOWBALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NAUTILUS_SHELL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NAUTILUS_SHELL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_SHARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_SHARD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_CRYSTALS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_CRYSTALS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS_BOTTLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_SWORD",
+    "amount": 0.008
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLASS_BOTTLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRANGE_NETHER_GOO",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "MobCollector",
+  "time_seconds": 15.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_INGOT",
     "amount": 1
    }
   ],
   "outputs": [
    {
     "kind": "slimefun",
-    "ref": "SUPREME_SIMPLE_ZOMBIE",
+    "ref": "STRANGE_NETHER_GOO",
     "amount": 1
    }
   ],
-  "ctor_class": "MOB_TECH_COLLECTOR_MACHINE_III",
-  "source_class": "MobTechCollector",
+  "ctor_class": "MobCollector",
+  "source_class": "MobCollector",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLISTERING_INGOT_3",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_EMERALD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "BLISTERING_INGOT_3",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE_ALLOY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_REDSTONE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REDSTONE_ALLOY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "HARDENED_METAL_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_LAPIS",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "HARDENED_METAL_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REINFORCED_ALLOY_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_NETHERITE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REINFORCED_ALLOY_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENCHANTED_GOLDEN_APPLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_APPLE",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENCHANTED_GOLDEN_APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOLAR_PANEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_QUARTZ",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SOLAR_PANEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OIL_BUCKET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_IRON",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_BLACK",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "OIL_BUCKET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PLASTIC_SHEET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GRAVEL",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "PLASTIC_SHEET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLISTERING_INGOT_3",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_EMERALD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "BLISTERING_INGOT_3",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE_ALLOY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_REDSTONE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REDSTONE_ALLOY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "HARDENED_METAL_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_LAPIS",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "HARDENED_METAL_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REINFORCED_ALLOY_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_NETHERITE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REINFORCED_ALLOY_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENCHANTED_GOLDEN_APPLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_APPLE",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENCHANTED_GOLDEN_APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOLAR_PANEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_QUARTZ",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SOLAR_PANEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OIL_BUCKET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_IRON",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_BLACK",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "OIL_BUCKET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PLASTIC_SHEET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_II",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GRAVEL",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "PLASTIC_SHEET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_II",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLISTERING_INGOT_3",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_EMERALD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "BLISTERING_INGOT_3",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE_ALLOY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_REDSTONE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REDSTONE_ALLOY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "HARDENED_METAL_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_LAPIS",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "HARDENED_METAL_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REINFORCED_ALLOY_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_DIAMOND",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_NETHERITE",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REINFORCED_ALLOY_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENCHANTED_GOLDEN_APPLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_APPLE",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GOLD",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENCHANTED_GOLDEN_APPLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOLAR_PANEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_QUARTZ",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SOLAR_PANEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OIL_BUCKET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_IRON",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_BLACK",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "OIL_BUCKET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PLASTIC_SHEET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "FOUNDRY_MACHINE_III",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_GRAVEL",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "RESOURCE_CORE_STRING",
+    "amount": 3
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "PLASTIC_SHEET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "FOUNDRY_MACHINE_III",
+  "source_class": "Foundry",
   "fixtures": [],
   "addon": "Supreme"
  },

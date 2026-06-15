@@ -353,14 +353,54 @@ def solve(graph: Graph, target: str, rate_per_min: float,
                 _solve()
                 break
 
+    def _total_machines():
+        """Real machine count of the current solution (mirrors the final collection: integer
+        per recipe, mob-chamber card-stacking via per_machine, fixtures excluded)."""
+        t = 0
+        for r in run:
+            if (ops[r.rid].value() or 0) <= 1e-6:
+                continue
+            unit = int(round(mach[r.rid].value() or 0))
+            pm = per_machine(r)
+            t += math.ceil(unit / pm) if pm > 1 else unit
+        return t
+
+    def _drop_waste_primary():
+        """Remove a machine placed ONLY for a byproduct: its PRIMARY output is pure waste
+        (not the target, consumed by nothing), so it exists just to spill a secondary item that
+        another machine already makes as its primary. Disabling it (and letting that primary
+        producer scale) is never worse and stops e.g. a Mob Sim Chamber being added for its beef
+        byproduct while wasting leather, when the Mob Collector already makes the beef.
+        Only kept if total machines doesn't increase (respects fewest-machines)."""
+        tried = set()
+        for _ in range(40):
+            consumed_now = set()
+            for r in run:
+                if (ops[r.rid].value() or 0) > 1e-6:
+                    consumed_now.update(i.ref for i in r.ingredients)
+            cand = next((r for r in run
+                         if (ops[r.rid].value() or 0) > 1e-6 and ops[r.rid].upBound != 0
+                         and r.rid not in tried and r.output_id != target
+                         and r.output_id not in consumed_now), None)
+            if cand is None:
+                break
+            tried.add(cand.rid)
+            base = _total_machines()
+            ops[cand.rid].upBound = 0
+            if _solve() != "Optimal" or _total_machines() > base:
+                ops[cand.rid].upBound = None      # not worth it -> undo
+                _solve()
+
     # 1) single-source on the fast CONTINUOUS relaxation (disables minor producers cheaply),
     # 2) flip to INTEGER and solve the now much smaller model,
-    # 3) re-run single-sourcing to clean up any split introduced by integer rounding.
+    # 3) re-run single-sourcing, then drop byproduct-only machines whose primary is wasted.
     _single_source()
     for v in mach.values():
         v.cat = pulp.LpInteger
     if _solve() != "Optimal":
         return {"ok": False, "error": "no integer solution"}
+    _single_source()
+    _drop_waste_primary()
     _single_source()
 
     # --- collect solution
