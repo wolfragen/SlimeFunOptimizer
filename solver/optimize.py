@@ -281,7 +281,8 @@ def solve(graph: Graph, target: str, rate_per_min: float,
     #  3. fewest operations (so utilization/byproducts aren't inflated).
     OTHER_CRAFTERS = {"VANILLA_AUTO_CRAFTER", "ENHANCED_AUTO_CRAFTER", "ARMOR_AUTO_CRAFTER",
                       "AUTO_CRAFTING_TABLE", "AUTO_ENHANCED_CRAFTING_TABLE",
-                      "AUTO_MAGIC_WORKBENCH", "AUTO_ARMOR_FORGE", "AUTO_ANCIENT_ALTAR"}
+                      "AUTO_MAGIC_WORKBENCH", "AUTO_ARMOR_FORGE", "AUTO_ANCIENT_ALTAR",
+                      "SMART_FACTORY"}
 
     def slowness(r):
         s = 1.0 / max(eff_ops(r), 1e-9)

@@ -19,7 +19,8 @@ from pathlib import Path
 from . import (classfile, model, supreme_mobtech, supreme_cards, supreme_gear,
                supreme_techgen, supreme_virtual, infinity_machines, mobsim,
                passive_generators, quarries, multiblock_recipes, vanilla_recipes,
-               gce, gce_chickens, machine_tiers, electric_machines, networks_items)
+               gce, gce_chickens, machine_tiers, electric_machines, networks_items,
+               extra_machines)
 
 ROOT = Path(__file__).resolve().parent.parent
 PLUGINS = ROOT / "plugins"
@@ -66,6 +67,10 @@ def process_jar(jar_path: Path):
     # multiblock processing recipes (input->output pairs incl. vanilla outputs) — all jars
     with zipfile.ZipFile(jar_path) as zf:
         recipes.extend(multiblock_recipes.extract(zf))
+    # custom-generation machines the generic pass misses (Seed Plucker, Stoneworks Factory,
+    # Resource Synthesizer, Produce Collector, Oil Pump) — dispatches by addon internally
+    with zipfile.ZipFile(jar_path) as zf:
+        recipes.extend(extra_machines.extract(zf, jar_path.name))
     # addon-specific recognizers for custom frameworks the generic pass can't see
     if "supreme" in jar_path.name.lower():
         with zipfile.ZipFile(jar_path) as zf:

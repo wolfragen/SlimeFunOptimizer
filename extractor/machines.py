@@ -61,9 +61,11 @@ NON_PRODUCING = {"NULL", "NONE", "INTERACT", None}
 # NTW_AUTO_CRAFTER (Networks) crafts any grid recipe (vanilla + slimefun) and is the user's
 # preferred crafter (easiest to set up); it's listed first so the solver prefers it. It can't
 # do ANCIENT_ALTAR rituals.
+# FluffyMachines Smart Factory is a programmable auto-crafter that reads a vanilla or
+# Slimefun grid recipe and repeats it, so it's an option for both crafting-grid types.
 RECIPE_TYPE_MACHINES = {
-    "VANILLA_CRAFTING": ["NTW_AUTO_CRAFTER", "VANILLA_AUTO_CRAFTER", "AUTO_CRAFTING_TABLE"],
-    "ENHANCED_CRAFTING_TABLE": ["NTW_AUTO_CRAFTER", "ENHANCED_AUTO_CRAFTER", "AUTO_ENHANCED_CRAFTING_TABLE"],
+    "VANILLA_CRAFTING": ["NTW_AUTO_CRAFTER", "VANILLA_AUTO_CRAFTER", "AUTO_CRAFTING_TABLE", "SMART_FACTORY"],
+    "ENHANCED_CRAFTING_TABLE": ["NTW_AUTO_CRAFTER", "ENHANCED_AUTO_CRAFTER", "AUTO_ENHANCED_CRAFTING_TABLE", "SMART_FACTORY"],
     "MAGIC_WORKBENCH": ["NTW_AUTO_CRAFTER", "AUTO_MAGIC_WORKBENCH"],
     "ARMOR_FORGE": ["NTW_AUTO_CRAFTER", "ARMOR_AUTO_CRAFTER", "AUTO_ARMOR_FORGE"],
     "ANCIENT_ALTAR": ["AUTO_ANCIENT_ALTAR"],
@@ -85,7 +87,7 @@ MULTIBLOCK_ELECTRIC = {
 _AUTO_CRAFTERS = {
     "NTW_AUTO_CRAFTER", "VANILLA_AUTO_CRAFTER", "AUTO_CRAFTING_TABLE",
     "ENHANCED_AUTO_CRAFTER", "AUTO_ENHANCED_CRAFTING_TABLE", "AUTO_MAGIC_WORKBENCH",
-    "ARMOR_AUTO_CRAFTER", "AUTO_ARMOR_FORGE", "AUTO_ANCIENT_ALTAR",
+    "ARMOR_AUTO_CRAFTER", "AUTO_ARMOR_FORGE", "AUTO_ANCIENT_ALTAR", "SMART_FACTORY",
 }
 
 # PROCESS multiblocks have no FluffyMachines auto-crafter; their Slimefun electric versions

@@ -31,6 +31,12 @@ def main():
     print("\n== 3/3  resolving icons ==")
     icons_mod.build()
 
+    # standing completeness guard: reconcile in-bytecode recipe registrations vs what we
+    # extracted, and flag custom-generation producers with no recipes (see recipe_coverage).
+    print("\n== recipe coverage audit ==")
+    from extractor import recipe_coverage
+    recipe_coverage.print_report(full=True)
+
     print("\nDone. Launch the app with:  python run_app.py   (or start.bat)")
 
 

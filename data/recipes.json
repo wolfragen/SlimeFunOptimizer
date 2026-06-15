@@ -9282,6 +9282,136 @@
   "addon": "DynaTech"
  },
  {
+  "kind": "machine",
+  "output_id": "CHORUS_FLOWER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SEED_PLUCKER",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FRUIT",
+    "amount": 4
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CHORUS_FLOWER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "SEED_PLUCKER",
+  "source_class": "SeedPlucker",
+  "fixtures": [],
+  "addon": "DynaTech"
+ },
+ {
+  "kind": "machine",
+  "output_id": "WHEAT_SEEDS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SEED_PLUCKER",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "WHEAT",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "WHEAT_SEEDS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "SEED_PLUCKER",
+  "source_class": "SeedPlucker",
+  "fixtures": [],
+  "addon": "DynaTech"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BEETROOT_SEEDS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SEED_PLUCKER",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BEETROOT",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BEETROOT_SEEDS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "SEED_PLUCKER",
+  "source_class": "SeedPlucker",
+  "fixtures": [],
+  "addon": "DynaTech"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PUMPKIN_SEEDS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SEED_PLUCKER",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "PUMPKIN",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PUMPKIN_SEEDS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "SEED_PLUCKER",
+  "source_class": "SeedPlucker",
+  "fixtures": [],
+  "addon": "DynaTech"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MELON_SEEDS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SEED_PLUCKER",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "MELON_SLICE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MELON_SEEDS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "SEED_PLUCKER",
+  "source_class": "SeedPlucker",
+  "fixtures": [],
+  "addon": "DynaTech"
+ },
+ {
   "kind": "crafting",
   "output_id": "HAMMER",
   "output_amount": 1,
@@ -30365,6 +30495,556 @@
   "outputs": [],
   "ctor_class": "io/github/thebusybiscuit/slimefun4/api/items/SlimefunItem",
   "source_class": "io/github/mooy1/infinityexpansion/items/mobdata/MobData",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLESTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SMOOTH_STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SMOOTH_STONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SAND",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLASS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRACKED_STONE_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRACKED_STONE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAVEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLESTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SAND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SAND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STONE_BRICKS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE_BRICKS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POLISHED_GRANITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_GRANITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POLISHED_DIORITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_DIORITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "POLISHED_ANDESITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "POLISHED_ANDESITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SANDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "SAND",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SANDSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ANDESITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLESTONE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIORITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRANITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONEWORKS_FACTORY",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "STONEWORKS_FACTORY",
+  "source_class": "StoneworksFactory",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REINFORCED_ALLOY_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "COAL_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REINFORCED_ALLOY_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE_ALLOY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "REDSTONE_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "REDSTONE_ALLOY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CARBONADO",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "DIAMOND_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "COAL_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "CARBONADO",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLISTERING_INGOT_3",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "GOLD_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "EMERALD_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "BLISTERING_INGOT_3",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ELECTRO_MAGNET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "COPPER_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "ZINC_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ELECTRO_MAGNET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
+  "fixtures": [],
+  "addon": "InfinityExpansion"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOLAR_PANEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "RESOURCE_SYNTHESIZER",
+  "time_seconds": 10.0,
+  "ingredients": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_SINGULARITY",
+    "amount": 1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "QUARTZ_SINGULARITY",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SOLAR_PANEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "RESOURCE_SYNTHESIZER",
+  "source_class": "ResourceSynthesizer",
   "fixtures": [],
   "addon": "InfinityExpansion"
  },
@@ -66614,6 +67294,84 @@
   "outputs": [],
   "ctor_class": "",
   "source_class": "io/github/thebusybiscuit/slimefun4/implementation/items/multiblocks/GrindStone",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MILK_BUCKET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "PRODUCE_COLLECTOR",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BUCKET",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MILK_BUCKET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "PRODUCE_COLLECTOR",
+  "source_class": "ProduceCollector",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MUSHROOM_STEW",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "PRODUCE_COLLECTOR",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BOWL",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MUSHROOM_STEW",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "PRODUCE_COLLECTOR",
+  "source_class": "ProduceCollector",
+  "fixtures": [],
+  "addon": "Slimefun4"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OIL_BUCKET",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "OIL_PUMP",
+  "time_seconds": 5.0,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "BUCKET",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "OIL_BUCKET",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "OIL_PUMP",
+  "source_class": "OilPump",
   "fixtures": [],
   "addon": "Slimefun4"
  },
