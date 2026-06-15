@@ -95129,6 +95129,341 @@
   "addon": "Supreme"
  },
  {
+  "kind": "machine",
+  "output_id": "COBBLESTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "STONE_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COBBLESTONE",
+    "amount": 0.8
+   },
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 0.2
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "COAL_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "MYCELIUM",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SAND",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CLAY_BALL",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 0.2
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "IRON_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COPPER_INGOT",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ICE",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 0.2
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "GOLD_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_INGOT",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GLOWSTONE_DUST",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_LAZULI",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE",
+    "amount": 0.2
+   },
+   {
+    "kind": "slimefun",
+    "ref": "SULFATE",
+    "amount": 0.1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "OIL_BUCKET",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CLAY",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 0.1
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "DIAMOND_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "OBSIDIAN",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "CRYING_OBSIDIAN",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "END_STONE",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "SEA_LANTERN",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "BLACKSTONE",
+    "amount": 0.05
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_BLOCK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "THORNIUM_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "THORNIUM_BIT",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "NETHERITE_INGOT",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "IRON_BLOCK",
+    "amount": 0.15
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COAL_BLOCK",
+    "amount": 0.15
+   },
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_BLOCK",
+    "amount": 0.15
+   },
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ_BLOCK",
+    "amount": 0.15
+   },
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE_BLOCK",
+    "amount": 0.15
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_BLOCK",
+    "amount": 0.15
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL_BLOCK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "SUPREME_NUGGETS_QUARRY",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SUPREME_NUGGET",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "NETHERITE_BLOCK",
+    "amount": 0.05
+   },
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD_BLOCK",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND_BLOCK",
+    "amount": 0.1
+   },
+   {
+    "kind": "slimefun",
+    "ref": "THORNIUM_BIT",
+    "amount": 0.1
+   },
+   {
+    "kind": "vanilla",
+    "ref": "COAL_BLOCK",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "IRON_BLOCK",
+    "amount": 0.2
+   },
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_BLOCK",
+    "amount": 0.2
+   }
+  ],
+  "ctor_class": "AbstractQuarry",
+  "source_class": "SetupSupremeQuarry",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
   "kind": "crafting",
   "output_id": "RED_DYE",
   "output_amount": 1,

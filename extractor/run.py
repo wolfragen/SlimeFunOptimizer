@@ -17,8 +17,8 @@ from dataclasses import asdict
 from pathlib import Path
 
 from . import (classfile, model, supreme_mobtech, supreme_cards, supreme_gear,
-               supreme_techgen, supreme_virtual, infinity_machines, mobsim,
-               passive_generators, quarries, multiblock_recipes, vanilla_recipes,
+               supreme_techgen, supreme_virtual, supreme_quarries, infinity_machines,
+               mobsim, passive_generators, quarries, multiblock_recipes, vanilla_recipes,
                gce, gce_chickens, machine_tiers, electric_machines, networks_items,
                extra_machines)
 
@@ -80,6 +80,7 @@ def process_jar(jar_path: Path):
             gear_recipes = supreme_gear.extract(zf)
             _, techgen_recipes = supreme_techgen.extract(zf)
             _, garden_recipes = supreme_virtual.extract(zf)
+            _, quarry_recipes = supreme_quarries.extract(zf)
         item_defs.extend(mt_items)
         recipes.extend(mt_recipes)
         recipes.extend(card_recipes)
@@ -87,6 +88,7 @@ def process_jar(jar_path: Path):
         recipes.extend(gear_recipes)
         recipes.extend(techgen_recipes)
         recipes.extend(garden_recipes)
+        recipes.extend(quarry_recipes)
     if "infinityexpansion" in jar_path.name.lower().replace(" ", ""):
         with zipfile.ZipFile(jar_path) as zf:
             recipes.extend(infinity_machines.extract(zf))
