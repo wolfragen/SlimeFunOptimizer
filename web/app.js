@@ -88,52 +88,58 @@ function iconEl(id, small) {
 }
 
 // ---- search / autocomplete ------------------------------------------------
-let searchTimer = null, activeIdx = -1, currentOpts = [];
-$("search").addEventListener("input", (e) => {
-  clearTimeout(searchTimer);
-  const q = e.target.value.trim();
-  if (q.length < 2) { hideSuggestions(); return; }
-  searchTimer = setTimeout(() => doSearch(q), 140);
-});
-$("search").addEventListener("keydown", (e) => {
-  const box = $("suggestions");
-  if (box.classList.contains("hidden")) return;
-  if (e.key === "ArrowDown") { activeIdx = Math.min(activeIdx + 1, currentOpts.length - 1); renderActive(); e.preventDefault(); }
-  else if (e.key === "ArrowUp") { activeIdx = Math.max(activeIdx - 1, 0); renderActive(); e.preventDefault(); }
-  else if (e.key === "Enter") { if (currentOpts[activeIdx]) selectItem(currentOpts[activeIdx]); e.preventDefault(); }
-  else if (e.key === "Escape") hideSuggestions();
-});
+// Reusable item-autocomplete: wires an <input> + a suggestions <div> to the
+// /api/items endpoint and calls onPick(item) on selection. Used by both the
+// calculator's Item field and the reverse-search page.
+function attachItemSearch(input, box, onPick) {
+  let timer = null, idx = 0, opts = [];
+  input.addEventListener("input", (e) => {
+    clearTimeout(timer);
+    const q = e.target.value.trim();
+    if (q.length < 2) { box.classList.add("hidden"); return; }
+    timer = setTimeout(async () => {
+      const r = await fetch(`/api/items?q=${encodeURIComponent(q)}`);
+      opts = (await r.json()).items; idx = 0;
+      render();
+    }, 140);
+  });
+  input.addEventListener("keydown", (e) => {
+    if (box.classList.contains("hidden")) return;
+    if (e.key === "ArrowDown") { idx = Math.min(idx + 1, opts.length - 1); active(); e.preventDefault(); }
+    else if (e.key === "ArrowUp") { idx = Math.max(idx - 1, 0); active(); e.preventDefault(); }
+    else if (e.key === "Enter") { if (opts[idx]) pick(opts[idx]); e.preventDefault(); }
+    else if (e.key === "Escape") box.classList.add("hidden");
+  });
+  function render() {
+    box.innerHTML = "";
+    if (!opts.length) { box.classList.add("hidden"); return; }
+    opts.forEach((it, i) => {
+      const opt = document.createElement("div");
+      opt.className = "opt" + (i === 0 ? " active" : "");
+      opt.appendChild(iconEl(it.id, true));
+      const meta = document.createElement("div"); meta.className = "meta";
+      meta.innerHTML = `<span class="nm">${esc(it.name)}</span><span class="ad">${esc(it.addon)}</span>`;
+      opt.appendChild(meta);
+      const tag = document.createElement("span");
+      tag.className = "tag" + (it.producible ? "" : " raw");
+      tag.textContent = it.producible ? "craftable" : "raw";
+      opt.appendChild(tag);
+      opt.onclick = () => pick(it);
+      box.appendChild(opt);
+    });
+    box.classList.remove("hidden");
+  }
+  function active() { [...box.children].forEach((c, i) => c.classList.toggle("active", i === idx)); }
+  function pick(it) { box.classList.add("hidden"); onPick(it); }
+}
+// any outside click closes all open suggestion boxes
 document.addEventListener("click", (e) => {
-  if (!e.target.closest(".search-wrap")) hideSuggestions();
+  if (!e.target.closest(".search-wrap")) {
+    document.querySelectorAll(".suggestions").forEach((b) => b.classList.add("hidden"));
+  }
 });
 
-async function doSearch(q) {
-  const r = await fetch(`/api/items?q=${encodeURIComponent(q)}`);
-  const data = await r.json();
-  currentOpts = data.items; activeIdx = 0;
-  const box = $("suggestions");
-  box.innerHTML = "";
-  if (!currentOpts.length) { hideSuggestions(); return; }
-  currentOpts.forEach((it, i) => {
-    const opt = document.createElement("div");
-    opt.className = "opt" + (i === 0 ? " active" : "");
-    opt.appendChild(iconEl(it.id, true));
-    const meta = document.createElement("div"); meta.className = "meta";
-    meta.innerHTML = `<span class="nm">${esc(it.name)}</span><span class="ad">${esc(it.addon)}</span>`;
-    opt.appendChild(meta);
-    const tag = document.createElement("span");
-    tag.className = "tag" + (it.producible ? "" : " raw");
-    tag.textContent = it.producible ? "craftable" : "raw";
-    opt.appendChild(tag);
-    opt.onclick = () => selectItem(it);
-    box.appendChild(opt);
-  });
-  box.classList.remove("hidden");
-}
-function renderActive() {
-  [...$("suggestions").children].forEach((c, i) => c.classList.toggle("active", i === activeIdx));
-}
-function hideSuggestions() { $("suggestions").classList.add("hidden"); }
+attachItemSearch($("search"), $("suggestions"), selectItem);
 
 function selectItem(it) {
   SELECTED = it.id;
@@ -394,6 +400,154 @@ function renderResult(res) {
 }
 
 function esc(s) { return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+// ---- page tabs ------------------------------------------------------------
+document.querySelectorAll(".tab").forEach((tab) => {
+  tab.onclick = () => {
+    document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t === tab));
+    const page = tab.dataset.page;
+    document.querySelectorAll(".page").forEach((p) => p.classList.toggle("hidden", p.id !== "page-" + page));
+    if (page === "search") loadRecipeMachines();   // populate the picker on first visit
+  };
+});
+
+// ---- shared recipe card ---------------------------------------------------
+// One card = one recipe: "ingredients ⟶ outputs" under a machine header.
+// `highlight` (optional) is an item id to emphasise among the outputs (reverse search).
+function recipeCard(rec, highlight) {
+  const el = document.createElement("div");
+  el.className = "rcard";
+
+  const head = document.createElement("div"); head.className = "rcard-head";
+  const dur = fmtOpDuration(rec.op_seconds);
+  // addon · <one-operation duration> · <items produced per minute>
+  const meta = [esc(rec.addon || ""), dur && `${dur}/op`, `${rec.output_per_min}/min`]
+    .filter(Boolean).join(" · ");
+  head.innerHTML = `<span class="mn">${esc(rec.machine_name)}</span>`
+    + `<span class="muted">${meta}</span>`;
+  el.appendChild(head);
+
+  const body = document.createElement("div"); body.className = "rcard-body";
+
+  const ings = document.createElement("div"); ings.className = "rio";
+  if (rec.energy_only || !rec.ingredients.length) {
+    ings.innerHTML = `<span class="muted">⚡ energy only — no item input</span>`;
+  } else {
+    rec.ingredients.forEach((g) => ings.appendChild(ioChip(g, false)));
+  }
+  body.appendChild(ings);
+
+  const arrow = document.createElement("span"); arrow.className = "arrow"; arrow.textContent = "⟶";
+  body.appendChild(arrow);
+
+  const outs = document.createElement("div"); outs.className = "rio";
+  rec.outputs.forEach((o) => outs.appendChild(ioChip(o, o.ref === highlight)));
+  body.appendChild(outs);
+
+  el.appendChild(body);
+
+  if (rec.fixtures && rec.fixtures.length) {
+    const fx = document.createElement("div"); fx.className = "rcard-fx muted";
+    fx.textContent = "uses: " + rec.fixtures.map((f) => `${f.count || 1}× ${f.name || f.id}`).join(", ");
+    el.appendChild(fx);
+  }
+  return el;
+}
+// Duration of one machine operation: seconds under a minute, else minutes.
+function fmtOpDuration(secs) {
+  if (secs == null) return "";
+  const trim = (n) => (Math.round(n * 100) / 100).toString();
+  return secs < 60 ? `${trim(secs)} s` : `${trim(secs / 60)} min`;
+}
+function ioChip(g, hl) {
+  const chip = document.createElement("div");
+  chip.className = "io-chip" + (hl ? " hl" : "");
+  chip.appendChild(iconEl(g.ref, true));
+  chip.insertAdjacentHTML("beforeend",
+    `<span class="nm">${esc(g.name)}</span><span class="q">×${g.amount}</span>`);
+  return chip;
+}
+
+// the reverse-search / search pages share the calculator's Tech Generator boost
+// config so their Tech Generator recipes show the same boosted output & rate.
+function techgenParam() {
+  return `&tech_gen=${encodeURIComponent(JSON.stringify(TECHGEN))}`;
+}
+
+// ---- reverse search (item -> recipes that produce it) ---------------------
+let REV_RECIPES = [];        // recipes for the current item, in server (default) order
+let REV_ITEM_ID = null;      // the searched item id (highlighted in cards)
+
+// Order REV_RECIPES per the sort dropdown without mutating the default order.
+function sortedRevRecipes() {
+  const mode = $("rev-sort").value;
+  if (mode === "default") return REV_RECIPES;
+  const dir = mode === "speed-asc" ? 1 : -1;
+  return [...REV_RECIPES].sort((a, b) => dir * (a.output_per_min - b.output_per_min));
+}
+
+function renderRevCards() {
+  const cards = $("rev-cards"); cards.innerHTML = "";
+  if (!REV_RECIPES.length) {
+    cards.innerHTML = `<p class="muted">No recipe produces this item — it's a raw/gathered input.</p>`;
+    return;
+  }
+  sortedRevRecipes().forEach((rec) => cards.appendChild(recipeCard(rec, REV_ITEM_ID)));
+}
+$("rev-sort").onchange = renderRevCards;
+
+attachItemSearch($("rev-search"), $("rev-suggestions"), async (it) => {
+  $("rev-search").value = it.name;
+  $("rev-status").className = "status loading";
+  $("rev-status").textContent = "Loading…";
+  $("rev-results").classList.add("hidden");
+  const r = await fetch(`/api/recipes_for?item=${encodeURIComponent(it.id)}${techgenParam()}`);
+  const data = await r.json();
+  REV_RECIPES = data.recipes;
+  REV_ITEM_ID = it.id;
+  $("rev-status").classList.add("hidden");
+  $("rev-results").classList.remove("hidden");
+  $("rev-heading").textContent = `${data.item_name} — ${data.recipes.length} recipe(s)`;
+  renderRevCards();
+});
+
+// ---- search (machine -> its recipes) --------------------------------------
+let RECIPE_MACHINES_LOADED = false;
+async function loadRecipeMachines() {
+  if (RECIPE_MACHINES_LOADED) return;
+  RECIPE_MACHINES_LOADED = true;
+  const r = await fetch("/api/recipe_machines");
+  const rows = (await r.json()).machines;
+  const sel = $("machine-select");
+  const byAddon = {};
+  rows.forEach((m) => (byAddon[m.addon] || (byAddon[m.addon] = [])).push(m));
+  Object.keys(byAddon)
+    .sort((a, b) => addonRank(a) - addonRank(b) || a.localeCompare(b))
+    .forEach((addon) => {
+      const grp = document.createElement("optgroup"); grp.label = addonLabel(addon);
+      byAddon[addon].forEach((m) => {
+        const o = document.createElement("option");
+        o.value = m.id;
+        o.textContent = `${m.name} (${m.count})`;
+        grp.appendChild(o);
+      });
+      sel.appendChild(grp);
+    });
+}
+$("machine-select").onchange = async (e) => {
+  const mid = e.target.value;
+  if (!mid) { $("search-results").classList.add("hidden"); return; }
+  $("search-status").className = "status loading";
+  $("search-status").textContent = "Loading…";
+  $("search-results").classList.add("hidden");
+  const r = await fetch(`/api/recipes_by_machine?machine=${encodeURIComponent(mid)}${techgenParam()}`);
+  const data = await r.json();
+  const cards = $("search-cards"); cards.innerHTML = "";
+  $("search-status").classList.add("hidden");
+  $("search-results").classList.remove("hidden");
+  $("search-heading").textContent = `${data.machine_name} — ${data.recipes.length} recipe(s)`;
+  data.recipes.forEach((rec) => cards.appendChild(recipeCard(rec)));
+};
 
 // ---- init -----------------------------------------------------------------
 (async function init() {

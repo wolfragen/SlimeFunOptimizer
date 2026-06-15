@@ -9,10 +9,16 @@
 <body>
   <header>
     <h1>⚙️ Slimefun Automation Calculator</h1>
-    <p class="sub">Fewest machines to mass-produce any item at a target rate.</p>
+    <nav class="tabs">
+      <button class="tab active" data-page="calculator">Calculator</button>
+      <button class="tab" data-page="reverse">Reverse search</button>
+      <button class="tab" data-page="search">Search</button>
+    </nav>
   </header>
 
   <main>
+   <div id="page-calculator" class="page">
+    <p class="sub">Fewest machines to mass-produce any item at a target rate.</p>
     <section class="panel query">
       <div class="row">
         <div class="field grow">
@@ -77,6 +83,57 @@
       <h2>Raw inputs needed <span class="muted">(per minute)</span></h2>
       <div id="raw" class="raw"></div>
     </section>
+   </div>
+
+   <div id="page-reverse" class="page hidden">
+    <p class="sub">Reverse search — pick an item to see every recipe that directly produces it.</p>
+    <section class="panel query">
+      <div class="row">
+        <div class="field grow">
+          <label>Item</label>
+          <div class="search-wrap">
+            <input id="rev-search" type="text" autocomplete="off"
+                   placeholder="Search e.g. Magnesium Dust…" />
+            <div id="rev-suggestions" class="suggestions hidden"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rev-status" class="status hidden"></section>
+    <section id="rev-results" class="results hidden">
+      <div class="rcards-head">
+        <h2 id="rev-heading"></h2>
+        <div class="sort-field">
+          <label for="rev-sort">Sort</label>
+          <select id="rev-sort">
+            <option value="default">Default</option>
+            <option value="speed-desc">Speed (item/min, high → low)</option>
+            <option value="speed-asc">Speed (item/min, low → high)</option>
+          </select>
+        </div>
+      </div>
+      <div id="rev-cards" class="rcards"></div>
+    </section>
+   </div>
+
+   <div id="page-search" class="page hidden">
+    <p class="sub">Search — pick a machine to see every recipe it can run.</p>
+    <section class="panel query">
+      <div class="row">
+        <div class="field grow">
+          <label>Machine</label>
+          <select id="machine-select">
+            <option value="">— select a machine —</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <section id="search-status" class="status hidden"></section>
+    <section id="search-results" class="results hidden">
+      <h2 id="search-heading"></h2>
+      <div id="search-cards" class="rcards"></div>
+    </section>
+   </div>
   </main>
 
   <script src="app.js"></script>

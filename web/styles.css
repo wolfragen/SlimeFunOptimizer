@@ -124,4 +124,38 @@ button.ghost.on{color:var(--txt);border-color:var(--accent,#5fd35a);
 .raw .r{display:flex;align-items:center;gap:9px;background:var(--panel);border:1px solid var(--line);
   border-radius:8px;padding:8px 11px}
 .raw .r .q{margin-left:auto;font-weight:700;color:var(--accent)}
+
+/* page tabs */
+.tabs{display:flex;gap:6px;margin-top:14px}
+.tab{background:transparent;color:var(--muted);border:1px solid var(--line);
+  border-radius:8px;padding:8px 16px;font-weight:600}
+.tab:hover{color:var(--txt)}
+.tab.active{color:#0c1410;background:var(--accent);border-color:var(--accent)}
+
+select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  padding:9px 11px;border-radius:7px;font-size:14px;width:100%}
+select:focus{outline:none;border-color:var(--accent2)}
+
+/* recipe cards (reverse search + search) */
+.rcards-head{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.rcards-head h2{margin:0}
+.sort-field{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.sort-field label{color:var(--muted);font-size:13px}
+.sort-field select{width:auto}
+.rcards{display:flex;flex-direction:column;gap:8px}
+.rcard{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:11px 14px}
+.rcard-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:9px}
+.rcard-head .mn{color:var(--accent2);font-weight:700;font-size:14px}
+.rcard-body{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.rcard-body .rio{display:flex;gap:6px;flex-wrap:wrap;flex:1;min-width:0}
+.rcard-body .rio:last-child{justify-content:flex-end}
+.rcard-body .arrow{color:var(--muted);flex:0 0 auto}
+.io-chip{display:flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);
+  border-radius:7px;padding:4px 9px;font-size:12px}
+.io-chip .nm{color:var(--txt)}
+.io-chip .q{color:var(--muted);font-weight:700}
+.io-chip.hl{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.io-chip.hl .q{color:var(--accent)}
+.rcard-fx{margin-top:8px;font-size:12px}
+
 .hidden{display:none}
