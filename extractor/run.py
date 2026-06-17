@@ -314,6 +314,12 @@ def main(argv=None):
         print(f"  {str(t):<32} {c}")
     all_recipes = usable
 
+    # Project-level overrides for upstream ADDON bugs (NOT extractor bugs). Applied here,
+    # the single point every regeneration path passes through, so a direct `extractor.run`
+    # can't wipe them. Mutates all_items/all_recipes in place. See apply_exceptions / exception.md.
+    from apply_exceptions import apply_extracted
+    apply_extracted(all_items, all_recipes)
+
     if not args.report:
         DATA.mkdir(exist_ok=True)
         (DATA / "items.json").write_text(

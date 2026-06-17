@@ -35,8 +35,11 @@ def main():
     ap.add_argument("--config", default=None,
                     help="load a saved config (configs/<name>.json) for bans + tech-gen + "
                          "stackable; --ban/--techgen/--stackable override it")
-    ap.add_argument("--stackable", action="store_true", default=None,
-                    help="Mob Simulation Chamber: stack up to 64 data cards per chamber")
+    ap.add_argument("--stackable", action=argparse.BooleanOptionalAction, default=None,
+                    help="Mob Simulation Chamber: stack up to 64 data cards per chamber "
+                         "(default on; use --no-stackable for 1 card per chamber)")
+    ap.add_argument("--card-weight", type=float, default=None,
+                    help="per-data-card machine cost in the optimizer (default 0.1)")
     args = ap.parse_args()
 
     # a saved config supplies the defaults; explicit flags override it.
@@ -59,7 +62,10 @@ def main():
         tg_config = [{"category": "cloning", "tier": 1} for _ in range(4)]
 
     stackable = args.stackable if args.stackable is not None \
-        else bool(saved.get("stackable_cards", False))
+        else bool(saved.get("stackable_cards", True))
+
+    card_weight = args.card_weight if args.card_weight is not None \
+        else saved.get("data_card_weight", cfg.DEFAULT_CARD_WEIGHT)
 
     g = Graph.load()
     item_id = resolve_item(g, args.item)
@@ -69,7 +75,7 @@ def main():
     rate = args.quantity / args.minutes
     print(f"Target: {g.display_name(item_id)} ({item_id})  @ {rate:g}/min\n")
     res = solve(g, item_id, rate, banned=banned, tech_gen_config=tg_config,
-                stackable_cards=stackable)
+                stackable_cards=stackable, data_card_weight=card_weight)
     if not res["ok"]:
         print("FAILED:", res.get("message") or res.get("error"))
         return

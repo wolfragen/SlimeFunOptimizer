@@ -57,6 +57,9 @@ button.ghost:hover{color:var(--txt)}
 .ban-tools{display:flex;gap:8px;align-items:center;margin:6px 0 10px}
 .ban-tools .ban-search{flex:1;margin:0}
 button.ghost.sm{padding:6px 10px;font-size:12px;white-space:nowrap}
+.card-weight{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);
+  white-space:nowrap}
+.card-weight input{width:64px;margin:0}
 .config-row{align-items:center;gap:8px}
 .config-row .config-name{margin:0;width:160px}
 .config-row select{margin:0}

@@ -1,7 +1,8 @@
 """Named solver configs saved to disk (`configs/<name>.json`).
 
 A *config* is the reusable, item-independent part of a solve: the banned-machine
-list, the Tech Generator boost slots, and the stackable-cards toggle. The web UI
+list, the Tech Generator boost slots, the stackable-cards toggle, and the per-data-card
+optimizer weight. The web UI
 keeps these in the browser's localStorage (per-user, can't be read off-disk), so
 this module lets the UI ALSO persist the exact same settings to a file in the repo.
 
@@ -14,7 +15,8 @@ Shape (`configs/<name>.json`):
       "name": "my_setup",
       "banned": ["ANCIENT_ALTAR", ...],
       "tech_gen": [{"category": "cloning", "tier": 1}, ... up to 4, null = empty slot],
-      "stackable_cards": false
+      "stackable_cards": false,
+      "data_card_weight": 0.1
     }
 """
 
@@ -26,6 +28,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIGS_DIR = ROOT / "configs"
+
+# Per-data-card "machine cost" in the optimizer (see solver.optimize.DEFAULT_CARD_WEIGHT).
+DEFAULT_CARD_WEIGHT = 0.1
 
 
 def _safe_name(name: str) -> str:
@@ -40,7 +45,17 @@ def _path(name: str) -> Path:
     return CONFIGS_DIR / f"{_safe_name(name)}.json"
 
 
-def normalize(banned=None, tech_gen=None, stackable_cards: bool = False) -> dict:
+def _coerce_card_weight(value) -> float:
+    """A non-negative float for the per-card machine cost; falls back to the default."""
+    try:
+        w = float(value)
+    except (TypeError, ValueError):
+        return DEFAULT_CARD_WEIGHT
+    return w if w >= 0 else DEFAULT_CARD_WEIGHT
+
+
+def normalize(banned=None, tech_gen=None, stackable_cards: bool = True,
+              data_card_weight: float = DEFAULT_CARD_WEIGHT) -> dict:
     """Coerce loose inputs into the canonical stored shape (sorted bans, 4 slots)."""
     bans = sorted({str(b) for b in (banned or [])})
     slots: list[dict | None] = []
@@ -53,13 +68,16 @@ def normalize(banned=None, tech_gen=None, stackable_cards: bool = False) -> dict
         "banned": bans,
         "tech_gen": slots,
         "stackable_cards": bool(stackable_cards),
+        "data_card_weight": _coerce_card_weight(data_card_weight),
     }
 
 
-def save(name: str, banned=None, tech_gen=None, stackable_cards: bool = False) -> Path:
+def save(name: str, banned=None, tech_gen=None, stackable_cards: bool = True,
+         data_card_weight: float = DEFAULT_CARD_WEIGHT) -> Path:
     """Write a named config to `configs/<name>.json`, returning its path."""
     CONFIGS_DIR.mkdir(exist_ok=True)
-    data = {"name": _safe_name(name), **normalize(banned, tech_gen, stackable_cards)}
+    data = {"name": _safe_name(name),
+            **normalize(banned, tech_gen, stackable_cards, data_card_weight)}
     path = _path(name)
     path.write_text(json.dumps(data, indent=2), encoding="utf-8")
     return path
@@ -71,7 +89,8 @@ def load(name: str) -> dict:
     data = json.loads(path.read_text(encoding="utf-8"))
     return {"name": data.get("name", _safe_name(name)),
             **normalize(data.get("banned"), data.get("tech_gen"),
-                        data.get("stackable_cards", False))}
+                        data.get("stackable_cards", True),
+                        data.get("data_card_weight", DEFAULT_CARD_WEIGHT))}
 
 
 def exists(name: str) -> bool:

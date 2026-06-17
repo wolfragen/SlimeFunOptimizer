@@ -38,6 +38,12 @@ MAX_ITEMS = 8000
 MOB_CHAMBER = "MOB_SIMULATION_CHAMBER"
 CARDS_PER_CHAMBER = 64
 
+# How much a single data card counts as a "machine" in the objective. Data cards are free
+# fixtures (like chickens), so without a cost a boss card becomes a cheap near-infinite source
+# that dominates solves. This weight is the per-card cost the optimizer pays: 0.1 means 10 cards
+# count as one machine. User-configurable; this is the default.
+DEFAULT_CARD_WEIGHT = 0.1
+
 
 def _reachable(graph: Graph, target: str, banned: set[str]):
     """Recipes usable to make `target` (following every ingredient), and the items."""
@@ -115,9 +121,11 @@ def _boost_name(fid: str) -> str:
 
 def solve(graph: Graph, target: str, rate_per_min: float,
           banned: set[str] | None = None, extra_leaves: set[str] | None = None,
-          tech_gen_config=None, stackable_cards: bool = False):
+          tech_gen_config=None, stackable_cards: bool = True,
+          data_card_weight: float = DEFAULT_CARD_WEIGHT):
     banned = set(banned or ())
     extra_leaves = set(extra_leaves or ())
+    card_weight = max(0.0, float(data_card_weight))
 
     def is_mob(r):
         return r.machine_id == MOB_CHAMBER
@@ -292,8 +300,13 @@ def solve(graph: Graph, target: str, rate_per_min: float,
 
     # mach[r] counts the recipe's integer unit (machines, or data CARDS for a stackable mob
     # chamber). The objective minimizes real MACHINES, so weight each unit by 1/per_machine:
-    # a stacked card costs 1/64 of a chamber, so 64 cards collapse to one machine.
+    # a non-stacked card IS one chamber (cost 1). When cards STACK, 64 share a chamber, so the
+    # real share is 1/64 — but that makes boss cards a near-free, dominating source. So a stacked
+    # card instead costs an explicit `card_weight` (default 0.1): the per-card "machine cost" the
+    # optimizer pays, letting the user discourage flooding without banning the chamber.
     def mweight(r):
+        if is_mob(r) and stackable_cards:
+            return card_weight
         return 1.0 / per_machine(r)
 
     prob += (pulp.lpSum(mweight(r) * mach[r.rid] for r in run)

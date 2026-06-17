@@ -66,11 +66,14 @@ def _run(query: dict) -> dict:
     else:
         tg = DEFAULT_TECH_GEN
     stackable = query["stackable_cards"] if "stackable_cards" in query \
-        else saved.get("stackable_cards", False)
+        else saved.get("stackable_cards", True)
+    card_weight = query["data_card_weight"] if "data_card_weight" in query \
+        else saved.get("data_card_weight", cfg.DEFAULT_CARD_WEIGHT)
     res = solve(_graph(), query["target"], query["rate_per_min"],
                 banned=banned,
                 tech_gen_config=tg,
-                stackable_cards=stackable)
+                stackable_cards=stackable,
+                data_card_weight=card_weight)
     machine_totals = {m["machine_id"]: m["count"] for m in res["machine_totals"]}
     chosen = {s["output_id"]: s.get("machine_id") for s in res["steps"]}
     raw = {(r.get("id") or r.get("ref")): r.get("per_min") for r in res["raw_inputs"]}

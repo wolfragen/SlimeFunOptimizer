@@ -77,5 +77,6 @@
       "tier": 1
     }
   ],
-  "stackable_cards": false
+  "stackable_cards": false,
+  "data_card_weight": 0.2
 }

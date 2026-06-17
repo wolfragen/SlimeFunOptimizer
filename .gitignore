@@ -23,4 +23,5 @@ Thumbs.db
 
 # --- Local agent / scratch ---------------------------------------------------
 .claude/
+.serena/
 NEXT_TASK_*.md

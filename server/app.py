@@ -57,7 +57,8 @@ class SolveRequest(BaseModel):
     banned: list[str] = []
     leaves: list[str] = []
     tech_gen: list[TechGenSlot | None] = []
-    stackable_cards: bool = False    # Mob Simulation Chamber: stack up to 64 data cards/machine
+    stackable_cards: bool = True     # Mob Simulation Chamber: stack up to 64 data cards/machine
+    data_card_weight: float = 0.1    # per-card "machine cost" in the optimizer objective
 
 
 @app.get("/api/items")
@@ -195,7 +196,8 @@ class SaveConfigRequest(BaseModel):
     name: str
     banned: list[str] = []
     tech_gen: list[TechGenSlot | None] = []
-    stackable_cards: bool = False
+    stackable_cards: bool = True
+    data_card_weight: float = 0.1
 
 
 @app.get("/api/configs")
@@ -221,7 +223,8 @@ def api_config_save(req: SaveConfigRequest):
           for s in req.tech_gen]
     try:
         path = cfg.save(req.name, banned=req.banned, tech_gen=tg,
-                        stackable_cards=req.stackable_cards)
+                        stackable_cards=req.stackable_cards,
+                        data_card_weight=req.data_card_weight)
     except ValueError as e:
         return JSONResponse({"ok": False, "error": str(e)}, status_code=400)
     return {"ok": True, "name": path.stem, "configs": cfg.list_names()}
@@ -253,7 +256,8 @@ def api_solve(req: SolveRequest):
         tg = [{"category": "cloning", "tier": 1}] * 4
     res = solve(GRAPH, item_id, rate, banned=set(req.banned),
                 extra_leaves=set(req.leaves), tech_gen_config=tg,
-                stackable_cards=req.stackable_cards)
+                stackable_cards=req.stackable_cards,
+                data_card_weight=req.data_card_weight)
     return JSONResponse(res)
 
 

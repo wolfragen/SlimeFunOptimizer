@@ -45,10 +45,13 @@
         <button id="toggle-techgen" class="ghost">🧬 Tech generator slots (<span id="techgen-count">0</span>)</button>
         <button id="toggle-stackable" class="ghost"
           title="Mob Simulation Chamber: stack up to 64 data cards per chamber, so chambers needed = cards ÷ 64 (rounded up). Off = 1 card per chamber.">🃏
-          Stackable cards: <span id="stackable-state">Off</span></button>
+          Stackable cards: <span id="stackable-state">On</span></button>
+        <label class="card-weight" title="How much one data card counts as a machine in the optimizer. Lower = cards are cheaper, so the solver prefers them more. Default 0.1 (10 cards = 1 machine).">⚖️
+          Data card weight:
+          <input id="card-weight" type="number" min="0" step="0.1" value="0.1" /></label>
       </div>
       <div class="row config-row">
-        <span class="muted sm">💾 Config (bans + tech-gen + stackable), saved on disk for test baselines:</span>
+        <span class="muted sm">💾 Config (bans + tech-gen + stackable + card weight), saved on disk for test baselines:</span>
         <input id="config-name" class="config-name" type="text" placeholder="config name…" />
         <button id="config-save" class="ghost sm" type="button">Save</button>
         <select id="config-load"><option value="">— load saved —</option></select>

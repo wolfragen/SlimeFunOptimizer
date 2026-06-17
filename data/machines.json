@@ -1927,6 +1927,15 @@
  },
  {
   "id": "CARD_STONE",
+  "display": "Card Cobblestone",
+  "category": "card",
+  "speed": 1,
+  "seconds_per_op": 2.0,
+  "banned": false,
+  "addon": "Supreme"
+ },
+ {
+  "id": "CARD_STONE_FIXED",
   "display": "Card Stone",
   "category": "card",
   "speed": 1,

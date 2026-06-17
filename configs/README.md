@@ -8,13 +8,18 @@ part of a solve:
   "name": "my_setup",
   "banned": ["ANCIENT_ALTAR", "..."],
   "tech_gen": [{"category": "cloning", "tier": 1}, null, null, null],
-  "stackable_cards": false
+  "stackable_cards": false,
+  "data_card_weight": 0.1
 }
 ```
 
 - `banned` — machine ids forbidden in the solve (the ban panel).
 - `tech_gen` — the 4 Tech Generator boost slots (`null` = empty slot).
 - `stackable_cards` — Mob Simulation Chamber: stack up to 64 data cards per chamber.
+- `data_card_weight` — per-card "machine cost" in the optimizer when cards stack
+  (default `0.1`). Lower = cards are cheaper, so the solver leans on them more;
+  higher = discourage chamber flooding. Ignored when `stackable_cards` is off
+  (then a card is its own chamber, cost 1).
 
 **Save one** from the web UI (calculator page → 💾 *Config* row → name it → Save),
 or it's written by `solver.config.save(...)`.

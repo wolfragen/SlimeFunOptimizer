@@ -20,6 +20,8 @@ DATA = Path(__file__).resolve().parent / "data"
 def main():
     print("== 1/3  extracting items + recipes from jars ==")
     extract_run.main([])  # writes items.json, recipes.json, aliases.json
+    # NB: extract_run applies project data overrides (apply_exceptions) internally,
+    # so the recipes.json read below already includes them. See exception.md.
 
     print("\n== 2/3  building machine catalog ==")
     recipes = json.loads((DATA / "recipes.json").read_text(encoding="utf-8"))

@@ -13,9 +13,14 @@ so for a perfect chicken `resourceTier == DNAStrength == popcount(typing)`. The
 chamber's `findNextRecipe` computes
     time_ticks = (BASE(14) + resourceTier - 2*DNAStrength) / processingSpeed
 which for a perfect chicken collapses to
-    time_ticks = (14 - popcount(typing)) / speed        (integer division, min 1)
-A Slimefun tick is 0.5s and nothing runs below one tick, so
-    seconds = max(1, (14 - tier) // speed) * 0.5  ->  rate = 120 / ticks  per min.
+    progress_ticks = (14 - popcount(typing)) / speed     (integer division, may be 0)
+There is NO floor of 1 in the bytecode. On top of the progress ticks, Slimefun's
+`AContainer.tick()` burns two non-productive Slimefun ticks per craft: the tick that
+finishes the operation only pushes output + calls `endOperation` (it does NOT start
+the next recipe), and the following tick starts a fresh operation without adding any
+progress. So the steady-state period is `progress_ticks + 2` ticks. A Slimefun tick
+is 0.5s, so
+    seconds = (max(0, (14 - tier) // speed) + 2) * 0.5  ->  rate = 60 / seconds per min.
 Netherite (typing 0, tier 0) is slowest; feather (typing 63, tier 6) fastest, and
 cobblestone (typing 47 = 0b101111, tier 5) matches the user's "5 dominant pairs".
 """
@@ -88,14 +93,16 @@ def extract(zf: zipfile.ZipFile):
             "product": product,
         }
         for chamber_id, speed in CHAMBERS:
-            ticks = max(1, (_BASE_TIME - tier) // speed)
+            # progress ticks (no floor of 1 in the bytecode) + the 2 non-productive
+            # AContainer ticks per craft (finish/output tick + restart tick).
+            progress_ticks = max(0, (_BASE_TIME - tier) // speed)
             recipes.append(Recipe(
                 kind="machine",
                 output_id=product,
                 output_amount=1,
                 recipe_type=None,
                 machine=chamber_id,
-                time_seconds=ticks * 0.5,
+                time_seconds=(progress_ticks + 2) * 0.5,
                 ingredients=[],            # pure energy -> free producer
                 outputs=[Ingredient(kind, product, 1)],
                 ctor_class="",

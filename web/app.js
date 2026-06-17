@@ -7,7 +7,8 @@ const BANNED = new Set();
 // 4 boost slots; default to 4x cloner T1 (the standard fill)
 const TECHGEN = [{category: "cloning", tier: 1}, {category: "cloning", tier: 1},
                  {category: "cloning", tier: 1}, {category: "cloning", tier: 1}];
-let STACKABLE = false;          // Mob Simulation Chamber: up to 64 data cards per chamber
+let STACKABLE = true;           // Mob Simulation Chamber: up to 64 data cards per chamber
+let CARD_WEIGHT = 0.1;          // per-data-card "machine cost" in the optimizer
 
 const $ = (id) => document.getElementById(id);
 
@@ -22,6 +23,7 @@ function saveSettings() {
       banned: [...BANNED],
       techgen: TECHGEN,
       stackable: STACKABLE,
+      cardWeight: CARD_WEIGHT,
       query: SELECTED_ITEM ? {
         id: SELECTED_ITEM.id, name: SELECTED_ITEM.name, addon: SELECTED_ITEM.addon || "",
         quantity: $("quantity").value, minutes: $("minutes").value,
@@ -36,6 +38,7 @@ function loadSettings() {
     if (Array.isArray(s.banned)) { BANNED.clear(); s.banned.forEach((id) => BANNED.add(id)); }
     if (Array.isArray(s.techgen)) { for (let i = 0; i < 4; i++) TECHGEN[i] = s.techgen[i] || null; }
     if (typeof s.stackable === "boolean") STACKABLE = s.stackable;
+    if (Number.isFinite(s.cardWeight) && s.cardWeight >= 0) CARD_WEIGHT = s.cardWeight;
     return s;
   } catch (e) { return null; }
 }
@@ -270,6 +273,20 @@ if (stackBtn) {
 }
 renderStackState();
 
+// ---- data card weight (per-card machine cost in the optimizer) ------------
+const cardWeightInput = $("card-weight");
+function renderCardWeight() {
+  if (cardWeightInput) cardWeightInput.value = CARD_WEIGHT;
+}
+if (cardWeightInput) {
+  cardWeightInput.addEventListener("input", () => {
+    const v = parseFloat(cardWeightInput.value);
+    CARD_WEIGHT = Number.isFinite(v) && v >= 0 ? v : 0.1;
+    saveSettings();
+  });
+}
+renderCardWeight();
+
 // ---- named configs saved on disk (for test baselines) ---------------------
 // The browser localStorage above is per-user and can't be read off-disk, so the
 // Save button ALSO writes the current bans + tech-gen + stackable to the server
@@ -300,10 +317,12 @@ function applyConfig(c) {
   (c.banned || []).forEach((id) => BANNED.add(id));
   for (let i = 0; i < 4; i++) TECHGEN[i] = (c.tech_gen && c.tech_gen[i]) || null;
   STACKABLE = !!c.stackable_cards;
+  if (Number.isFinite(c.data_card_weight) && c.data_card_weight >= 0) CARD_WEIGHT = c.data_card_weight;
   $("ban-count").textContent = BANNED.size;
   renderBanList($("ban-search").value);
   buildTechgenSlots();
   renderStackState();
+  renderCardWeight();
   saveSettings();
 }
 if ($("config-save")) {
@@ -316,6 +335,7 @@ if ($("config-save")) {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name, banned: [...BANNED], tech_gen: TECHGEN, stackable_cards: STACKABLE,
+          data_card_weight: CARD_WEIGHT,
         }),
       });
       const data = await r.json();
@@ -367,6 +387,7 @@ async function solve() {
     leaves: [],
     tech_gen: TECHGEN,
     stackable_cards: STACKABLE,
+    data_card_weight: CARD_WEIGHT,
   };
   try {
     const r = await fetch("/api/solve", {

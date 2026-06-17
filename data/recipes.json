@@ -14181,7 +14181,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.0,
+  "time_seconds": 5.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14207,7 +14207,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14233,7 +14233,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14259,7 +14259,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14285,7 +14285,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14311,7 +14311,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14337,7 +14337,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14363,7 +14363,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14389,7 +14389,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14415,7 +14415,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14441,7 +14441,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14467,7 +14467,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14493,7 +14493,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14519,7 +14519,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14545,7 +14545,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14571,7 +14571,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14597,7 +14597,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14623,7 +14623,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14649,7 +14649,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 4.5,
+  "time_seconds": 5.5,
   "ingredients": [],
   "outputs": [
    {
@@ -14675,7 +14675,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.0,
+  "time_seconds": 3.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14701,7 +14701,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14727,7 +14727,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
+  "time_seconds": 6.0,
   "ingredients": [],
   "outputs": [
    {
@@ -14750,4374 +14750,6 @@
  {
   "kind": "machine",
   "output_id": "COAL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "COAL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "COAL_CHICKEN",
-    "name": "Coal Chicken",
-    "product": "COAL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "COAL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "COAL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "COAL_CHICKEN",
-    "name": "Coal Chicken",
-    "product": "COAL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "STRING",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "STRING",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "STRING_CHICKEN",
-    "name": "String Chicken",
-    "product": "STRING"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "STRING",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "STRING",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "STRING_CHICKEN",
-    "name": "String Chicken",
-    "product": "STRING"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "STRING",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "STRING",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "STRING_CHICKEN",
-    "name": "String Chicken",
-    "product": "STRING"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEATHER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LEATHER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEATHER_CHICKEN",
-    "name": "Leather Chicken",
-    "product": "LEATHER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEATHER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LEATHER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEATHER_CHICKEN",
-    "name": "Leather Chicken",
-    "product": "LEATHER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEATHER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LEATHER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEATHER_CHICKEN",
-    "name": "Leather Chicken",
-    "product": "LEATHER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SUGAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SUGAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SUGAR_CHICKEN",
-    "name": "Sugar Chicken",
-    "product": "SUGAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SUGAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SUGAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SUGAR_CHICKEN",
-    "name": "Sugar Chicken",
-    "product": "SUGAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SUGAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SUGAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SUGAR_CHICKEN",
-    "name": "Sugar Chicken",
-    "product": "SUGAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SPONGE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SPONGE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SPONGE_CHICKEN",
-    "name": "Sponge Chicken",
-    "product": "SPONGE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SPONGE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SPONGE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SPONGE_CHICKEN",
-    "name": "Sponge Chicken",
-    "product": "SPONGE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SPONGE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SPONGE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SPONGE_CHICKEN",
-    "name": "Sponge Chicken",
-    "product": "SPONGE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIORITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIORITE_CHICKEN",
-    "name": "Diorite Chicken",
-    "product": "DIORITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIORITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIORITE_CHICKEN",
-    "name": "Diorite Chicken",
-    "product": "DIORITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIORITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIORITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIORITE_CHICKEN",
-    "name": "Diorite Chicken",
-    "product": "DIORITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ANDESITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ANDESITE_CHICKEN",
-    "name": "Andesite Chicken",
-    "product": "ANDESITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ANDESITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ANDESITE_CHICKEN",
-    "name": "Andesite Chicken",
-    "product": "ANDESITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ANDESITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ANDESITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ANDESITE_CHICKEN",
-    "name": "Andesite Chicken",
-    "product": "ANDESITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRAVEL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRAVEL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRAVEL_CHICKEN",
-    "name": "Gravel Chicken",
-    "product": "GRAVEL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRAVEL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRAVEL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRAVEL_CHICKEN",
-    "name": "Gravel Chicken",
-    "product": "GRAVEL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRAVEL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRAVEL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRAVEL_CHICKEN",
-    "name": "Gravel Chicken",
-    "product": "GRAVEL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ICE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ICE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ICE_CHICKEN",
-    "name": "Ice Chicken",
-    "product": "ICE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ICE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ICE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ICE_CHICKEN",
-    "name": "Ice Chicken",
-    "product": "ICE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ICE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ICE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ICE_CHICKEN",
-    "name": "Ice Chicken",
-    "product": "ICE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRANITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRANITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRANITE_CHICKEN",
-    "name": "Granite Chicken",
-    "product": "GRANITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRANITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRANITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRANITE_CHICKEN",
-    "name": "Granite Chicken",
-    "product": "GRANITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GRANITE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GRANITE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GRANITE_CHICKEN",
-    "name": "Granite Chicken",
-    "product": "GRANITE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CLAY",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CLAY",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CLAY_CHICKEN",
-    "name": "Clay Chicken",
-    "product": "CLAY"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CLAY",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CLAY",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CLAY_CHICKEN",
-    "name": "Clay Chicken",
-    "product": "CLAY"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CLAY",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CLAY",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CLAY_CHICKEN",
-    "name": "Clay Chicken",
-    "product": "CLAY"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OAK_LOG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OAK_LOG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OAK_LOG_CHICKEN",
-    "name": "Oak Log Chicken",
-    "product": "OAK_LOG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OAK_LOG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OAK_LOG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OAK_LOG_CHICKEN",
-    "name": "Oak Log Chicken",
-    "product": "OAK_LOG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OAK_LOG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OAK_LOG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OAK_LOG_CHICKEN",
-    "name": "Oak Log Chicken",
-    "product": "OAK_LOG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GUNPOWDER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GUNPOWDER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GUNPOWDER_CHICKEN",
-    "name": "Gunpowder Chicken",
-    "product": "GUNPOWDER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GUNPOWDER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GUNPOWDER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GUNPOWDER_CHICKEN",
-    "name": "Gunpowder Chicken",
-    "product": "GUNPOWDER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GUNPOWDER",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GUNPOWDER",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GUNPOWDER_CHICKEN",
-    "name": "Gunpowder Chicken",
-    "product": "GUNPOWDER"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "KELP",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "KELP",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "KELP_CHICKEN",
-    "name": "Kelp Chicken",
-    "product": "KELP"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "KELP",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "KELP",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "KELP_CHICKEN",
-    "name": "Kelp Chicken",
-    "product": "KELP"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "KELP",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "KELP",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "KELP_CHICKEN",
-    "name": "Kelp Chicken",
-    "product": "KELP"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SLIME_BALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SLIME_BALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SLIME_BALL_CHICKEN",
-    "name": "Slime Ball Chicken",
-    "product": "SLIME_BALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SLIME_BALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SLIME_BALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SLIME_BALL_CHICKEN",
-    "name": "Slime Ball Chicken",
-    "product": "SLIME_BALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SLIME_BALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SLIME_BALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SLIME_BALL_CHICKEN",
-    "name": "Slime Ball Chicken",
-    "product": "SLIME_BALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GOLD_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_INGOT_CHICKEN",
-    "name": "Gold Ingot Chicken",
-    "product": "GOLD_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GOLD_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_INGOT_CHICKEN",
-    "name": "Gold Ingot Chicken",
-    "product": "GOLD_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GOLD_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_INGOT_CHICKEN",
-    "name": "Gold Ingot Chicken",
-    "product": "GOLD_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHERRACK",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHERRACK",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHERRACK_CHICKEN",
-    "name": "Netherrack Chicken",
-    "product": "NETHERRACK"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHERRACK",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHERRACK",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHERRACK_CHICKEN",
-    "name": "Netherrack Chicken",
-    "product": "NETHERRACK"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHERRACK",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHERRACK",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHERRACK_CHICKEN",
-    "name": "Netherrack Chicken",
-    "product": "NETHERRACK"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLASS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLASS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLASS_CHICKEN",
-    "name": "Glass Chicken",
-    "product": "GLASS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLASS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLASS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLASS_CHICKEN",
-    "name": "Glass Chicken",
-    "product": "GLASS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLASS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLASS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLASS_CHICKEN",
-    "name": "Glass Chicken",
-    "product": "GLASS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAPIS_LAZULI",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LAPIS_LAZULI",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAPIS_LAZULI_CHICKEN",
-    "name": "Lapis Lazuli Chicken",
-    "product": "LAPIS_LAZULI"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAPIS_LAZULI",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LAPIS_LAZULI",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAPIS_LAZULI_CHICKEN",
-    "name": "Lapis Lazuli Chicken",
-    "product": "LAPIS_LAZULI"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAPIS_LAZULI",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "LAPIS_LAZULI",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAPIS_LAZULI_CHICKEN",
-    "name": "Lapis Lazuli Chicken",
-    "product": "LAPIS_LAZULI"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "IRON_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_INGOT_CHICKEN",
-    "name": "Iron Ingot Chicken",
-    "product": "IRON_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "IRON_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_INGOT_CHICKEN",
-    "name": "Iron Ingot Chicken",
-    "product": "IRON_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "IRON_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_INGOT_CHICKEN",
-    "name": "Iron Ingot Chicken",
-    "product": "IRON_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "IRON_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_DUST_CHICKEN",
-    "name": "Iron Dust Chicken",
-    "product": "IRON_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "IRON_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_DUST_CHICKEN",
-    "name": "Iron Dust Chicken",
-    "product": "IRON_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "IRON_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "IRON_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "IRON_DUST_CHICKEN",
-    "name": "Iron Dust Chicken",
-    "product": "IRON_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "GOLD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_DUST_CHICKEN",
-    "name": "Gold Dust Chicken",
-    "product": "GOLD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "GOLD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_DUST_CHICKEN",
-    "name": "Gold Dust Chicken",
-    "product": "GOLD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GOLD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "GOLD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GOLD_DUST_CHICKEN",
-    "name": "Gold Dust Chicken",
-    "product": "GOLD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SILVER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SILVER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SILVER_DUST_CHICKEN",
-    "name": "Silver Dust Chicken",
-    "product": "SILVER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SILVER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SILVER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SILVER_DUST_CHICKEN",
-    "name": "Silver Dust Chicken",
-    "product": "SILVER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SILVER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SILVER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SILVER_DUST_CHICKEN",
-    "name": "Silver Dust Chicken",
-    "product": "SILVER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ZINC_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ZINC_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ZINC_DUST_CHICKEN",
-    "name": "Zinc Dust Chicken",
-    "product": "ZINC_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ZINC_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ZINC_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ZINC_DUST_CHICKEN",
-    "name": "Zinc Dust Chicken",
-    "product": "ZINC_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ZINC_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ZINC_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ZINC_DUST_CHICKEN",
-    "name": "Zinc Dust Chicken",
-    "product": "ZINC_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CAKE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CAKE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CAKE_CHICKEN",
-    "name": "Cake Chicken",
-    "product": "CAKE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CAKE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CAKE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CAKE_CHICKEN",
-    "name": "Cake Chicken",
-    "product": "CAKE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CAKE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CAKE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CAKE_CHICKEN",
-    "name": "Cake Chicken",
-    "product": "CAKE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OBSIDIAN_CHICKEN",
-    "name": "Obsidian Chicken",
-    "product": "OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OBSIDIAN_CHICKEN",
-    "name": "Obsidian Chicken",
-    "product": "OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "OBSIDIAN_CHICKEN",
-    "name": "Obsidian Chicken",
-    "product": "OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "COPPER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "COPPER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "COPPER_DUST_CHICKEN",
-    "name": "Copper Dust Chicken",
-    "product": "COPPER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "COPPER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "COPPER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "COPPER_DUST_CHICKEN",
-    "name": "Copper Dust Chicken",
-    "product": "COPPER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "COPPER_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "COPPER_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "COPPER_DUST_CHICKEN",
-    "name": "Copper Dust Chicken",
-    "product": "COPPER_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGNESIUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "MAGNESIUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGNESIUM_DUST_CHICKEN",
-    "name": "Magnesium Dust Chicken",
-    "product": "MAGNESIUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGNESIUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "MAGNESIUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGNESIUM_DUST_CHICKEN",
-    "name": "Magnesium Dust Chicken",
-    "product": "MAGNESIUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGNESIUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "MAGNESIUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGNESIUM_DUST_CHICKEN",
-    "name": "Magnesium Dust Chicken",
-    "product": "MAGNESIUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAVA_EGG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LAVA_EGG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAVA_EGG_CHICKEN",
-    "name": "Lava Egg Chicken",
-    "product": "LAVA_EGG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAVA_EGG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LAVA_EGG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAVA_EGG_CHICKEN",
-    "name": "Lava Egg Chicken",
-    "product": "LAVA_EGG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LAVA_EGG",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LAVA_EGG",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LAVA_EGG_CHICKEN",
-    "name": "Lava Egg Chicken",
-    "product": "LAVA_EGG"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "TIN_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "TIN_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "TIN_DUST_CHICKEN",
-    "name": "Tin Dust Chicken",
-    "product": "TIN_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "TIN_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "TIN_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "TIN_DUST_CHICKEN",
-    "name": "Tin Dust Chicken",
-    "product": "TIN_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "TIN_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "TIN_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "TIN_DUST_CHICKEN",
-    "name": "Tin Dust Chicken",
-    "product": "TIN_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SNOWBALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SNOWBALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SNOWBALL_CHICKEN",
-    "name": "Snowball Chicken",
-    "product": "SNOWBALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SNOWBALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SNOWBALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SNOWBALL_CHICKEN",
-    "name": "Snowball Chicken",
-    "product": "SNOWBALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SNOWBALL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SNOWBALL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SNOWBALL_CHICKEN",
-    "name": "Snowball Chicken",
-    "product": "SNOWBALL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "REDSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "REDSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "REDSTONE_CHICKEN",
-    "name": "Redstone Chicken",
-    "product": "REDSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "REDSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "REDSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "REDSTONE_CHICKEN",
-    "name": "Redstone Chicken",
-    "product": "REDSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "REDSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "REDSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "REDSTONE_CHICKEN",
-    "name": "Redstone Chicken",
-    "product": "REDSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CACTUS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CACTUS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CACTUS_CHICKEN",
-    "name": "Cactus Chicken",
-    "product": "CACTUS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CACTUS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CACTUS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CACTUS_CHICKEN",
-    "name": "Cactus Chicken",
-    "product": "CACTUS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CACTUS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CACTUS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CACTUS_CHICKEN",
-    "name": "Cactus Chicken",
-    "product": "CACTUS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ALUMINUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ALUMINUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ALUMINUM_DUST_CHICKEN",
-    "name": "Aluminum Dust Chicken",
-    "product": "ALUMINUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ALUMINUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ALUMINUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ALUMINUM_DUST_CHICKEN",
-    "name": "Aluminum Dust Chicken",
-    "product": "ALUMINUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ALUMINUM_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "ALUMINUM_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ALUMINUM_DUST_CHICKEN",
-    "name": "Aluminum Dust Chicken",
-    "product": "ALUMINUM_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEAD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 5.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LEAD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEAD_DUST_CHICKEN",
-    "name": "Lead Dust Chicken",
-    "product": "LEAD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEAD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 2.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LEAD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEAD_DUST_CHICKEN",
-    "name": "Lead Dust Chicken",
-    "product": "LEAD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "LEAD_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "LEAD_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "LEAD_DUST_CHICKEN",
-    "name": "Lead Dust Chicken",
-    "product": "LEAD_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLACKSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLACKSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLACKSTONE_CHICKEN",
-    "name": "Blackstone Chicken",
-    "product": "BLACKSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLACKSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLACKSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLACKSTONE_CHICKEN",
-    "name": "Blackstone Chicken",
-    "product": "BLACKSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLACKSTONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLACKSTONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLACKSTONE_CHICKEN",
-    "name": "Blackstone Chicken",
-    "product": "BLACKSTONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SOIL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SOIL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SOIL_CHICKEN",
-    "name": "Soul Soil Chicken",
-    "product": "SOUL_SOIL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SOIL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SOIL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SOIL_CHICKEN",
-    "name": "Soul Soil Chicken",
-    "product": "SOUL_SOIL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SOIL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SOIL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SOIL_CHICKEN",
-    "name": "Soul Soil Chicken",
-    "product": "SOUL_SOIL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLAZE_ROD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLAZE_ROD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLAZE_ROD_CHICKEN",
-    "name": "Blaze Rod Chicken",
-    "product": "BLAZE_ROD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLAZE_ROD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLAZE_ROD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLAZE_ROD_CHICKEN",
-    "name": "Blaze Rod Chicken",
-    "product": "BLAZE_ROD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BLAZE_ROD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BLAZE_ROD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BLAZE_ROD_CHICKEN",
-    "name": "Blaze Rod Chicken",
-    "product": "BLAZE_ROD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GHAST_TEAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GHAST_TEAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GHAST_TEAR_CHICKEN",
-    "name": "Ghast Tear Chicken",
-    "product": "GHAST_TEAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GHAST_TEAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GHAST_TEAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GHAST_TEAR_CHICKEN",
-    "name": "Ghast Tear Chicken",
-    "product": "GHAST_TEAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GHAST_TEAR",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GHAST_TEAR",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GHAST_TEAR_CHICKEN",
-    "name": "Ghast Tear Chicken",
-    "product": "GHAST_TEAR"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SULFATE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SULFATE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SULFATE_CHICKEN",
-    "name": "Sulfate Chicken",
-    "product": "SULFATE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SULFATE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SULFATE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SULFATE_CHICKEN",
-    "name": "Sulfate Chicken",
-    "product": "SULFATE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SULFATE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "slimefun",
-    "ref": "SULFATE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SULFATE_CHICKEN",
-    "name": "Sulfate Chicken",
-    "product": "SULFATE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SHROOMLIGHT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SHROOMLIGHT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SHROOMLIGHT_CHICKEN",
-    "name": "Shroomlight Chicken",
-    "product": "SHROOMLIGHT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SHROOMLIGHT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SHROOMLIGHT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SHROOMLIGHT_CHICKEN",
-    "name": "Shroomlight Chicken",
-    "product": "SHROOMLIGHT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SHROOMLIGHT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SHROOMLIGHT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SHROOMLIGHT_CHICKEN",
-    "name": "Shroomlight Chicken",
-    "product": "SHROOMLIGHT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "QUARTZ",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "QUARTZ",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "QUARTZ_CHICKEN",
-    "name": "Quartz Chicken",
-    "product": "QUARTZ"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "QUARTZ",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "QUARTZ",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "QUARTZ_CHICKEN",
-    "name": "Quartz Chicken",
-    "product": "QUARTZ"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "QUARTZ",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "QUARTZ",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "QUARTZ_CHICKEN",
-    "name": "Quartz Chicken",
-    "product": "QUARTZ"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BASALT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BASALT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BASALT_CHICKEN",
-    "name": "Basalt Chicken",
-    "product": "BASALT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BASALT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BASALT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BASALT_CHICKEN",
-    "name": "Basalt Chicken",
-    "product": "BASALT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "BASALT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "BASALT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "BASALT_CHICKEN",
-    "name": "Basalt Chicken",
-    "product": "BASALT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CRYING_OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CRYING_OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CRYING_OBSIDIAN_CHICKEN",
-    "name": "Crying Obsidian Chicken",
-    "product": "CRYING_OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CRYING_OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CRYING_OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CRYING_OBSIDIAN_CHICKEN",
-    "name": "Crying Obsidian Chicken",
-    "product": "CRYING_OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "CRYING_OBSIDIAN",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "CRYING_OBSIDIAN",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "CRYING_OBSIDIAN_CHICKEN",
-    "name": "Crying Obsidian Chicken",
-    "product": "CRYING_OBSIDIAN"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SAND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SAND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SAND_CHICKEN",
-    "name": "Soul Sand Chicken",
-    "product": "SOUL_SAND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SAND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SAND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SAND_CHICKEN",
-    "name": "Soul Sand Chicken",
-    "product": "SOUL_SAND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "SOUL_SAND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "SOUL_SAND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "SOUL_SAND_CHICKEN",
-    "name": "Soul Sand Chicken",
-    "product": "SOUL_SAND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ENDER_PEARL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ENDER_PEARL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ENDER_PEARL_CHICKEN",
-    "name": "Ender Pearl Chicken",
-    "product": "ENDER_PEARL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ENDER_PEARL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ENDER_PEARL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ENDER_PEARL_CHICKEN",
-    "name": "Ender Pearl Chicken",
-    "product": "ENDER_PEARL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "ENDER_PEARL",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "ENDER_PEARL",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "ENDER_PEARL_CHICKEN",
-    "name": "Ender Pearl Chicken",
-    "product": "ENDER_PEARL"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHER_WART",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHER_WART",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHER_WART_CHICKEN",
-    "name": "Nether Wart Chicken",
-    "product": "NETHER_WART"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHER_WART",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHER_WART",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHER_WART_CHICKEN",
-    "name": "Nether Wart Chicken",
-    "product": "NETHER_WART"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHER_WART",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHER_WART",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHER_WART_CHICKEN",
-    "name": "Nether Wart Chicken",
-    "product": "NETHER_WART"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PHANTOM_MEMBRANE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PHANTOM_MEMBRANE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PHANTOM_MEMBRANE_CHICKEN",
-    "name": "Phantom Membrane Chicken",
-    "product": "PHANTOM_MEMBRANE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PHANTOM_MEMBRANE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PHANTOM_MEMBRANE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PHANTOM_MEMBRANE_CHICKEN",
-    "name": "Phantom Membrane Chicken",
-    "product": "PHANTOM_MEMBRANE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PHANTOM_MEMBRANE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PHANTOM_MEMBRANE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PHANTOM_MEMBRANE_CHICKEN",
-    "name": "Phantom Membrane Chicken",
-    "product": "PHANTOM_MEMBRANE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGMA_CREAM",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "MAGMA_CREAM",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGMA_CREAM_CHICKEN",
-    "name": "Magma Cream Chicken",
-    "product": "MAGMA_CREAM"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGMA_CREAM",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "MAGMA_CREAM",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGMA_CREAM_CHICKEN",
-    "name": "Magma Cream Chicken",
-    "product": "MAGMA_CREAM"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "MAGMA_CREAM",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "MAGMA_CREAM",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "MAGMA_CREAM_CHICKEN",
-    "name": "Magma Cream Chicken",
-    "product": "MAGMA_CREAM"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLOWSTONE_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLOWSTONE_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLOWSTONE_DUST_CHICKEN",
-    "name": "Glowstone Dust Chicken",
-    "product": "GLOWSTONE_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLOWSTONE_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLOWSTONE_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLOWSTONE_DUST_CHICKEN",
-    "name": "Glowstone Dust Chicken",
-    "product": "GLOWSTONE_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "GLOWSTONE_DUST",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "GLOWSTONE_DUST",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "GLOWSTONE_DUST_CHICKEN",
-    "name": "Glowstone Dust Chicken",
-    "product": "GLOWSTONE_DUST"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIAMOND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIAMOND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIAMOND_CHICKEN",
-    "name": "Diamond Chicken",
-    "product": "DIAMOND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIAMOND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIAMOND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIAMOND_CHICKEN",
-    "name": "Diamond Chicken",
-    "product": "DIAMOND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "DIAMOND",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "DIAMOND",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "DIAMOND_CHICKEN",
-    "name": "Diamond Chicken",
-    "product": "DIAMOND"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "END_STONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "END_STONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "END_STONE_CHICKEN",
-    "name": "End Stone Chicken",
-    "product": "END_STONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "END_STONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "END_STONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "END_STONE_CHICKEN",
-    "name": "End Stone Chicken",
-    "product": "END_STONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "END_STONE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "END_STONE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "END_STONE_CHICKEN",
-    "name": "End Stone Chicken",
-    "product": "END_STONE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_CRYSTALS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_CRYSTALS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_CRYSTALS_CHICKEN",
-    "name": "Prismarine Crystals Chicken",
-    "product": "PRISMARINE_CRYSTALS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_CRYSTALS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_CRYSTALS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_CRYSTALS_CHICKEN",
-    "name": "Prismarine Crystals Chicken",
-    "product": "PRISMARINE_CRYSTALS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_CRYSTALS",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_CRYSTALS",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_CRYSTALS_CHICKEN",
-    "name": "Prismarine Crystals Chicken",
-    "product": "PRISMARINE_CRYSTALS"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_SHARD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_SHARD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_SHARD_CHICKEN",
-    "name": "Prismarine Shard Chicken",
-    "product": "PRISMARINE_SHARD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_SHARD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_SHARD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_SHARD_CHICKEN",
-    "name": "Prismarine Shard Chicken",
-    "product": "PRISMARINE_SHARD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "PRISMARINE_SHARD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "PRISMARINE_SHARD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "PRISMARINE_SHARD_CHICKEN",
-    "name": "Prismarine Shard Chicken",
-    "product": "PRISMARINE_SHARD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EXPERIENCE_BOTTLE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EXPERIENCE_BOTTLE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EXPERIENCE_BOTTLE_CHICKEN",
-    "name": "Experience Bottle Chicken",
-    "product": "EXPERIENCE_BOTTLE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EXPERIENCE_BOTTLE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EXPERIENCE_BOTTLE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EXPERIENCE_BOTTLE_CHICKEN",
-    "name": "Experience Bottle Chicken",
-    "product": "EXPERIENCE_BOTTLE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EXPERIENCE_BOTTLE",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EXPERIENCE_BOTTLE",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EXPERIENCE_BOTTLE_CHICKEN",
-    "name": "Experience Bottle Chicken",
-    "product": "EXPERIENCE_BOTTLE"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EMERALD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 6.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EMERALD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EMERALD_CHICKEN",
-    "name": "Emerald Chicken",
-    "product": "EMERALD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EMERALD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_2",
-  "time_seconds": 3.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EMERALD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EMERALD_CHICKEN",
-    "name": "Emerald Chicken",
-    "product": "EMERALD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "EMERALD",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "EMERALD",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "EMERALD_CHICKEN",
-    "name": "Emerald Chicken",
-    "product": "EMERALD"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHERITE_INGOT",
-  "output_amount": 1,
-  "recipe_type": null,
-  "machine": "EXCITATION_CHAMBER",
-  "time_seconds": 7.0,
-  "ingredients": [],
-  "outputs": [
-   {
-    "kind": "vanilla",
-    "ref": "NETHERITE_INGOT",
-    "amount": 1
-   }
-  ],
-  "ctor_class": "",
-  "source_class": "ChickenTypes",
-  "fixtures": [
-   {
-    "id": "NETHERITE_INGOT_CHICKEN",
-    "name": "Netherite Ingot Chicken",
-    "product": "NETHERITE_INGOT"
-   }
-  ],
-  "addon": "GeneticChickengineering-Reborn"
- },
- {
-  "kind": "machine",
-  "output_id": "NETHERITE_INGOT",
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_2",
@@ -19126,6 +14758,4374 @@
   "outputs": [
    {
     "kind": "vanilla",
+    "ref": "COAL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "COAL_CHICKEN",
+    "name": "Coal Chicken",
+    "product": "COAL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COAL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "COAL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "COAL_CHICKEN",
+    "name": "Coal Chicken",
+    "product": "COAL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STRING",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "STRING_CHICKEN",
+    "name": "String Chicken",
+    "product": "STRING"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STRING",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "STRING_CHICKEN",
+    "name": "String Chicken",
+    "product": "STRING"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STRING",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STRING",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "STRING_CHICKEN",
+    "name": "String Chicken",
+    "product": "STRING"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LEATHER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEATHER_CHICKEN",
+    "name": "Leather Chicken",
+    "product": "LEATHER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LEATHER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEATHER_CHICKEN",
+    "name": "Leather Chicken",
+    "product": "LEATHER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEATHER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LEATHER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEATHER_CHICKEN",
+    "name": "Leather Chicken",
+    "product": "LEATHER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SUGAR_CHICKEN",
+    "name": "Sugar Chicken",
+    "product": "SUGAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SUGAR_CHICKEN",
+    "name": "Sugar Chicken",
+    "product": "SUGAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SUGAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SUGAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SUGAR_CHICKEN",
+    "name": "Sugar Chicken",
+    "product": "SUGAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPONGE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPONGE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SPONGE_CHICKEN",
+    "name": "Sponge Chicken",
+    "product": "SPONGE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPONGE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPONGE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SPONGE_CHICKEN",
+    "name": "Sponge Chicken",
+    "product": "SPONGE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SPONGE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SPONGE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SPONGE_CHICKEN",
+    "name": "Sponge Chicken",
+    "product": "SPONGE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIORITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIORITE_CHICKEN",
+    "name": "Diorite Chicken",
+    "product": "DIORITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIORITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIORITE_CHICKEN",
+    "name": "Diorite Chicken",
+    "product": "DIORITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIORITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIORITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIORITE_CHICKEN",
+    "name": "Diorite Chicken",
+    "product": "DIORITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ANDESITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ANDESITE_CHICKEN",
+    "name": "Andesite Chicken",
+    "product": "ANDESITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ANDESITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ANDESITE_CHICKEN",
+    "name": "Andesite Chicken",
+    "product": "ANDESITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ANDESITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ANDESITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ANDESITE_CHICKEN",
+    "name": "Andesite Chicken",
+    "product": "ANDESITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAVEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRAVEL_CHICKEN",
+    "name": "Gravel Chicken",
+    "product": "GRAVEL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAVEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRAVEL_CHICKEN",
+    "name": "Gravel Chicken",
+    "product": "GRAVEL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRAVEL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRAVEL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRAVEL_CHICKEN",
+    "name": "Gravel Chicken",
+    "product": "GRAVEL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ICE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ICE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ICE_CHICKEN",
+    "name": "Ice Chicken",
+    "product": "ICE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ICE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ICE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ICE_CHICKEN",
+    "name": "Ice Chicken",
+    "product": "ICE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ICE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ICE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ICE_CHICKEN",
+    "name": "Ice Chicken",
+    "product": "ICE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRANITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRANITE_CHICKEN",
+    "name": "Granite Chicken",
+    "product": "GRANITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRANITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRANITE_CHICKEN",
+    "name": "Granite Chicken",
+    "product": "GRANITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GRANITE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GRANITE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GRANITE_CHICKEN",
+    "name": "Granite Chicken",
+    "product": "GRANITE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CLAY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CLAY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CLAY_CHICKEN",
+    "name": "Clay Chicken",
+    "product": "CLAY"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CLAY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CLAY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CLAY_CHICKEN",
+    "name": "Clay Chicken",
+    "product": "CLAY"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CLAY",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CLAY",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CLAY_CHICKEN",
+    "name": "Clay Chicken",
+    "product": "CLAY"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LOG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OAK_LOG_CHICKEN",
+    "name": "Oak Log Chicken",
+    "product": "OAK_LOG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LOG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OAK_LOG_CHICKEN",
+    "name": "Oak Log Chicken",
+    "product": "OAK_LOG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OAK_LOG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OAK_LOG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OAK_LOG_CHICKEN",
+    "name": "Oak Log Chicken",
+    "product": "OAK_LOG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GUNPOWDER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GUNPOWDER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GUNPOWDER_CHICKEN",
+    "name": "Gunpowder Chicken",
+    "product": "GUNPOWDER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GUNPOWDER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GUNPOWDER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GUNPOWDER_CHICKEN",
+    "name": "Gunpowder Chicken",
+    "product": "GUNPOWDER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GUNPOWDER",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GUNPOWDER",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GUNPOWDER_CHICKEN",
+    "name": "Gunpowder Chicken",
+    "product": "GUNPOWDER"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "KELP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "KELP",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "KELP_CHICKEN",
+    "name": "Kelp Chicken",
+    "product": "KELP"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "KELP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "KELP",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "KELP_CHICKEN",
+    "name": "Kelp Chicken",
+    "product": "KELP"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "KELP",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "KELP",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "KELP_CHICKEN",
+    "name": "Kelp Chicken",
+    "product": "KELP"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SLIME_BALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SLIME_BALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SLIME_BALL_CHICKEN",
+    "name": "Slime Ball Chicken",
+    "product": "SLIME_BALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SLIME_BALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SLIME_BALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SLIME_BALL_CHICKEN",
+    "name": "Slime Ball Chicken",
+    "product": "SLIME_BALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SLIME_BALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SLIME_BALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SLIME_BALL_CHICKEN",
+    "name": "Slime Ball Chicken",
+    "product": "SLIME_BALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_INGOT_CHICKEN",
+    "name": "Gold Ingot Chicken",
+    "product": "GOLD_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_INGOT_CHICKEN",
+    "name": "Gold Ingot Chicken",
+    "product": "GOLD_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GOLD_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_INGOT_CHICKEN",
+    "name": "Gold Ingot Chicken",
+    "product": "GOLD_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERRACK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERRACK",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHERRACK_CHICKEN",
+    "name": "Netherrack Chicken",
+    "product": "NETHERRACK"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERRACK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERRACK",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHERRACK_CHICKEN",
+    "name": "Netherrack Chicken",
+    "product": "NETHERRACK"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERRACK",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERRACK",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHERRACK_CHICKEN",
+    "name": "Netherrack Chicken",
+    "product": "NETHERRACK"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLASS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLASS_CHICKEN",
+    "name": "Glass Chicken",
+    "product": "GLASS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLASS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLASS_CHICKEN",
+    "name": "Glass Chicken",
+    "product": "GLASS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLASS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLASS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLASS_CHICKEN",
+    "name": "Glass Chicken",
+    "product": "GLASS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAPIS_LAZULI",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_LAZULI",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAPIS_LAZULI_CHICKEN",
+    "name": "Lapis Lazuli Chicken",
+    "product": "LAPIS_LAZULI"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAPIS_LAZULI",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_LAZULI",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAPIS_LAZULI_CHICKEN",
+    "name": "Lapis Lazuli Chicken",
+    "product": "LAPIS_LAZULI"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAPIS_LAZULI",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "LAPIS_LAZULI",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAPIS_LAZULI_CHICKEN",
+    "name": "Lapis Lazuli Chicken",
+    "product": "LAPIS_LAZULI"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_INGOT_CHICKEN",
+    "name": "Iron Ingot Chicken",
+    "product": "IRON_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_INGOT_CHICKEN",
+    "name": "Iron Ingot Chicken",
+    "product": "IRON_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "IRON_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_INGOT_CHICKEN",
+    "name": "Iron Ingot Chicken",
+    "product": "IRON_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_DUST_CHICKEN",
+    "name": "Iron Dust Chicken",
+    "product": "IRON_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_DUST_CHICKEN",
+    "name": "Iron Dust Chicken",
+    "product": "IRON_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "IRON_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "IRON_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "IRON_DUST_CHICKEN",
+    "name": "Iron Dust Chicken",
+    "product": "IRON_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "GOLD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_DUST_CHICKEN",
+    "name": "Gold Dust Chicken",
+    "product": "GOLD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "GOLD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_DUST_CHICKEN",
+    "name": "Gold Dust Chicken",
+    "product": "GOLD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GOLD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "GOLD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GOLD_DUST_CHICKEN",
+    "name": "Gold Dust Chicken",
+    "product": "GOLD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SILVER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SILVER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SILVER_DUST_CHICKEN",
+    "name": "Silver Dust Chicken",
+    "product": "SILVER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SILVER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SILVER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SILVER_DUST_CHICKEN",
+    "name": "Silver Dust Chicken",
+    "product": "SILVER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SILVER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SILVER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SILVER_DUST_CHICKEN",
+    "name": "Silver Dust Chicken",
+    "product": "SILVER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ZINC_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ZINC_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ZINC_DUST_CHICKEN",
+    "name": "Zinc Dust Chicken",
+    "product": "ZINC_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ZINC_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ZINC_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ZINC_DUST_CHICKEN",
+    "name": "Zinc Dust Chicken",
+    "product": "ZINC_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ZINC_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ZINC_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ZINC_DUST_CHICKEN",
+    "name": "Zinc Dust Chicken",
+    "product": "ZINC_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CAKE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CAKE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CAKE_CHICKEN",
+    "name": "Cake Chicken",
+    "product": "CAKE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CAKE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CAKE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CAKE_CHICKEN",
+    "name": "Cake Chicken",
+    "product": "CAKE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CAKE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CAKE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CAKE_CHICKEN",
+    "name": "Cake Chicken",
+    "product": "CAKE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OBSIDIAN_CHICKEN",
+    "name": "Obsidian Chicken",
+    "product": "OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OBSIDIAN_CHICKEN",
+    "name": "Obsidian Chicken",
+    "product": "OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "OBSIDIAN_CHICKEN",
+    "name": "Obsidian Chicken",
+    "product": "OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "COPPER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "COPPER_DUST_CHICKEN",
+    "name": "Copper Dust Chicken",
+    "product": "COPPER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "COPPER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "COPPER_DUST_CHICKEN",
+    "name": "Copper Dust Chicken",
+    "product": "COPPER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "COPPER_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "COPPER_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "COPPER_DUST_CHICKEN",
+    "name": "Copper Dust Chicken",
+    "product": "COPPER_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGNESIUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "MAGNESIUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGNESIUM_DUST_CHICKEN",
+    "name": "Magnesium Dust Chicken",
+    "product": "MAGNESIUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGNESIUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "MAGNESIUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGNESIUM_DUST_CHICKEN",
+    "name": "Magnesium Dust Chicken",
+    "product": "MAGNESIUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGNESIUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "MAGNESIUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGNESIUM_DUST_CHICKEN",
+    "name": "Magnesium Dust Chicken",
+    "product": "MAGNESIUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAVA_EGG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LAVA_EGG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAVA_EGG_CHICKEN",
+    "name": "Lava Egg Chicken",
+    "product": "LAVA_EGG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAVA_EGG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LAVA_EGG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAVA_EGG_CHICKEN",
+    "name": "Lava Egg Chicken",
+    "product": "LAVA_EGG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LAVA_EGG",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LAVA_EGG",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LAVA_EGG_CHICKEN",
+    "name": "Lava Egg Chicken",
+    "product": "LAVA_EGG"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TIN_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "TIN_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "TIN_DUST_CHICKEN",
+    "name": "Tin Dust Chicken",
+    "product": "TIN_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TIN_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "TIN_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "TIN_DUST_CHICKEN",
+    "name": "Tin Dust Chicken",
+    "product": "TIN_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "TIN_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "TIN_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "TIN_DUST_CHICKEN",
+    "name": "Tin Dust Chicken",
+    "product": "TIN_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SNOWBALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SNOWBALL_CHICKEN",
+    "name": "Snowball Chicken",
+    "product": "SNOWBALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SNOWBALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SNOWBALL_CHICKEN",
+    "name": "Snowball Chicken",
+    "product": "SNOWBALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SNOWBALL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SNOWBALL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SNOWBALL_CHICKEN",
+    "name": "Snowball Chicken",
+    "product": "SNOWBALL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "REDSTONE_CHICKEN",
+    "name": "Redstone Chicken",
+    "product": "REDSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "REDSTONE_CHICKEN",
+    "name": "Redstone Chicken",
+    "product": "REDSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "REDSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "REDSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "REDSTONE_CHICKEN",
+    "name": "Redstone Chicken",
+    "product": "REDSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CACTUS_CHICKEN",
+    "name": "Cactus Chicken",
+    "product": "CACTUS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CACTUS_CHICKEN",
+    "name": "Cactus Chicken",
+    "product": "CACTUS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CACTUS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CACTUS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CACTUS_CHICKEN",
+    "name": "Cactus Chicken",
+    "product": "CACTUS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ALUMINUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ALUMINUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ALUMINUM_DUST_CHICKEN",
+    "name": "Aluminum Dust Chicken",
+    "product": "ALUMINUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ALUMINUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ALUMINUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ALUMINUM_DUST_CHICKEN",
+    "name": "Aluminum Dust Chicken",
+    "product": "ALUMINUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ALUMINUM_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "ALUMINUM_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ALUMINUM_DUST_CHICKEN",
+    "name": "Aluminum Dust Chicken",
+    "product": "ALUMINUM_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEAD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 6.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LEAD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEAD_DUST_CHICKEN",
+    "name": "Lead Dust Chicken",
+    "product": "LEAD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEAD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 3.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LEAD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEAD_DUST_CHICKEN",
+    "name": "Lead Dust Chicken",
+    "product": "LEAD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "LEAD_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "LEAD_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "LEAD_DUST_CHICKEN",
+    "name": "Lead Dust Chicken",
+    "product": "LEAD_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLACKSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLACKSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLACKSTONE_CHICKEN",
+    "name": "Blackstone Chicken",
+    "product": "BLACKSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLACKSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLACKSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLACKSTONE_CHICKEN",
+    "name": "Blackstone Chicken",
+    "product": "BLACKSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLACKSTONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLACKSTONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLACKSTONE_CHICKEN",
+    "name": "Blackstone Chicken",
+    "product": "BLACKSTONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SOIL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SOIL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SOIL_CHICKEN",
+    "name": "Soul Soil Chicken",
+    "product": "SOUL_SOIL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SOIL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SOIL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SOIL_CHICKEN",
+    "name": "Soul Soil Chicken",
+    "product": "SOUL_SOIL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SOIL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SOIL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SOIL_CHICKEN",
+    "name": "Soul Soil Chicken",
+    "product": "SOUL_SOIL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLAZE_ROD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLAZE_ROD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLAZE_ROD_CHICKEN",
+    "name": "Blaze Rod Chicken",
+    "product": "BLAZE_ROD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLAZE_ROD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLAZE_ROD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLAZE_ROD_CHICKEN",
+    "name": "Blaze Rod Chicken",
+    "product": "BLAZE_ROD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BLAZE_ROD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BLAZE_ROD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BLAZE_ROD_CHICKEN",
+    "name": "Blaze Rod Chicken",
+    "product": "BLAZE_ROD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GHAST_TEAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GHAST_TEAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GHAST_TEAR_CHICKEN",
+    "name": "Ghast Tear Chicken",
+    "product": "GHAST_TEAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GHAST_TEAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GHAST_TEAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GHAST_TEAR_CHICKEN",
+    "name": "Ghast Tear Chicken",
+    "product": "GHAST_TEAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GHAST_TEAR",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GHAST_TEAR",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GHAST_TEAR_CHICKEN",
+    "name": "Ghast Tear Chicken",
+    "product": "GHAST_TEAR"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SULFATE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SULFATE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SULFATE_CHICKEN",
+    "name": "Sulfate Chicken",
+    "product": "SULFATE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SULFATE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SULFATE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SULFATE_CHICKEN",
+    "name": "Sulfate Chicken",
+    "product": "SULFATE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SULFATE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "slimefun",
+    "ref": "SULFATE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SULFATE_CHICKEN",
+    "name": "Sulfate Chicken",
+    "product": "SULFATE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SHROOMLIGHT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SHROOMLIGHT_CHICKEN",
+    "name": "Shroomlight Chicken",
+    "product": "SHROOMLIGHT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SHROOMLIGHT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SHROOMLIGHT_CHICKEN",
+    "name": "Shroomlight Chicken",
+    "product": "SHROOMLIGHT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SHROOMLIGHT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SHROOMLIGHT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SHROOMLIGHT_CHICKEN",
+    "name": "Shroomlight Chicken",
+    "product": "SHROOMLIGHT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "QUARTZ",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "QUARTZ_CHICKEN",
+    "name": "Quartz Chicken",
+    "product": "QUARTZ"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "QUARTZ",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "QUARTZ_CHICKEN",
+    "name": "Quartz Chicken",
+    "product": "QUARTZ"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "QUARTZ",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "QUARTZ",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "QUARTZ_CHICKEN",
+    "name": "Quartz Chicken",
+    "product": "QUARTZ"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BASALT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BASALT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BASALT_CHICKEN",
+    "name": "Basalt Chicken",
+    "product": "BASALT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BASALT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BASALT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BASALT_CHICKEN",
+    "name": "Basalt Chicken",
+    "product": "BASALT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "BASALT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "BASALT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "BASALT_CHICKEN",
+    "name": "Basalt Chicken",
+    "product": "BASALT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRYING_OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRYING_OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CRYING_OBSIDIAN_CHICKEN",
+    "name": "Crying Obsidian Chicken",
+    "product": "CRYING_OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRYING_OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRYING_OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CRYING_OBSIDIAN_CHICKEN",
+    "name": "Crying Obsidian Chicken",
+    "product": "CRYING_OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "CRYING_OBSIDIAN",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "CRYING_OBSIDIAN",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "CRYING_OBSIDIAN_CHICKEN",
+    "name": "Crying Obsidian Chicken",
+    "product": "CRYING_OBSIDIAN"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SAND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SAND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SAND_CHICKEN",
+    "name": "Soul Sand Chicken",
+    "product": "SOUL_SAND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SAND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SAND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SAND_CHICKEN",
+    "name": "Soul Sand Chicken",
+    "product": "SOUL_SAND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "SOUL_SAND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "SOUL_SAND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "SOUL_SAND_CHICKEN",
+    "name": "Soul Sand Chicken",
+    "product": "SOUL_SAND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENDER_PEARL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENDER_PEARL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ENDER_PEARL_CHICKEN",
+    "name": "Ender Pearl Chicken",
+    "product": "ENDER_PEARL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENDER_PEARL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENDER_PEARL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ENDER_PEARL_CHICKEN",
+    "name": "Ender Pearl Chicken",
+    "product": "ENDER_PEARL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "ENDER_PEARL",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "ENDER_PEARL",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "ENDER_PEARL_CHICKEN",
+    "name": "Ender Pearl Chicken",
+    "product": "ENDER_PEARL"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHER_WART_CHICKEN",
+    "name": "Nether Wart Chicken",
+    "product": "NETHER_WART"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHER_WART_CHICKEN",
+    "name": "Nether Wart Chicken",
+    "product": "NETHER_WART"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHER_WART",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHER_WART",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHER_WART_CHICKEN",
+    "name": "Nether Wart Chicken",
+    "product": "NETHER_WART"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PHANTOM_MEMBRANE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PHANTOM_MEMBRANE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PHANTOM_MEMBRANE_CHICKEN",
+    "name": "Phantom Membrane Chicken",
+    "product": "PHANTOM_MEMBRANE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PHANTOM_MEMBRANE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PHANTOM_MEMBRANE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PHANTOM_MEMBRANE_CHICKEN",
+    "name": "Phantom Membrane Chicken",
+    "product": "PHANTOM_MEMBRANE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PHANTOM_MEMBRANE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PHANTOM_MEMBRANE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PHANTOM_MEMBRANE_CHICKEN",
+    "name": "Phantom Membrane Chicken",
+    "product": "PHANTOM_MEMBRANE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGMA_CREAM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGMA_CREAM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGMA_CREAM_CHICKEN",
+    "name": "Magma Cream Chicken",
+    "product": "MAGMA_CREAM"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGMA_CREAM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGMA_CREAM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGMA_CREAM_CHICKEN",
+    "name": "Magma Cream Chicken",
+    "product": "MAGMA_CREAM"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "MAGMA_CREAM",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "MAGMA_CREAM",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "MAGMA_CREAM_CHICKEN",
+    "name": "Magma Cream Chicken",
+    "product": "MAGMA_CREAM"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLOWSTONE_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLOWSTONE_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLOWSTONE_DUST_CHICKEN",
+    "name": "Glowstone Dust Chicken",
+    "product": "GLOWSTONE_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLOWSTONE_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLOWSTONE_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLOWSTONE_DUST_CHICKEN",
+    "name": "Glowstone Dust Chicken",
+    "product": "GLOWSTONE_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "GLOWSTONE_DUST",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "GLOWSTONE_DUST",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "GLOWSTONE_DUST_CHICKEN",
+    "name": "Glowstone Dust Chicken",
+    "product": "GLOWSTONE_DUST"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIAMOND_CHICKEN",
+    "name": "Diamond Chicken",
+    "product": "DIAMOND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIAMOND_CHICKEN",
+    "name": "Diamond Chicken",
+    "product": "DIAMOND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "DIAMOND",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "DIAMOND",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "DIAMOND_CHICKEN",
+    "name": "Diamond Chicken",
+    "product": "DIAMOND"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "END_STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "END_STONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "END_STONE_CHICKEN",
+    "name": "End Stone Chicken",
+    "product": "END_STONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "END_STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "END_STONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "END_STONE_CHICKEN",
+    "name": "End Stone Chicken",
+    "product": "END_STONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "END_STONE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "END_STONE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "END_STONE_CHICKEN",
+    "name": "End Stone Chicken",
+    "product": "END_STONE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_CRYSTALS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_CRYSTALS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_CRYSTALS_CHICKEN",
+    "name": "Prismarine Crystals Chicken",
+    "product": "PRISMARINE_CRYSTALS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_CRYSTALS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_CRYSTALS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_CRYSTALS_CHICKEN",
+    "name": "Prismarine Crystals Chicken",
+    "product": "PRISMARINE_CRYSTALS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_CRYSTALS",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_CRYSTALS",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_CRYSTALS_CHICKEN",
+    "name": "Prismarine Crystals Chicken",
+    "product": "PRISMARINE_CRYSTALS"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_SHARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_SHARD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_SHARD_CHICKEN",
+    "name": "Prismarine Shard Chicken",
+    "product": "PRISMARINE_SHARD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_SHARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_SHARD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_SHARD_CHICKEN",
+    "name": "Prismarine Shard Chicken",
+    "product": "PRISMARINE_SHARD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "PRISMARINE_SHARD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "PRISMARINE_SHARD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "PRISMARINE_SHARD_CHICKEN",
+    "name": "Prismarine Shard Chicken",
+    "product": "PRISMARINE_SHARD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EXPERIENCE_BOTTLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EXPERIENCE_BOTTLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EXPERIENCE_BOTTLE_CHICKEN",
+    "name": "Experience Bottle Chicken",
+    "product": "EXPERIENCE_BOTTLE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EXPERIENCE_BOTTLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EXPERIENCE_BOTTLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EXPERIENCE_BOTTLE_CHICKEN",
+    "name": "Experience Bottle Chicken",
+    "product": "EXPERIENCE_BOTTLE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EXPERIENCE_BOTTLE",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EXPERIENCE_BOTTLE",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EXPERIENCE_BOTTLE_CHICKEN",
+    "name": "Experience Bottle Chicken",
+    "product": "EXPERIENCE_BOTTLE"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 7.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EMERALD_CHICKEN",
+    "name": "Emerald Chicken",
+    "product": "EMERALD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EMERALD_CHICKEN",
+    "name": "Emerald Chicken",
+    "product": "EMERALD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "EMERALD",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_3",
+  "time_seconds": 1.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "EMERALD",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "EMERALD_CHICKEN",
+    "name": "Emerald Chicken",
+    "product": "EMERALD"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERITE_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER",
+  "time_seconds": 8.0,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "NETHERITE_INGOT",
+    "amount": 1
+   }
+  ],
+  "ctor_class": "",
+  "source_class": "ChickenTypes",
+  "fixtures": [
+   {
+    "id": "NETHERITE_INGOT_CHICKEN",
+    "name": "Netherite Ingot Chicken",
+    "product": "NETHERITE_INGOT"
+   }
+  ],
+  "addon": "GeneticChickengineering-Reborn"
+ },
+ {
+  "kind": "machine",
+  "output_id": "NETHERITE_INGOT",
+  "output_amount": 1,
+  "recipe_type": null,
+  "machine": "EXCITATION_CHAMBER_2",
+  "time_seconds": 4.5,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
     "ref": "NETHERITE_INGOT",
     "amount": 1
    }
@@ -19147,7 +19147,7 @@
   "output_amount": 1,
   "recipe_type": null,
   "machine": "EXCITATION_CHAMBER_3",
-  "time_seconds": 0.5,
+  "time_seconds": 1.5,
   "ingredients": [],
   "outputs": [
    {
@@ -89181,7 +89181,7 @@
   "fixtures": [
    {
     "id": "CARD_STONE",
-    "name": "Card Stone",
+    "name": "Card Cobblestone",
     "product": "COBBLESTONE",
     "category": "card"
    }
@@ -115687,5 +115687,57 @@
   "source_class": "minecraft",
   "fixtures": [],
   "addon": "Vanilla"
+ },
+ {
+  "kind": "crafting",
+  "output_id": "CARD_STONE_FIXED",
+  "output_amount": 1,
+  "recipe_type": "ENHANCED_CRAFTING_TABLE",
+  "machine": null,
+  "time_seconds": null,
+  "ingredients": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 8
+   },
+   {
+    "kind": "slimefun",
+    "ref": "CENTER_CARD_SIMPLE",
+    "amount": 1
+   }
+  ],
+  "outputs": [],
+  "ctor_class": "",
+  "source_class": "project-exception:apply_exceptions",
+  "fixtures": [],
+  "addon": "Supreme"
+ },
+ {
+  "kind": "machine",
+  "output_id": "STONE",
+  "output_amount": 64,
+  "recipe_type": null,
+  "machine": "TECH_GENERATOR",
+  "time_seconds": 1800,
+  "ingredients": [],
+  "outputs": [
+   {
+    "kind": "vanilla",
+    "ref": "STONE",
+    "amount": 64
+   }
+  ],
+  "ctor_class": "TechGenerator",
+  "source_class": "project-exception:apply_exceptions",
+  "fixtures": [
+   {
+    "id": "CARD_STONE_FIXED",
+    "name": "Card Stone",
+    "product": "STONE",
+    "category": "card"
+   }
+  ],
+  "addon": "Supreme"
  }
 ]
